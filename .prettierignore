@@ -1,0 +1,7 @@
+.docusaurus/
+build/
+*.json
+*.yaml
+babel.config.js
+*yml
+**/node_modules
