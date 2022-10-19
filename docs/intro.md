@@ -10,7 +10,7 @@ This will constains resources that I am using or used to learn about software en
 
 The categories below are what I currently have in my mind. It is subjec to change.
 
-## Categories 
+## Categories
 
 They will be divide into categories:
 

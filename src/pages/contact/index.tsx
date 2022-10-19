@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import Layout from "@theme/Layout";
 
 function Contact() {
@@ -14,4 +14,4 @@ function Contact() {
   );
 }
 
-export default Contact
+export default Contact;
