@@ -4,9 +4,7 @@ import Hero from "../components/Hero";
 
 function Home(): JSX.Element {
   return (
-    <Layout
-      title="Home"
-    >
+    <Layout title="Home">
       <Hero />
       <main>
         <h2>main</h2>

@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function SocialLinks() {
-  return (
-    <div>SocialLinks</div>
-  )
+  return <div>SocialLinks</div>;
 }
 
-export default SocialLinks
+export default SocialLinks;

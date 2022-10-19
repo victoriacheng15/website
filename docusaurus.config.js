@@ -52,12 +52,21 @@ const config = {
         disableSwitch: true,
         respectPrefersColorScheme: true,
       },
-      metadata : [
-        {name: 'keywords', content: 'JavaScript, TypeScript, React, React Router, Modejs, Express, MongoDB, Jest, Test-Drive Development, Frontend development, Full-Stack development, Tailwind CSS, SASS'},
-        {name: "description", content: 'I am a software developer interested in personal growth, tech trends and open-source'},
+      metadata: [
         {
-          name: 'twitter:card', content:"summary_large_image"
-        }
+          name: "keywords",
+          content:
+            "JavaScript, TypeScript, React, React Router, Modejs, Express, MongoDB, Jest, Test-Drive Development, Frontend development, Full-Stack development, Tailwind CSS, SASS",
+        },
+        {
+          name: "description",
+          content:
+            "I am a software developer interested in personal growth, tech trends and open-source",
+        },
+        {
+          name: "twitter:card",
+          content: "summary_large_image",
+        },
       ],
       navbar: {
         title: "Victoria Cheng",
