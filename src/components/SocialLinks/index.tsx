@@ -1,7 +1,19 @@
 import React from "react";
+import {socialList} from './socialList'
+import styles from "./index.module.css";
 
 function SocialLinks() {
-  return <div>SocialLinks</div>;
+  return (
+    <ul className={styles.list}>
+      {Object.values(socialList).map((site) => (
+        <li className={styles.list__link}>
+          <a href={site.link} target="_blank" rel="noopener">
+            <img src={`./img/${site.title}.svg`} />
+          </a>
+        </li>
+      ))}
+    </ul>
+  );
 }
 
 export default SocialLinks;
