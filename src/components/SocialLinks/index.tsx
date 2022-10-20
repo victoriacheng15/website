@@ -1,5 +1,5 @@
 import React from "react";
-import {socialList} from './socialList'
+import { socialList } from "./socialList";
 import styles from "./index.module.css";
 
 function SocialLinks() {
