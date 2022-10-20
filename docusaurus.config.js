@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Victoria Cheng",
   tagline:
-    "Software developer interested in personal growth, tech trend and open-source",
+    "A software developer and blogger interested in personal growth, tech trends, open-source and mechanical keyboards! 😊",
   url: "https://victoriacheng15.vercel.app",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -48,7 +48,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       colorMode: {
-        defaultMode: "light",
+        defaultMode: "dark",
         disableSwitch: true,
         respectPrefersColorScheme: true,
       },
