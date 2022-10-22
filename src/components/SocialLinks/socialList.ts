@@ -1,15 +1,15 @@
-interface SocialLinksProps {
-  [key: string]: SocialLinkProps;
+interface SocialLinksList {
+  [key: string]: SocialLink;
 }
 
 type SocialTitles = "linkedin" | "twitter" | "github" | "polywork";
 
-interface SocialLinkProps {
+interface SocialLink {
   title: SocialTitles;
   link: string;
 }
 
-export const socialList: SocialLinksProps = {
+export const socialList: SocialLinksList = {
   github: {
     title: "github",
     link: "https://github.com/victoriacheng15",
