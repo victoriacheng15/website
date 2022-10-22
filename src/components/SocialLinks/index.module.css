@@ -3,12 +3,12 @@
   justify-content: center;
   align-items: center;
   gap: 3rem;
+  list-style: none;
 }
 
 .list__link {
   --size: 60px;
   padding: 0.25rem;
-  list-style: none;
   width: var(--size);
   height: var(--size);
   background: var(--ifm-color-primary-dark);
