@@ -3,10 +3,10 @@
   padding-bottom: 2rem;
 }
 
-/* .container {
+.container {
   margin: auto;
   width: min(90%, 100%);
-} */
+}
 
 .hero__content {
   padding-inline: clamp(5%, 3%, 15%);
