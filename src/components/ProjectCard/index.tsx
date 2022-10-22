@@ -3,10 +3,10 @@ import styles from "./index.module.css";
 import ImageContainer from "./ImageContainer";
 import ContentTitle from "./ContentTitle";
 
-function ProjectCard({ projectsList }): JSX.Element {
+function ProjectCard({ projects }): JSX.Element {
   return (
     <>
-      {projectsList.map(({ title, image, description, techs }) => (
+      {projects.map(({ title, image, description, techs }) => (
         <section key={title} className={styles.card}>
           <h3 className={styles.card__title}>{title}</h3>
           <div className={styles.card__container}>
