@@ -12,12 +12,14 @@ function ProjectCard({ projectsList }): JSX.Element {
           <div className={styles.card__container}>
             <ImageContainer image={image} title={title} />
             <div className={styles.card__content}>
-              <ContentTitle title='Description:' />
+              <ContentTitle title="Description:" />
               <p>{description}</p>
-              <ContentTitle title='Tech stacks:' />
+              <ContentTitle title="Tech stacks:" />
               <ul className={styles.techs__list}>
                 {techs.map((item) => (
-                  <li key={item} className={styles.tech}>{item}</li>
+                  <li key={item} className={styles.tech}>
+                    {item}
+                  </li>
                 ))}
               </ul>
             </div>
