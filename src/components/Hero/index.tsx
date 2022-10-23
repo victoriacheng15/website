@@ -1,5 +1,6 @@
 import React from "react";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import Container from "../Container";
 import { displayGreeting } from "./displayGreeting";
 import styles from "./index.module.css";
 
@@ -8,7 +9,7 @@ function Hero() {
 
   return (
     <header className={styles.hero}>
-      <div className="container">
+      <Container>
         <div className={styles.hero__content}>
           <h1 className={styles.hero__title}>
             {displayGreeting()}
@@ -17,7 +18,7 @@ function Hero() {
           </h1>
           <p className={styles.hero__subtitle}>{siteConfig.tagline}</p>
         </div>
-      </div>
+      </Container>
     </header>
   );
 }
