@@ -2,11 +2,6 @@
   padding-block: 4rem;
 }
 
-.container {
-  margin: auto;
-  width: min(90%, 100%);
-}
-
 .project__grid {
   display: flex;
   justify-content: center;

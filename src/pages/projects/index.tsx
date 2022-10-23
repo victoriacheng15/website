@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "@theme/Layout";
+import Container from "@site/src/components/Container";
 import ProjectCard from "@site/src/components/ProjectCard";
 import styles from "./index.module.css";
 
@@ -51,11 +52,11 @@ export default function Projects(): JSX.Element {
   return (
     <Layout title={title} description={description}>
       <main className={styles.project}>
-        <div className={styles.container}>
+        <Container>
           <div className={styles.project__grid}>
             <ProjectCard projects={projects} />
           </div>
-        </div>
+        </Container>
       </main>
     </Layout>
   );
