@@ -5,7 +5,7 @@ import styles from "./index.module.css";
 function SocialLinks() {
   return (
     <ul className={styles.list}>
-      {Object.values(socialList).map((site) => (
+      {socialList.map((site) => (
         <li className={styles.list__link}>
           <a href={site.link} target="_blank" rel="noopener">
             <img src={`./img/${site.title}.svg`} />
