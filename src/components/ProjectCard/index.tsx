@@ -14,7 +14,7 @@ function ProjectCard({ title, image, description, techs }) {
           <ContentTitle title="Description:" />
           <p>{description}</p>
           <ContentTitle title="Tech stacks:" />
-          <TechList  techs={techs} />
+          <TechList techs={techs} />
         </div>
       </section>
     </div>
