@@ -1,15 +1,5 @@
-.list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 1.25rem;
-  list-style: none;
-}
-
 .list__skill {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--ifm-color-primary-dark);
 }

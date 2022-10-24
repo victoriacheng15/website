@@ -1,18 +1,20 @@
 import React from "react";
+import List from "../List";
+import SectionTitle from "../SectionTitle";
 import { skillsList } from "./skillsList";
 import styles from "./index.module.css";
 
 function Skills() {
   return (
     <section className="container container--fluid">
-      <h2>Skills/Toolbox</h2>
-      <ul className={styles.list}>
+      <SectionTitle title="Skills" />
+      <List>
         {skillsList.map((skill) => (
           <li className={styles.list__skill}>
             <img alt={skill.title} src={skill.address} />
           </li>
         ))}
-      </ul>
+      </List>
     </section>
   );
 }

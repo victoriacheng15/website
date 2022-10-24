@@ -15,7 +15,7 @@
 }
 
 .subtitle {
-  width: 800px;
+  width: min(90%, 800px);
 }
 
 .highlighted {
