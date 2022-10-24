@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./index.module.css";
 
 interface Props {
-  title: string
+  title: string;
 }
 
 function ContentTitle({ title }: Props) {
