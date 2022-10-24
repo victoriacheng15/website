@@ -1,6 +1,6 @@
-import React from "react"
-import Layout from "@theme/Layout"
-import ProjectCard from "@site/src/components/ProjectCard"
+import React from "react";
+import Layout from "@theme/Layout";
+import ProjectCard from "@site/src/components/ProjectCard";
 
 interface Projects {
   title: string;
@@ -43,8 +43,8 @@ const projects: Projects[] = [
   },
 ];
 
-const title = "Projects"
-const description = "Projects that I have worked on"
+const title = "Projects";
+const description = "Projects that I have worked on";
 
 export default function Projects(): JSX.Element {
   return (
