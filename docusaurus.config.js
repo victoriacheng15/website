@@ -68,7 +68,7 @@ const config = {
         {
           name: "keywords",
           content:
-            "JavaScript, TypeScript, React, React Router, Modejs, Express, MongoDB, Jest, Test-Drive Development, Frontend development, Full-Stack development, Tailwind CSS, SASS",
+            "JavaScript, TypeScript, React, React Router, Nodejs, Express, MongoDB, Jest, Test-Drive Development, Frontend development, Full-Stack development, Tailwind CSS, SASS",
         },
         {
           name: "description",
@@ -118,7 +118,7 @@ const config = {
             href: "https://www.polywork.com/victoriacheng15",
           },
         ],
-        copyright: `© ${new Date().getFullYear()} Victoria Cheng and Built with Docusaurus.`,
+        copyright: `© ${new Date().getFullYear()} Victoria Cheng | Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
