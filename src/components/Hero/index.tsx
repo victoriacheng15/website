@@ -2,6 +2,7 @@ import React from "react";
 import clsx from "clsx";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import { displayGreeting } from "./displayGreeting";
+import SocialLinks from "../SocialLinks";
 import styles from "./index.module.css";
 
 function Hero() {
@@ -19,6 +20,7 @@ function Hero() {
           <p className={clsx("hero__subtitle", styles.subtitle)}>
             {siteConfig.tagline}
           </p>
+          <SocialLinks />
         </div>
       </div>
     </header>
