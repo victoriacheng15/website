@@ -1,6 +1,6 @@
 import React from "react";
+import clsx from "clsx";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import Container from "../Container";
 import { displayGreeting } from "./displayGreeting";
 import styles from "./index.module.css";
 
@@ -8,17 +8,19 @@ function Hero() {
   const { siteConfig } = useDocusaurusContext();
 
   return (
-    <header className={styles.hero}>
-      <Container>
+    <header className={clsx("hero", styles.hero)}>
+      <div className="container container--fluid">
         <div className={styles.hero__content}>
-          <h1 className={styles.hero__title}>
+          <h1 className={clsx("hero__title", styles.title)}>
             {displayGreeting()}
             <br />
             👋 I'm <span className={styles.highlighted}>Victoria Cheng</span>,
           </h1>
-          <p className={styles.hero__subtitle}>{siteConfig.tagline}</p>
+          <p className={clsx("hero__subtitle", styles.subtitle)}>
+            {siteConfig.tagline}
+          </p>
         </div>
-      </Container>
+      </div>
     </header>
   );
 }

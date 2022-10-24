@@ -1,5 +1,5 @@
 .card {
-  background: #00478f;
+  background: var(--background);
   border-radius: 5px;
   margin-bottom: 2rem;
 }
