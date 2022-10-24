@@ -1,8 +1,6 @@
 import React from "react";
 import Layout from "@theme/Layout";
-import Container from "@site/src/components/Container";
 import ProjectCard from "@site/src/components/ProjectCard";
-import styles from "./index.module.css";
 
 interface Projects {
   title: string;
@@ -10,10 +8,10 @@ interface Projects {
   demo: string;
   image: string;
   description: string;
-  techs: Array<string>;
+  techs: string[];
 }
 
-const path = "./assets/";
+const path = "./assets/projects/";
 
 const projects: Projects[] = [
   {
@@ -23,7 +21,7 @@ const projects: Projects[] = [
     image: require(`${path}bubble-tea-app.png`),
     description:
       "An app that users can submit their favourite combinations of tea and topping. The data will be sent to MongoDB. On the leaderboard page, it shows the amount of each drink that users had submitted.",
-    techs: ["Nodejs/Express", "JavaScript", "MongoDB", "CSS"],
+    techs: ["Express", "JavaScript", "MongoDB", "CSS"],
   },
   {
     title: "Country Information App",
@@ -46,17 +44,19 @@ const projects: Projects[] = [
 ];
 
 const title = "Projects";
-const description = "projects that I have worked on";
+const description = "Projects that I have worked on";
 
 export default function Projects(): JSX.Element {
   return (
     <Layout title={title} description={description}>
-      <main className={styles.project}>
-        <Container>
-          <div className={styles.project__grid}>
-            <ProjectCard projects={projects} />
-          </div>
-        </Container>
+      <main className="container container--fluid padding-vert--lg">
+        <h2>{title}</h2>
+        <p>{description}</p>
+        <div className="row">
+          {projects.map((project) => (
+            <ProjectCard key={project.title} {...project} />
+          ))}
+        </div>
       </main>
     </Layout>
   );

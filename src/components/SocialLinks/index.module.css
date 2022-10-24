@@ -2,12 +2,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 1rem;
   list-style: none;
 }
 
 .list__link {
-  --size: 60px;
+  --size: 50px;
   padding: 0.25rem;
   width: var(--size);
   height: var(--size);

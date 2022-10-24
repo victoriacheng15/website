@@ -1,43 +1,18 @@
 .card {
-  width: 800px;
-  padding: 0.75rem;
   background: #00478f;
   border-radius: 5px;
+  margin-bottom: 2rem;
 }
 
-.card__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1rem;
-}
-
-@media screen and (min-width: 600px) {
-  .card__container {
-    flex-direction: row;
-  }
-}
-
-.card__image {
-  flex: 0 1 50%;
-}
-
-.card__content {
-  flex: 0 0 50%;
-}
-
-.card__title {
-  font-size: 1.3rem;
+.image {
+  height: 100%;
 }
 
 .content__title {
   font-style: italic;
-  font-size: 1rem;
 }
 
 .techs__list {
-  padding: 0;
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
@@ -45,8 +20,6 @@
 }
 
 .tech {
-  padding-block: 0.25rem;
-  padding-inline: 0.5rem;
   background: #00172e;
   border-radius: 5px;
   color: var(--ifm-color-primary-lighter);
