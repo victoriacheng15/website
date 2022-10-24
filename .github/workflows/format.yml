@@ -40,5 +40,5 @@ jobs:
       - name: commit change
         uses: stefanzweifel/git-auto-commit-action@v4.15.2
         with:
-          commit_message: "style: run formatter"
+          commit_message: "styles: code has been prettified!"
           branch: ${{ github.head_ref }}
