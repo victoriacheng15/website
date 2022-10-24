@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "@theme/Layout";
+import SectionTitle from "../components/SectionTitle";
 import ProjectCard from "@site/src/components/ProjectCard";
 
 interface Projects {
@@ -50,7 +51,7 @@ export default function Projects(): JSX.Element {
   return (
     <Layout title={title} description={description}>
       <main className="container container--fluid padding-vert--lg">
-        <h2>{title}</h2>
+        <SectionTitle title={title} />
         <p>{description}</p>
         <div className="row">
           {projects.map((project) => (
