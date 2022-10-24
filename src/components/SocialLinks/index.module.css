@@ -1,9 +1,6 @@
-.list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  list-style: none;
+.social {
+  padding: 0 !important;
+  justify-content: flex-start;
 }
 
 .list__link {
@@ -17,6 +14,6 @@
 }
 
 .list__link:hover {
-  box-shadow: 5px 5px var(--ifm-color-primary-light),
-    -5px -5px var(--ifm-color-primary-light);
+  box-shadow: 5px 5px var(--dark-color-social),
+    -5px -5px var(--dark-color-social);
 }
