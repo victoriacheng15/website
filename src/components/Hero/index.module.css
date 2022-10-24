@@ -1,18 +1,21 @@
 .hero {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  background: var(--background);
 }
 
 .hero__content {
-  padding-inline: clamp(5%, 3%, 15%);
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 2rem;
 }
 
-.hero__title {
-  font-size: 2rem;
-  line-height: 1.75;
+.title {
+  font-size: 2.5rem;
+}
+
+.subtitle {
+  width: 800px;
 }
 
 .highlighted {
@@ -27,16 +30,4 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-.hero__subtitle {
-  font-size: 1.25rem;
-  line-height: 2;
-  width: min(90%, 700px);
-}
-
-@media (min-width: 678px) {
-  .hero__title {
-    font-size: 2.5rem;
-  }
 }
