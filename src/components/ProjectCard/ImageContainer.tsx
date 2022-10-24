@@ -3,8 +3,8 @@ import Image from "@theme/IdealImage";
 import styles from "./index.module.css";
 
 interface Props {
-  image: string,
-  title: string
+  image: string;
+  title: string;
 }
 
 function ImageContainer({ image, title }: Props) {

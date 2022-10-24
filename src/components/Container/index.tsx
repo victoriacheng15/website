@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./index.module.css";
 
 interface ChildrenProps {
-  children: React.ReactNode
+  children: React.ReactNode;
 }
 
 function Container({ children }: ChildrenProps) {
