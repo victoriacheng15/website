@@ -6,6 +6,27 @@
 
 .image {
   height: 100%;
+  position: relative;
+}
+
+.buttons {
+  --width: 100%;
+  position: absolute;
+  padding-inline: 1rem;
+  width: var(--width);
+  bottom: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  opacity: 0.6;
+  transition: opacity 300ms ease-in-out;
+}
+
+.button:hover {
+  opacity: 1;
 }
 
 .content__title {
