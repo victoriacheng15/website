@@ -5,7 +5,7 @@ import styles from "./index.module.css";
 function LinkBtn({ link, name }) {
   return (
     <a
-      className={clsx('button','button--primary', styles.button)}
+      className={clsx("button", "button--primary", styles.button)}
       href={link}
       target="_blank"
       rel="noreferrer"

@@ -63,4 +63,4 @@ function Projects(): JSX.Element {
   );
 }
 
-export default Projects
+export default Projects;
