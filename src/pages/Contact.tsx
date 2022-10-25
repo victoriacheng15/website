@@ -12,7 +12,12 @@ function Contact() {
         <div className="row">
           <div className="col col--6 col--offset-3">
             <SectionTitle title={`👋 ${title}`} />
-            <form id="ft-form" method="POST" accept-charset="UTF-8" action="https://form.taxi/s/v281n9zc">
+            <form
+              id="ft-form"
+              method="POST"
+              accept-charset="UTF-8"
+              action="https://form.taxi/s/v281n9zc"
+            >
               <FormField label="Your Name:" name="name" />
               <FormField label="Email:" name="email" />
               <FormField
@@ -21,7 +26,7 @@ function Contact() {
                 name="message"
                 rows={18}
               />
-              <input type="text" name="_gotcha" style={{display: "none"}} />
+              <input type="text" name="_gotcha" style={{ display: "none" }} />
               <button
                 type="submit"
                 className="button button--lg button--primary"
