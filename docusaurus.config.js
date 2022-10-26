@@ -102,21 +102,44 @@ const config = {
         style: "light",
         links: [
           {
-            label: "GitHub",
-            href: "https://github.com/victoriacheng15",
+            title: 'See mistake? Let me know!',
+            items: [
+              {
+                label: 'Raise an issue here',
+                href: 'https://github.com/victoriacheng15/website/issues'
+              }
+            ]
+          }, 
+          {
+            title: 'Find Me!',
+            items: [
+              {
+                label: "GitHub",
+                href: "https://github.com/victoriacheng15",
+              },
+              {
+                label: "LinkedIn",
+                href: "https://www.linkedin.com/in/victoriacheng15/",
+              },
+              {
+                label: "Twitter",
+                href: "https://twitter.com/viktoriacheng15",
+              }
+            ]
           },
           {
-            label: "LinkedIn",
-            href: "https://www.linkedin.com/in/victoriacheng15/",
-          },
-          {
-            label: "Twitter",
-            href: "https://twitter.com/viktoriacheng15",
-          },
-          {
-            label: "Polywork",
-            href: "https://www.polywork.com/victoriacheng15",
-          },
+            title: 'Others',
+            items: [
+              {
+                label: "Polywork",
+                href: "https://www.polywork.com/victoriacheng15",
+              },
+              {
+                label: "Hashnode",
+                href: "https://victoriacheng15.hashnode.dev/",
+              },
+            ]
+          }
         ],
         copyright: `© ${new Date().getFullYear()} Victoria Cheng | Built with Docusaurus.`,
       },
