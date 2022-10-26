@@ -9,9 +9,9 @@ function Skills() {
     <section className="container container--fluid">
       <SectionTitle title="Skills" />
       <List>
-        {skillsList.map((skill) => (
-          <li className={styles.list__skill}>
-            <img alt={skill.title} src={skill.address} />
+        {skillsList.map(({title, address}) => (
+          <li key={title} className={styles.list__skill}>
+            <img alt={title} src={address} />
           </li>
         ))}
       </List>
