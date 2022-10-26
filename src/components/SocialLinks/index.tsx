@@ -6,7 +6,7 @@ import styles from "./index.module.css";
 function SocialLinks() {
   return (
     <List classes={styles.social}>
-      {socialList.map(({title, link}) => (
+      {socialList.map(({ title, link }) => (
         <li key={title} className={styles.list__link}>
           <a href={link} target="_blank" rel="noopener">
             <img alt={title} src={`./img/${title}.svg`} />

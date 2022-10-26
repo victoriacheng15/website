@@ -9,7 +9,7 @@ function Skills() {
     <section className="container container--fluid">
       <SectionTitle title="Skills" />
       <List>
-        {skillsList.map(({title, address}) => (
+        {skillsList.map(({ title, address }) => (
           <li key={title} className={styles.list__skill}>
             <img alt={title} src={address} />
           </li>

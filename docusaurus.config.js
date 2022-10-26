@@ -102,16 +102,16 @@ const config = {
         style: "light",
         links: [
           {
-            title: 'See mistake? Let me know!',
+            title: "See mistake? Let me know!",
             items: [
               {
-                label: 'Raise an issue here',
-                href: 'https://github.com/victoriacheng15/website/issues'
-              }
-            ]
-          }, 
+                label: "Raise an issue here",
+                href: "https://github.com/victoriacheng15/website/issues",
+              },
+            ],
+          },
           {
-            title: 'Find Me!',
+            title: "Find Me!",
             items: [
               {
                 label: "GitHub",
@@ -124,11 +124,11 @@ const config = {
               {
                 label: "Twitter",
                 href: "https://twitter.com/viktoriacheng15",
-              }
-            ]
+              },
+            ],
           },
           {
-            title: 'Others',
+            title: "Others",
             items: [
               {
                 label: "Polywork",
@@ -138,8 +138,8 @@ const config = {
                 label: "Hashnode",
                 href: "https://victoriacheng15.hashnode.dev/",
               },
-            ]
-          }
+            ],
+          },
         ],
         copyright: `© ${new Date().getFullYear()} Victoria Cheng | Built with Docusaurus.`,
       },
