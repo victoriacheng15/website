@@ -1,6 +1,6 @@
 ---
 slug: welcome-to-the-first-blog
-title: welcome to the first blog
+title: Welcome to the first blog
 authors: victoria
 tags: [welcome, first]
 hide_table_of_contents: false
