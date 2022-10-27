@@ -17,6 +17,7 @@ function About({ avatar }) {
         <div className={styles.para}>
           <p>{desc}</p>
           <p>{desc2}</p>
+          <p>If you are interested in know more about me, I had wrote a blog about <a href="/docs/blogs/my-journey-into-the-tech.md">my journey into the tech</a>.</p>
         </div>
       </div>
       <h3>Random or not so random facts about myself:</h3>
