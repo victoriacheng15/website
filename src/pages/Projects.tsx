@@ -18,7 +18,7 @@ const projects: Projects[] = [
   {
     title: "Bubble Tea App",
     code: "https://github.com/victoriacheng15/bubble-tea-api#redme",
-    demo: "https://bubble-tea.up.railway.app/",
+    demo: "https://bubble-tea.onrender.com/",
     image: require(`${path}bubble-tea-app.png`),
     description:
       "An app that users can submit their favourite combinations of tea and topping. The data will be sent to MongoDB. On the leaderboard page, it shows the amount of each drink that users had submitted.",
