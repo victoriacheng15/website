@@ -1,0 +1,9 @@
+position: 2 # float position is supported
+label: "Archived Blogs"
+collapsible: true # make the category collapsible
+collapsed: true # keep the category open by default
+className: red
+link:
+  type: generated-index
+  title: Blogs from Hashnode
+  description: This is a list of blogs that I published on Hashnode. Instead of republish, I moved them here as archived blogs.
