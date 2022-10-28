@@ -3,7 +3,7 @@ sidebar_position: 8
 title: Regular Expressions - Letter Edition
 ---
 
-# 😬 What is Regular Expression? 😬
+## 😬 What is Regular Expression? 😬
 
 **Archived blogs from [here](https://victoriacheng15.hashnode.dev/regular-expressions-letter-edition)**
 

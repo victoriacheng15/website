@@ -3,7 +3,7 @@ sidebar_position: 9
 title: Set in JavaScript
 ---
 
-# 🤔 Set in JavaScript 🤔
+## 🤔 Set in JavaScript 🤔
 
 **Archived blogs from [here](https://victoriacheng15.hashnode.dev/set-in-javascript)**
 

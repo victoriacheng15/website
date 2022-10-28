@@ -3,7 +3,7 @@ sidebar_position: 4
 title: What is PowerToy?
 ---
 
-# What is PowerToys?
+## What is PowerToys?
 
 **Archived blogs from [here](https://victoriacheng15.hashnode.dev/what-is-powertoys)**
 

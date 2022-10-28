@@ -3,7 +3,7 @@ sidebar_position: 12
 title: The Journey of Contributing to Open Source
 ---
 
-# What is open source??
+## What is open source??
 
 **Archived blogs from [here](https://victoriacheng15.hashnode.dev/the-journey-of-contributing-to-open-source)**
 

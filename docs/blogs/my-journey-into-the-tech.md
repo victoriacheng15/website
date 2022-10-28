@@ -3,7 +3,7 @@ sidebar_position: 7
 title: My Journey into the Tech
 ---
 
-# Who Am I?
+## Who Am I?
 
 **Archived blogs from [here](https://victoriacheng15.hashnode.dev/my-journey-into-the-tech)**
 

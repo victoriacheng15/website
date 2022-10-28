@@ -3,7 +3,7 @@ sidebar_position: 6
 title: JavaScript - Functions
 ---
 
-# What is a function?
+## What is a function?
 
 **Archived blogs from [here](https://victoriacheng15.hashnode.dev/javascript-functions)**
 

@@ -3,7 +3,7 @@ sidebar_position: 2
 title: Networking - 100Devs
 ---
 
-# Introduction
+## Introduction
 
 **Archived blogs from [here](https://victoriacheng15.hashnode.dev/networking-100devs)**
 
@@ -12,7 +12,7 @@ Networking is the class that everyone and I have been waiting for! But why it is
 - resumes were thrown out with other resumes = clicking apply with other applications
 - the resume drops on the recruiter's desk = build connections with individuals who are already in the industry
 
-# How to make friends and network?
+## How to make friends and network?
 
 There is a [book](https://en.wikipedia.org/wiki/How_to_Win_Friends_and_Influence_People) that was recommended to the cohort on how to improve the people-skill. If you are not good with people like me, this is the book for you!
 
@@ -33,7 +33,7 @@ You also can find communities on discord or slack. [Here](https://github.com/thi
 
 > Pro tip - always send a note to the people that you want to connect with on LinkedIn!
 
-# Always keep tracking!
+## Always keep tracking!
 
 Use either Google sheet or notion to track the people that you have made a connection with.
 
@@ -47,7 +47,7 @@ Included their information:
 - add on social media yet? (Twitter, Linkedin, others)
 - anything that you want to add.
 
-# Recap
+## Recap
 
 Networking is quite an interesting topic. I learned a few things from the class. I hope you learn from this as well. Also, the best part is, we are starting the network early! In the end, we will know a good amount of people in the tech industry!
 

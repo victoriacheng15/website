@@ -3,7 +3,7 @@ sidebar_position: 13
 title: JavaScript - Mutable Array Method
 ---
 
-# What are mutable array methods?
+## What are mutable array methods?
 
 **Archived blogs from [here](https://victoriacheng15.hashnode.dev/javascript-mutable-array-methods)**
 

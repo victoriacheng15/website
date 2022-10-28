@@ -3,7 +3,7 @@ sidebar_position: 10
 title: Tailwind CSS - Beginner Edition
 ---
 
-# What is Tailwind CSS?
+## What is Tailwind CSS?
 
 **Archived blogs from [here](https://victoriacheng15.hashnode.dev/tailwind-css-beginner-edition)**
 
