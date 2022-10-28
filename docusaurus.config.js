@@ -80,6 +80,12 @@ const config = {
           content: "summary_large_image",
         },
       ],
+      // announcementBar: {
+      //   id: 'announcement-bar',
+      //   content:
+      //     'New blog has published! Check out <a href="#">here</a>',
+      //   isCloseable: true,
+      // },  
       navbar: {
         title: "Victoria Cheng",
         logo: {
@@ -128,7 +134,7 @@ const config = {
             ],
           },
           {
-            title: "Others",
+            title: "More...",
             items: [
               {
                 label: "Polywork",
