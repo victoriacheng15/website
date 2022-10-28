@@ -15,6 +15,7 @@
     "typecheck": "tsc",
     "format:check": "prettier --check .",
     "format:fix": "prettier --write .",
+    "blogdocs:fix": "prettier --write docs/ blog/",
     "eslint:check": "eslint . --ext .json,.js,.jsx,.ts,.tsx",
     "eslint:fix": "eslint . --fix --ext .json,.js,.jsx,.ts,.tsx",
     "lint:check": "pnpm eslint:check && pnpm format:check",

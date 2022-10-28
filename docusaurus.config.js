@@ -80,12 +80,12 @@ const config = {
           content: "summary_large_image",
         },
       ],
-      // announcementBar: {
-      //   id: 'announcement-bar',
-      //   content:
-      //     'New blog has published! Check out <a href="#">here</a>',
-      //   isCloseable: true,
-      // },
+      announcementBar: {
+        id: "announcement-bar",
+        content:
+          'A new blog has published! Check out <a href="/blog">here</a>! Don\'t forget to recharge yourself over the weekend',
+        isCloseable: true,
+      },
       navbar: {
         title: "Victoria Cheng",
         logo: {

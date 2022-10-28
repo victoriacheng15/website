@@ -1,0 +1,29 @@
+name: ci-blog-docs-format
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }}
+      - uses: pnpm/action-setup@v2.2.4
+        with:
+          version: latest
+      - uses: actions/setup-node@v3.5.1
+        with:
+          node-version: 16
+          cache: "pnpm"
+
+      - name: install and run prettier
+        run: pnpm install --frozen-lockfile
+      - run: pnpm blogdocs:fix
+      - name: commit change
+        uses: stefanzweifel/git-auto-commit-action@v4.15.2
+        with:
+          commit_message: "styles: code has been prettified!"
+          branch: ${{ github.head_ref }}
