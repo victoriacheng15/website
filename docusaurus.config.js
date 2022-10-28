@@ -85,7 +85,7 @@ const config = {
       //   content:
       //     'New blog has published! Check out <a href="#">here</a>',
       //   isCloseable: true,
-      // },  
+      // },
       navbar: {
         title: "Victoria Cheng",
         logo: {
