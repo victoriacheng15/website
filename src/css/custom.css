@@ -26,6 +26,20 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+div[class^="announcementBar_"] {
+  height: 100%;
+  background: repeating-linear-gradient(
+    30deg,
+    hsl(210, 100%, 80%) 20px,
+    hsl(210, 100%, 72%) 10px,
+    hsl(210, 100%, 65%) 40px
+  );
+  color: black;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
 .navbar {
   height: 100%;
 }

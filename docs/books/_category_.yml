@@ -1,0 +1,9 @@
+position: 3
+label: "Books"
+collapsible: true
+collapsed: true
+className: red
+link:
+  type: generated-index
+  title: Blogs from Hashnode
+  description: This is a list of books that I have read. And my thoughts after reading them.
