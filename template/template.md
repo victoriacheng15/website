@@ -7,3 +7,7 @@ hide_table_of_contents: false
 ---
 
 <!--truncate-->
+
+## Thank you!
+
+Thank you for your time and reading this!
