@@ -92,7 +92,7 @@ const config = {
             type: "doc",
             docId: "intro",
             position: "right",
-            label: "Journals",
+            label: "Resources",
           },
           { to: "/blog", label: "Blog", position: "right" },
           { to: "/contact", label: "Contact", position: "right" },
