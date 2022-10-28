@@ -34,7 +34,7 @@ jobs:
             ${{ runner.os }}-pnpm-store-
 
       - name: install dependencies
-        run: pnpm install
+        run: pnpm i --frozen-lockfile
       - name: Run prettier
         run: pnpm format:fix
       - name: commit change
