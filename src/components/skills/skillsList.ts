@@ -30,6 +30,16 @@ export const skillsList: Skills[] = [
       "https://img.shields.io/badge/React%20Router-CA4245.svg?style=for-the-badge&logo=React-Router&logoColor=white",
   },
   {
+    title: "GitHub Action",
+    address:
+      "https://img.shields.io/badge/GitHub%20Actions-2088FF.svg?style=for-the-badge&logo=GitHub-Actions&logoColor=white",
+  },
+  {
+    title: "Vite",
+    address:
+      "https://img.shields.io/badge/Vite-646CFF.svg?style=for-the-badge&logo=Vite&logoColor=white",
+  },
+  {
     title: "Node.js",
     address:
       "https://img.shields.io/badge/Node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white",
@@ -48,6 +58,11 @@ export const skillsList: Skills[] = [
     title: "Tailwind CSS",
     address:
       "https://img.shields.io/badge/Tailwind%20CSS-06B6D4.svg?style=for-the-badge&logo=Tailwind-CSS&logoColor=white",
+  },
+  {
+    title: "Styled-components",
+    address:
+      "https://img.shields.io/badge/styledcomponents-DB7093.svg?style=for-the-badge&logo=styled-components&logoColor=white",
   },
   {
     title: "MongoDB",
