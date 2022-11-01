@@ -2,7 +2,11 @@ import React from "react";
 import clsx from "clsx";
 import styles from "./index.module.css";
 
-function TechList({ techs }) {
+interface techsProps {
+  techs: string[];
+}
+
+function TechList({ techs }: techsProps) {
   return (
     <ul className={clsx("pills", styles.techs__list)}>
       {techs.map((item) => (
