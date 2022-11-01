@@ -5,7 +5,7 @@ import FormField from "../components/FormField";
 
 const title = "Contact";
 
-function Contact() {
+function Contact(): JSX.Element {
   return (
     <Layout title={title}>
       <main className="container container--fluid padding-vert--lg">
