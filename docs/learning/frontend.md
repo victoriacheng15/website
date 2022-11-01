@@ -6,6 +6,7 @@ title: Frontend
 Everything about the frontend!
 
 ## JavaScript
+
 - [The Modern JavaScript Tutorial](https://javascript.info/)
 - [Eloquent JavaScript](https://eloquentjavascript.net/)
 - [You Don't Know JS (book series) - 1st Edition](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/README.md)
@@ -17,5 +18,6 @@ Everything about the frontend!
   - Follow along is ok, but try to implement in your projects later
 
 ## TypeScript
+
 - [React TypeScript Intro by Codevolution](https://www.youtube.com/playlist?list=PLC3y8-rFHvwi1AXijGTKM0BKtHzVC-LSK)
 - [React TypeScript Cheatsheets](https://github.com/typescript-cheatsheets/react)

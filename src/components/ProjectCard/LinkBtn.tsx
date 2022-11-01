@@ -2,16 +2,31 @@ import React from "react";
 import clsx from "clsx";
 import styles from "./index.module.css";
 
-function LinkBtn({ link, name }) {
+interface LinkBtnProps {
+  demoLink: string;
+  codeLink: string;
+}
+
+function LinkBtn({ demoLink, codeLink }: LinkBtnProps) {
   return (
-    <a
-      className={clsx("button", "button--primary", styles.button)}
-      href={link}
-      target="_blank"
-      rel="noreferrer"
-    >
-      {name}
-    </a>
+    <div className={styles.buttons}>
+      <a
+        className={clsx("button", "button--primary", styles.button)}
+        href={demoLink}
+        target="_blank"
+        rel="noreferrer"
+      >
+        Demo
+      </a>
+      <a
+        className={clsx("button", "button--primary", styles.button)}
+        href={codeLink}
+        target="_blank"
+        rel="noreferrer"
+      >
+        Code
+      </a>
+    </div>
   );
 }
 
