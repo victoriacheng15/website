@@ -176,9 +176,9 @@ const config = {
           postsPerPage: 5,
           blogSidebarCount: 5,
           feedOptions: {
-            type: 'all',
-            copyright:`Copyright © ${new Date().getFullYear()} Victoria Cheng.`
-          }
+            type: "all",
+            copyright: `Copyright © ${new Date().getFullYear()} Victoria Cheng.`,
+          },
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
