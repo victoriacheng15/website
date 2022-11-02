@@ -175,6 +175,10 @@ const config = {
           showReadingTime: true,
           postsPerPage: 5,
           blogSidebarCount: 5,
+          feedOptions: {
+            type: 'all',
+            copyright:`Copyright © ${new Date().getFullYear()} Victoria Cheng.`
+          }
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
