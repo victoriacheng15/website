@@ -8,18 +8,18 @@ hide_table_of_contents: false
 
 ![Hoisting in JavaScript](./js-hoisting.webp)
 
-I was reviewing my Anki cards on interview preps and hoisting question came up. Sometime, I remember and another time, I don't remember. 😅 So I decided to look into hoisting more. 
+I was reviewing my Anki cards on interview preps and hoisting question came up. Sometime, I remember and another time, I don't remember. 😅 So I decided to look into hoisting more.
 
 <!--truncate-->
 
 ## What is hoisting?
 
-It is a tricky question that comes with a tricky answer. However, **hoisting in JavaScript allows you to access functions and variables before they have been created** according to [Wes Bos's JavaScript - Hoisting](https://wesbos.com/javascript/03-the-tricky-bits/hoisting). 
+It is a tricky question that comes with a tricky answer. However, **hoisting in JavaScript allows you to access functions and variables before they have been created** according to [Wes Bos's JavaScript - Hoisting](https://wesbos.com/javascript/03-the-tricky-bits/hoisting).
 
 Also, there are TWO things that are hoisted
+
 - function declarations
 - variable declarations
-
 
 ## Function declarations
 
@@ -28,22 +28,22 @@ This was the question that came up on my Anki review. The question was `Explain 
 ```js
 function foo() {}
 
-var foo = function() {}
+var foo = function () {};
 ```
 
-The first one is a function declaration while the latter is a function expression. The key difference is that function declaration has its body hoisted, but the bodies of function expressions are not. 
+The first one is a function declaration while the latter is a function expression. The key difference is that function declaration has its body hoisted, but the bodies of function expressions are not.
 
 Let's use different examples and say there are 2 greeting functions. Both of them will log both values in the console.
 
 ```js
 function greet() {
-  console.log('hello');
+  console.log("hello");
 }
 
 greet(); // hello
 
 var greeting = function () {
-  console.log('hey');
+  console.log("hey");
 };
 
 greeting(); // hey
@@ -55,14 +55,14 @@ However, if you are trying to move function callings before the declaration. The
 greet(); // hello
 
 function greet() {
-  console.log('hello');
+  console.log("hello");
 }
 
-greeting(); 
+greeting();
 // TypeError: greeting is not a function
 
 var greeting = function () {
-  console.log('hey');
+  console.log("hey");
 };
 ```
 
@@ -71,11 +71,11 @@ Also, if you are using Eslint and it will complain about `greet()` is used befor
 If `let` or `const` was used instead, it would show cannot access 'greeting' before initialization.
 
 ```js
-greeting(); 
+greeting();
 // ReferenceError: Cannot access 'greeting' before initialization
 
 let greeting = function () {
-  console.log('hey');
+  console.log("hey");
 };
 ```
 
@@ -91,7 +91,7 @@ console.log(a); //10
 If you move `console.log(a)` above the variable declaration. You will get `undefined` in the console. Keep in mind, this happens when `var` is used instead of `let` or `const`.
 
 ```js
-console.log(a); 
+console.log(a);
 // undefined
 var a = 10;
 ```
@@ -99,7 +99,7 @@ var a = 10;
 If `let` or `const` was used instead, it shows the same error as function expression.
 
 ```js
-console.log(a); 
+console.log(a);
 // ReferenceError: Cannot access 'a' before initialization
 let a = 10;
 ```
