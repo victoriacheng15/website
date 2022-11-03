@@ -6,7 +6,7 @@ tags: [react, learning]
 hide_table_of_contents: false
 ---
 
-![react context api](react-series-cover.png)
+![react context api](./react-context.webp)
 
 <!--truncate-->
 
