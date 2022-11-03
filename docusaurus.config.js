@@ -173,8 +173,8 @@ const config = {
         },
         blog: {
           showReadingTime: true,
-          postsPerPage: 5,
-          blogSidebarCount: 5,
+          postsPerPage: 10,
+          blogSidebarCount: 10,
           feedOptions: {
             type: "all",
             copyright: `Copyright © ${new Date().getFullYear()} Victoria Cheng.`,
@@ -217,12 +217,12 @@ const config = {
           content: "summary_large_image",
         },
       ],
-      announcementBar: {
-        id: "announcement-bar",
-        content:
-          'A new blog has published! Check out <a href="/blog">here</a>! Don\'t forget to recharge yourself over the weekend',
-        isCloseable: true,
-      },
+      // announcementBar: {
+      //   id: "announcement-bar",
+      //   content:
+      //     'A new blog has published! Check out <a href="/blog">here</a>! Don\'t forget to recharge yourself over the weekend',
+      //   isCloseable: true,
+      // },
       navbar: {
         title: "Victoria Cheng",
         logo: {
