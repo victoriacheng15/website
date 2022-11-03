@@ -1,0 +1,22 @@
+name: Merge Schedule
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize]
+  schedule:
+    # https://crontab.guru/ for set up time
+    - cron: "0 7 * * *"
+
+jobs:
+  merge_schedule:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Merge Schedule
+        uses: gr2m/merge-schedule-action@v2.4.0
+        with:
+          merge_method: squash
+          time_zone: "America/Edmonton"
+          require_statuses_success: "true"
+          automerge_fail_label: "merge-schedule-failed"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
