@@ -31,7 +31,7 @@ function foo() {}
 var foo = function () {};
 ```
 
-The first one is a function declaration while the latter is a function expression. The key difference is that function declaration has its body hoisted, but the bodies of function expressions are not.
+The first one is a function declaration, while the latter is a function expression. The key difference is that the function declaration has its body hoisted, but the bodies of function expressions are not.
 
 Let's use different examples and say there are 2 greeting functions. Both of them will log both values in the console.
 
@@ -66,7 +66,7 @@ var greeting = function () {
 };
 ```
 
-Also, if you are using Eslint and it will complain about `greet()` is used before the function was defined. This is based on the `no-use-before-define` rule. You can read more on this rule [on the site here](https://eslint.org/docs/latest/rules/no-use-before-define). This is why I seldomly calling the function before it defines and if I do, Eslint would let me know.
+Also, if you are using Eslint, and it will complain about `greet()` is used before the function was defined. This is based on the `no-use-before-define` rule. You can read more on this rule [on the site here](https://eslint.org/docs/latest/rules/no-use-before-define). This is why I am seldom calling the function before it defines and if I do, Eslint would let me know.
 
 If `let` or `const` was used instead, it would show cannot access 'greeting' before initialization.
 
@@ -108,9 +108,9 @@ let a = 10;
 
 Hoisting is a tricky concept to understand and can be really confused if `var` was used instead of `let` and `const`.
 
-Let's think this wa, books have sequels. e.g. Harry Potter books have 1 to 7 sequels. So if you are trying to read the 2nd book instead of first book, it would not make sense and you are skipping details and events that were wrote in the first book. In order to understand the story, you would need to read these books in the order. It is similar to How JavaScript reads your code from top to bottom. Variables or functions need to be declare before you can calling them. And it would makes sense.
+Let's think this way, books have sequels. e.g. Harry Potter books have 1 to 7 sequels. So if you are trying to read the 2nd book instead of the first book, it would not make sense, and you are skipping details and events that were written in the first book. In order to understand the story, you would need to read these books in the order. It is similar to How JavaScript reads your code from top to bottom. Variables or functions need to be declared before you can call them. And it would make sense.
 
-Of courses, JavaScript is weird in its own way, like you can calling the function declarations before the functions are defined and `var` was used.
+Of courses, JavaScript is weird in its own way, like you can call the function declarations before the functions are defined and `var` was used.
 
 ## Resources
 
