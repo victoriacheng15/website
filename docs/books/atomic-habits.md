@@ -24,6 +24,7 @@ The author described change is slow very well by using ice cube as the example. 
 Changing habits is challenging for two reasons, 1)we try to change the wrong thing and we try to change our habits in the wrong way.
 
 Three layers of behavior change:
+
 - First: change your outcomes
   - Like change result: weight loss, publish books, etc
     - Associate with goals
@@ -33,22 +34,25 @@ Three layers of behavior change:
 - Third: change your identify
   - Like change beliefs: worldview, self-image, judgement
     - Associate with beliefs, assumptions, biases
-  
-Outcomes are what you get. Processes are what you do. Identify is what you believe. 
+
+Outcomes are what you get. Processes are what you do. Identify is what you believe.
 
 **Outcome-based habits:**
+
 - Outcome --> Process --> Identity
 
 **Identity-based habits:**
+
 - Identity --> Process --> Outcome
 
-Let's say two people resisting a cigarette. When offer a cigarette, person A says `No, thanks. I am trying to quit` while person B says `No thanks. I am not a smoker`. Both responds differently, but first is outcome based while second is identity based. 
+Let's say two people resisting a cigarette. When offer a cigarette, person A says `No, thanks. I am trying to quit` while person B says `No thanks. I am not a smoker`. Both responds differently, but first is outcome based while second is identity based.
 
-> You have a new goal and a new plan, but you have not changed who you are. 
-> 
+> You have a new goal and a new plan, but you have not changed who you are.
+>
 > By James Clear
 
 Identity change process:
+
 - Decide the type of person you want to be
 - Prove it to yourself with small wins.
 
