@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "@theme/Layout";
 import SectionTitle from "../components/SectionTitle";
-import ProjectCard from "@site/src/components/ProjectCard";
+import ProjectCard from "../components/ProjectCard";
 
 const title = "Projects";
 const description = "Projects that I have worked on";
