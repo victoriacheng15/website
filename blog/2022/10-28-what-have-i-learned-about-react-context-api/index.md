@@ -104,7 +104,8 @@ main(Main) ==> | searchTerm, handleSeatch, SelectRegion, and handleSelect| form(
 form(Form) ==> | searchTerm and handleSearch | search(Search)
 form(Form) ==> | selectRegion and handleSelect | dropdown(Dropdown)
 ```
-<!-- 
+
+<!--
 ![react-props-passing-down](https://user-images.githubusercontent.com/35031228/197290382-fec0a809-44bf-49d6-a0bc-609b301c05da.png) -->
 
 As the illustration and code show, `searchTerm`, `selectRegion`, `handleSearch`, and `handleSelect` were defined in the `Main` component. For the `Search` and `Select` to work, they will have to get props from `Main`.
