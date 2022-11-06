@@ -2,19 +2,20 @@ name: Merge Schedule
 
 on:
   pull_request:
-    types: [opened, edited, synchronize]
+    types: [opened, edited]
   schedule:
-    # https://crontab.guru/ for set up time
-    - cron: "0 7 * * *"
+    # check https://crontab.guru/ for set up time
+    - cron: "30 8 * * *"
 
 jobs:
   merge_schedule:
     runs-on: ubuntu-latest
     steps:
       - name: Merge Schedule
-        uses: gr2m/merge-schedule-action@v2.4.0
+        uses: gr2m/merge-schedule-action@v2.4.1
         with:
           merge_method: squash
+          time_zone: "America/Edmonton"
           require_statuses_success: "true"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
