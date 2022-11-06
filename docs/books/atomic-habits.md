@@ -39,11 +39,19 @@ Outcomes are what you get. Processes are what you do. Identify is what you belie
 
 **Outcome-based habits:**
 
-- Outcome --> Process --> Identity
+```mermaid
+flowchart LR
+
+Outcome(Outcome) --> Process(Process) --> Identity(Identity)
+```
 
 **Identity-based habits:**
 
-- Identity --> Process --> Outcome
+```mermaid
+flowchart LR
+
+Identity(Identity) --> Process(Process) --> Outcome(Outcome)
+```
 
 Let's say two people resisting a cigarette. When offer a cigarette, person A says `No, thanks. I am trying to quit` while person B says `No thanks. I am not a smoker`. Both responds differently, but first is outcome based while second is identity based.
 
