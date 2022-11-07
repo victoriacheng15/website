@@ -97,9 +97,32 @@ This is the whole code for the `Main` component. It does look messy. We also nee
 
 _A picture worth a thousand words!_
 
-![react-props-passing-down](https://user-images.githubusercontent.com/35031228/197290382-fec0a809-44bf-49d6-a0bc-609b301c05da.png)
+```mermaid
+flowchart TB
 
-As the illustration and code show, `searchTerm`, `selectRegion`, `handleSearch`, and `handleSelect` were defined in the `Main` component. For the `Search` and `Select` to work, they will have to get props from `Main` and the path is `Main` → `Form` → `Search/Select`. Now, let's imagine this. If there are more components below `Search` or `Select`? You would pass props down more levels. If you find yourself pass down props from component to component and to more components down. This is `prop drilling`.
+main(Main) ==> | searchTerm, handleSeatch, SelectRegion, and handleSelect| form(Form)
+form(Form) ==> | searchTerm and handleSearch | search(Search)
+form(Form) ==> | selectRegion and handleSelect | dropdown(Dropdown)
+```
+
+<!--
+![react-props-passing-down](https://user-images.githubusercontent.com/35031228/197290382-fec0a809-44bf-49d6-a0bc-609b301c05da.png) -->
+
+As the illustration and code show, `searchTerm`, `selectRegion`, `handleSearch`, and `handleSelect` were defined in the `Main` component. For the `Search` and `Select` to work, they will have to get props from `Main`.
+
+Now, let's imagine this. If there are more components below `Search` or `Select`? You would pass props down more levels. If you find yourself pass down props from component to component and to more components down. This is `prop drilling`.
+
+```mermaid
+flowchart TB
+
+main(Main) ==> form(Form)
+form(Form) ==> search(Search)
+search(Search) ==> more(More??)
+search(Search) ==> more2(More??)
+form(Form) ==> dropdown(Dropdown)
+dropdown(Dropdown) ==> more3(More??)
+dropdown(Dropdown) ==> more4(More??)
+```
 
 Is `prop drilling` a bad thing? Probably! As the app grows and more components added, there will be more layers of component to pass down. It may get to the point where you need to take the time to find where props originally came from. Also, if there are bugs somewhere in between components, you may need to investigate them to find the root cause. This also requires time.
 
