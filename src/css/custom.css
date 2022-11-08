@@ -23,6 +23,8 @@
   --ifm-color-primary-light: #95caff;
   --ifm-color-primary-lighter: #a7d3ff;
   --ifm-color-primary-lightest: #deefff;
+  --ifm-navbar-link-color: #f5f5f5;
+  --ifm-footer-link-color: #f5f5f5;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
@@ -50,22 +52,6 @@ div[class^="announcementBar_"] {
 
 .navbar__inner {
   font-size: 1.25rem;
-}
-
-.navbar__item,
-.footer__title,
-.footer__link-item {
-  color: whitesmoke;
-}
-
-.navbar__title {
-  color: whitesmoke;
-  transition: color var(--ifm-transition-fast)
-    var(--ifm-transition-timing-default);
-}
-
-.navbar__title:hover {
-  color: var(--ifm-color-primary);
 }
 
 .footer,

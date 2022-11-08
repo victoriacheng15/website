@@ -2,7 +2,7 @@ import React from "react";
 import List from "../List";
 import SectionTitle from "../SectionTitle";
 import styles from "./index.module.css";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import { skillsList } from "./skillsList";
 
 interface Skills {
   title: string;
@@ -10,15 +10,11 @@ interface Skills {
 }
 
 function Skills() {
-  const { siteConfig } = useDocusaurusContext();
-  const { customFields } = siteConfig;
-  const { skills } = customFields;
-
   return (
     <section className="container container--fluid">
       <SectionTitle title="Skills" />
       <List>
-        {(skills as Skills[]).map(({ title, address }) => (
+        {(skillsList as Skills[]).map(({ title, address }) => (
           <li key={title} className={styles.list__skill}>
             <img alt={title} src={address} />
           </li>
