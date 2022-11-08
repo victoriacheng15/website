@@ -1,4 +1,8 @@
-import React from "react";
+import React, {
+  DetailedHTMLProps,
+  InputHTMLAttributes,
+  TextareaHTMLAttributes,
+} from "react";
 import styles from "./index.module.css";
 
 interface FormFieldProps {
@@ -6,15 +10,15 @@ interface FormFieldProps {
   label: string;
 }
 
-interface InputProps
-  extends FormFieldProps,
-    React.DetailedHTMLProps<React.InputHTMLAttributes<HTMLInputElement>> {
+type InputEle = DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>>;
+interface InputProps extends FormFieldProps, InputEle {
   fieldType: "input";
 }
 
-interface TextareaProps
-  extends FormFieldProps,
-    React.DetailedHTMLProps<React.TextareaHTMLAttributes<HTMLTextAreaElement>> {
+type TextareaEle = DetailedHTMLProps<
+  TextareaHTMLAttributes<HTMLTextAreaElement>
+>;
+interface TextareaProps extends FormFieldProps, TextareaEle {
   fieldType: "textarea";
 }
 
