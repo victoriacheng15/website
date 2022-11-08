@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "@theme/Layout";
+import MainContainer from "../components/MainContainer";
 import Hero from "../components/Hero";
 import AboutMe from "../components/AboutMe";
 import Skills from "../components/Skills";
@@ -8,10 +9,10 @@ function Home(): JSX.Element {
   return (
     <Layout title="Home">
       <Hero />
-      <main className="container container--fluid padding-vert--lg">
+      <MainContainer>
         <AboutMe />
         <Skills />
-      </main>
+      </MainContainer>
     </Layout>
   );
 }

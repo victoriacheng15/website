@@ -1,42 +1,22 @@
 import React from "react";
 import Layout from "@theme/Layout";
+import MainContainer from "../components/MainContainer";
 import SectionTitle from "../components/SectionTitle";
-import FormField from "../components/FormField";
+import Form from "../components/Form";
 
-const title = "Contact";
+const title = "Let's contact!";
 
 function Contact(): JSX.Element {
   return (
     <Layout title={title}>
-      <main className="container container--fluid padding-vert--lg">
+      <MainContainer>
         <div className="row">
           <div className="col col--6 col--offset-3">
             <SectionTitle title={`👋 ${title}`} />
-            <form
-              id="ft-form"
-              method="POST"
-              accept-charset="UTF-8"
-              action="https://form.taxi/s/v281n9zc"
-            >
-              <FormField label="Your Name:" name="name" />
-              <FormField label="Email:" name="email" />
-              <FormField
-                fieldType="textarea"
-                label="Message:"
-                name="message"
-                rows={18}
-              />
-              <input type="text" name="_gotcha" style={{ display: "none" }} />
-              <button
-                type="submit"
-                className="button button--lg button--primary"
-              >
-                Send
-              </button>
-            </form>
+            <Form />
           </div>
         </div>
-      </main>
+      </MainContainer>
     </Layout>
   );
 }
