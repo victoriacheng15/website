@@ -15,8 +15,8 @@
     "typecheck": "tsc",
     "format:check": "prettier --check .",
     "format:fix": "prettier --write .",
-    "eslint:check": "eslint . --ext .json,.js,.jsx,.ts,.tsx",
-    "eslint:fix": "eslint . --fix --ext .json,.js,.jsx,.ts,.tsx",
+    "eslint:check": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "eslint:fix": "eslint . --fix --ext .js,.jsx,.ts,.tsx",
     "lint:check": "pnpm eslint:check && pnpm format:check",
     "lint:fix": "pnpm eslint:fix && pnpm format:fix",
     "postgen": "docusaurus-post-generator"
