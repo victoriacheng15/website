@@ -28,12 +28,15 @@ This is a personal website that contains my information, projects, journals and 
 <div align="center">
 
 **Home**
+
 <img src="./personal-website.webp" width="400" />
 
 **Journals**
+
 <img src="./personal-website-journals.webp" width="400" />
 
 **Blog**
+
 <img src="./personal-website-blog.webp" width="400" />
 
 </div>
