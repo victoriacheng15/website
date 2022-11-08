@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "@theme/Layout";
+import MainContainer from "../components/MainContainer";
 import SectionTitle from "../components/SectionTitle";
 import ProjectCard from "../components/ProjectCard";
 
@@ -9,13 +10,11 @@ const description = "Projects that I have worked on";
 function Projects(): JSX.Element {
   return (
     <Layout title={title} description={description}>
-      <main className="container container--fluid padding-vert--lg">
+      <MainContainer>
         <SectionTitle title={title} />
         <p>{description}</p>
-        <div className="row">
-          <ProjectCard />
-        </div>
-      </main>
+        <ProjectCard />
+      </MainContainer>
     </Layout>
   );
 }
