@@ -21,7 +21,7 @@ This is a personal website that contains my information, projects, journals and 
 - React
 - CSS module
 - Markdown
-- [Mermaid Diagrams](https://mermaid-js.github.io/mermaid/#/) 
+- [Mermaid Diagrams](https://mermaid-js.github.io/mermaid/#/)
 
 ## Screenshot
 

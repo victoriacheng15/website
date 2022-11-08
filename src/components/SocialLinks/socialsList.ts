@@ -15,4 +15,4 @@ export const socialsList = [
     title: "polywork",
     link: "https://www.polywork.com/victoriacheng15",
   },
-]
+];

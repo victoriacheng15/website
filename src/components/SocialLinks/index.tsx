@@ -1,7 +1,7 @@
 import React from "react";
 import List from "../List";
 import styles from "./index.module.css";
-import {socialsList} from './socialsList'
+import { socialsList } from "./socialsList";
 
 type SocialTitles = "linkedin" | "twitter" | "github" | "polywork";
 
@@ -11,7 +11,6 @@ interface SocialLinks {
 }
 
 function SocialLinks() {
-
   return (
     <List classes={styles.social}>
       {(socialsList as SocialLinks[]).map(({ title, link }) => (

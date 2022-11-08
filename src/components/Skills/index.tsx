@@ -10,7 +10,6 @@ interface Skills {
 }
 
 function Skills() {
-
   return (
     <section className="container container--fluid">
       <SectionTitle title="Skills" />
