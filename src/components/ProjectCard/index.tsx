@@ -21,7 +21,7 @@ function ProjectCard() {
   const { projects } = customFields;
 
   return (
-    <>
+    <div className="row">
       {(projects as Projects[]).map(
         ({ image, title, code, demo, description, techs }) => (
           <div key={title} className="col col--4">
@@ -42,7 +42,7 @@ function ProjectCard() {
           </div>
         )
       )}
-    </>
+    </div>
   );
 }
 
