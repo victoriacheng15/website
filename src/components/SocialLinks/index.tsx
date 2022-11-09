@@ -15,7 +15,7 @@ function SocialLinks() {
     <List classes={styles.social}>
       {(socialsList as SocialLinks[]).map(({ title, link }) => (
         <li key={title} className={styles.list__link}>
-          <a href={link} target="_blank" rel="noopener">
+          <a href={link} target="_blank" rel="noreferrer">
             <img alt={title} src={`./img/socials/${title}.svg`} />
           </a>
         </li>

@@ -41,7 +41,7 @@ function FormField({
         {fieldType === "textarea" ? (
           <textarea
             id={id}
-            required
+            required={true}
             className={styles.field}
             {...(props as TextareaProps)}
           />
@@ -49,7 +49,7 @@ function FormField({
           <input
             id={id}
             type="text"
-            required
+            required={true}
             className={styles.field}
             {...(props as InputProps)}
           />
