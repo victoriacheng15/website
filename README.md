@@ -1,9 +1,3 @@
-<div align="center">
-
-[<img alt="VC logo" src="./static/img/logo.png" width="40" /> ](https://victoriacheng15.vercel.app/)
-
-</div>
-
 # Website
 
 This is a personal website that contains my information, projects, journals and blog.
@@ -29,15 +23,11 @@ This is a personal website that contains my information, projects, journals and 
 
 **Home**
 
-<img src="./images-for-md/personal-website.webp" width="400" />
+<img src="./images-for-md/personal-website.webp" width="360" />
 
-**Journals**
-
-<img src="./images-for-md/personal-website-journals.webp" width="400" />
-
-**Blog**
-
-<img src="./images-for-md/personal-website-blog.webp" width="400" />
+| Blog | Journals |
+|:--:| :--: |
+|<img src="./images-for-md/personal-website-blog.webp" width="350" />| <img src="./images-for-md/personal-website-journals.webp" width="350" /> |
 
 </div>
 
@@ -61,5 +51,5 @@ This is a personal website that contains my information, projects, journals and 
 ## Tools
 
 - [Sqooush app](https://squoosh.app/)
-  - It is an image compression tool that reduce image sizes t
+  - It is an image compression tool that reduce image sizes
     - formats: webp, png, jpeg
