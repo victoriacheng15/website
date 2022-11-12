@@ -16,7 +16,7 @@ function Skills() {
       <List>
         {(skillsList as Skills[]).map(({ title, address }) => (
           <li key={title} className={styles.list__skill}>
-            <img alt={title} src={address} />
+            <img className={styles.list__image} alt={title} src={address} />
           </li>
         ))}
       </List>
