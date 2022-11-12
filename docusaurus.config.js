@@ -19,13 +19,6 @@ const config = {
     locales: ["en"],
   },
   customFields: {
-    avatar: "./img/avatar.webp",
-    facts: [
-      "Deaf",
-      "Gamer",
-      "Love ☕ coffee and 🍵 tea",
-      "Known 3 languages - Mandarin, English, and American Sign Language",
-    ],
     projects: [
       {
         title: "Bubble Tea App",
@@ -60,7 +53,7 @@ const config = {
     [
       "@docusaurus/plugin-ideal-image",
       {
-        quality: 85,
+        quality: 75,
         max: 2000,
         min: 500,
         steps: 4,
