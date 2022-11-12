@@ -8,7 +8,18 @@ interface ListProps {
 }
 
 function List({ children, classes }: ListProps) {
-  return <ul className={clsx(classes, styles.list)}>{children}</ul>;
+  return (
+    <ul
+      className={clsx(
+        classes,
+        styles.list,
+        "padding-left--none",
+        "margin-vert--md"
+      )}
+    >
+      {children}
+    </ul>
+  );
 }
 
 export default List;

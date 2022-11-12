@@ -1,3 +1,4 @@
+import clsx from "clsx";
 import React, {
   DetailedHTMLProps,
   InputHTMLAttributes,
@@ -42,7 +43,11 @@ function FormField({
           <textarea
             id={id}
             required={true}
-            className={styles.field}
+            className={clsx(
+              "padding-horiz--md",
+              "padding-vert--sm",
+              styles.field
+            )}
             {...(props as TextareaProps)}
           />
         ) : (
@@ -50,7 +55,11 @@ function FormField({
             id={id}
             type="text"
             required={true}
-            className={styles.field}
+            className={clsx(
+              "padding-horiz--md",
+              "padding-vert--sm",
+              styles.field
+            )}
             {...(props as InputProps)}
           />
         )}
