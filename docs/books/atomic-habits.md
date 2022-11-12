@@ -87,7 +87,7 @@ The cravings are the motivational force.
 The response is the actual habit you perform.
 The reward is to satisfy your craving and teach us.
 
-Let's say, the room is dark (*the cue*) and you can't see anything. But you want to see everything (*the craving*). So you look for a flip switch (*the response*). Once the flip switch is found, turn on the light (*the reward*). This is one of the simplest example that we are doing it often enough to become automatic.
+Let's say, the room is dark (_the cue_) and you can't see anything. But you want to see everything (_the craving_). So you look for a flip switch (_the response_). Once the flip switch is found, turn on the light (_the reward_). This is one of the simplest example that we are doing it often enough to become automatic.
 
 **The habit loop:**
 
