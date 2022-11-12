@@ -7,6 +7,14 @@ title: Atomic Habits
 
 Author: [James Clear](https://jamesclear.com/atomic-habits).
 
+**Personal note:**
+
+So far, I have read a couple of chapters and I even re-read some chapters to see if I miss anything or not. This book is a very well written guide on how to change your habits and get 1% better every day. I have gotten ideas on why good habits doesn't stay with you, while bad habits area always staying with you. This book also opens up my mind and see things differently.
+
+**I definitely highly recommended purchasing this book.**
+
+Remember, "Rome was not built in one day". It takes time to understand and master something like skill, habit, etc. I am resonated with this [newsletter](https://jamesclear.com/lay-a-brick) a lot
+
 ## Chapter 1
 
 The author described change is slow very well by using ice cube as the example. Imagine the ice cube is on the table with temperature of 25 degrees. No change on the ice cube and temperature is slowly increasing by 1 degree. Nothing happens at 26 degrees. 27 degrees, 28, 29, 30, 31 and still nothing happens. Until 32 degree, the ice cube is begins to melt. As you can see 1 degree shift, it doesn't show any difference, but until it reaches to a point where it will unlock a huge change. In short, to building a good habit, it takes time.
@@ -53,7 +61,7 @@ flowchart LR
 Identity(Identity) --> Process(Process) --> Outcome(Outcome)
 ```
 
-Let's say two people resisting a cigarette. When offer a cigarette, person A says `No, thanks. I am trying to quit` while person B says `No thanks. I am not a smoker`. Both responds differently, but first is outcome based while second is identity based.
+Let's say two people resisting a cigarette. When offer a cigarette, person A says `No, thanks. I am trying to quit` while person B says `No thanks. I am not a smoker`. Both response to the question differently, but first is outcome based while second is identity based.
 
 > You have a new goal and a new plan, but you have not changed who you are.
 >
@@ -66,6 +74,30 @@ Identity change process:
 
 In order to make change and build up good habits, go deep to the core aka the identity. Believe that you are `insert your identity` and ask yourself what would `identity` person would do? Then work and build up from there.
 
-e.g. If you want to be a healthy person, ask yourself `what would a healthy person?` do in certain situations and then use this as a guid to lead you.
+e.g. If you want to be a healthy person, ask yourself `what would a healthy person?` do in certain situations and then use this as a guide to lead you.
 
 ## Chapter 3
+
+A habit is a behaviour that has been repeated enough times to become automatic.
+
+The process of building a habit can be divided into 4 steps: cue, craving, response, and reward.
+
+The cue triggers your brain to initiate a behaviour.
+The cravings are the motivational force.
+The response is the actual habit you perform.
+The reward is to satisfy your craving and teach us.
+
+Let's say, the room is dark (_the cue_) and you can't see anything. But you want to see everything (_the craving_). So you look for a flip switch (_the response_). Once the flip switch is found, turn on the light (_the reward_). This is one of the simplest example that we are doing it often enough to become automatic.
+
+**The habit loop:**
+
+```mermaid
+flowchart LR
+
+cue --> craving
+craving --> response
+response --> reward
+reward --> cue
+```
+
+## Chapter 4

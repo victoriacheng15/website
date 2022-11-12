@@ -2,7 +2,6 @@ position: 4
 label: "Archived Blog"
 collapsible: true
 collapsed: true
-className: red
 link:
   type: generated-index
   title: Blogs from Hashnode
