@@ -19,7 +19,7 @@ const config = {
     locales: ["en"],
   },
   customFields: {
-    avatar: "./img/avatar.png",
+    avatar: "./img/avatar.webp",
     facts: [
       "Deaf",
       "Gamer",
