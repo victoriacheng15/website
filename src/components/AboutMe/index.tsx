@@ -16,9 +16,11 @@ function About() {
     <section className="container container--fluid">
       <SectionTitle title="About Me" />
       <div className={clsx("margin-bottom--lg", styles.content)}>
-        <div className={styles.avatar}>
-          <Image img={avatar} alt="Victoria" />
-        </div>
+        <Image
+          className={styles.avatar}
+          img={avatar}
+          alt="Victoria with orange background color"
+        />
         <section className={styles.para}>
           <DescAboutMe />
         </section>
