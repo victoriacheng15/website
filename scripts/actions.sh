@@ -12,22 +12,27 @@ create_blog_branch() {
 }
 
 run_lint() {
-  pnpm lint:fix
+  pnpm eslint:fix
+  sleep 1
+  echo "########## run prettier"
+  pnpm format:fix
 }
 
+action_array=("update main" "create blog branch" "run eslint and prettier")
+
 PS3="Select the action: "
-select action in  update-main blog-branch lint-format
+select action in  "${action_array[@]}"
 do
   case $action in
-    update-main)
+    ${action_array[0]})
       update_main
       exit
       ;;
-    blog-branch)
+     ${action_array[1]})
       create_blog_branch
       exit
     ;;
-    lint-format)
+     ${action_array[2]})
       run_lint
       exit
     ;;
