@@ -16,9 +16,7 @@
     "format:check": "prettier --check src/ blog/ docs/",
     "format:fix": "prettier --write src/ blog/ docs/",
     "eslint:check": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "eslint:fix": "eslint . --fix --ext .js,.jsx,.ts,.tsx",
-    "lint:check": "pnpm eslint:check && pnpm format:check",
-    "lint:fix": "pnpm eslint:fix && pnpm format:fix"
+    "eslint:fix": "eslint . --fix --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
     "@docusaurus/core": "2.2.0",
@@ -40,7 +38,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.7.1",
-    "rome": "^10.0.0",
+    "rome": "^10.0.1",
     "typescript": "^4.7.4"
   },
   "prettier": {
