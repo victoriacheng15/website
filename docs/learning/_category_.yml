@@ -2,7 +2,6 @@ position: 2
 label: "Learning Resources"
 collapsible: true
 collapsed: false
-className: red
 link:
   type: generated-index
   title: Learning Resources
