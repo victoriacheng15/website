@@ -4,9 +4,14 @@
   margin-bottom: 2rem;
 }
 
-.image {
-  height: 100%;
+.imgContainer {
   position: relative;
+}
+
+.image {
+  height: 300px;
+  position: relative;
+  object-fit: cover;
 }
 
 .buttons {
