@@ -3,4 +3,4 @@ Hi! I'm Victoria, a software developer and a blogger. I'm passionate about provi
 Why programming/software development? Programming/software offer endless possibilities, which is awesome. I had a problem of deciding what to do and went on aimless direction for a few months. Until I decided on web development. From there, I learned about JavaScript and its ecosystem. Also, write blogs to share what I learned about software development.
 
 If you are interested in know more about me, I had wrote a blog
-about [My Journey into the Tech](https://victoriacheng15.vercel.app/docs/blogs/my-journey-into-the-tech)
+about [My Journey into the Tech](https://victoriacheng15.vercel.app/docs/archived-blog/my-journey-into-the-tech)
