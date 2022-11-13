@@ -82,3 +82,34 @@ More on `keyof` operator [here](https://www.typescriptlang.org/docs/handbook/2/k
 Check this [mapped types](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html) as well
 
 </details>
+
+ ## Tuple to Object
+
+Give an array, transform into an object type and the key/value must in the given array.
+
+For example:
+
+```ts
+const tuple = ['tesla', 'model 3', 'model X', 'model Y'] as const
+
+type result = TupleToObject<typeof tuple> 
+// expected 
+// { tesla: 'tesla', 'model 3': 'model 3', 'model X': 'model X', 'model Y': 'model Y'}
+```
+
+<details>
+<summary>Answer:</summary>
+
+```ts
+type TupleToObject<T extends readonly (string | number)[]> = {
+  [K in T[number]]: K
+}
+```
+
+**Note:**
+
+[TupleToObject Walkthrough](https://nickangeli.com/posts/typescript-type-challenge-tupletoobject-walkthrough/)
+
+[Mapped Types](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html) - for how to map through object with its type
+  
+</details>
