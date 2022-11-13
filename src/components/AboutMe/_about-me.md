@@ -5,8 +5,8 @@ Why programming/software development? Programming/software offer endless possibi
 If you are interested in know more about me, I had wrote a blog
 about [My Journey into the Tech](https://victoriacheng15.vercel.app/docs/archived-blog/my-journey-into-the-tech)
 
-
 ### Random facts about myself:
+
 - Deaf
 - Gamer
 - Love ☕ coffee and 🍵 tea
