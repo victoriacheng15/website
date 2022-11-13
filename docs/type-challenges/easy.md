@@ -37,18 +37,7 @@ type MyPick<T, K extends keyof T> = {
 
 **Note:**
 
-This is a bit confused. Think about how would you clone object with `for in` loop
-
-```js
-for (const key in user) {
-  clone[key] = user[key];
-}
-```
-
-[Reference](https://javascript.info/object-copy#cloning-and-merging-object-assign)
-
-Now, look at how interface is constructed?
-`title` is a key while `string` is value, which is `[P in K]: T[P]`
+I was doing the `Tuple to Object` challenge, I found out that you can use [mapped types](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html) to declare type(s) based on index, which is why I updated this note.
 
 </details>
 
@@ -89,5 +78,7 @@ type MyReadonly<T> = {
 The `keyof` operator takes an object type and produces a string or numeric literal union of its keys.
 
 More on `keyof` operator [here](https://www.typescriptlang.org/docs/handbook/2/keyof-types.html)
+
+Check this [mapped types](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html) as well
 
 </details>
