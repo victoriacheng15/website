@@ -1,10 +1,10 @@
 import React from "react";
-import FormField from "../FormField";
+import FormField from "./FormField";
 
 function Form() {
   return (
     <form
-      id="ft-form"
+      id="contact-form"
       method="POST"
       accept-charset="UTF-8"
       action="https://form.taxi/s/v281n9zc"
