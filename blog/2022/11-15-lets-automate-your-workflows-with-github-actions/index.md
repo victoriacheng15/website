@@ -12,8 +12,8 @@ hide_table_of_contents: false
 
 ## What is GitHub Actions?
 
-> GitHub Actions is a continuous integration and continuous delivery (CI/CD) platform that allows you to automate your build, test, and deployment pipeline. You can create workflows that build and test every pull request to your repository, or deploy merged pull requests to production. 
-> 
+> GitHub Actions is a continuous integration and continuous delivery (CI/CD) platform that allows you to automate your build, test, and deployment pipeline. You can create workflows that build and test every pull request to your repository, or deploy merged pull requests to production.
+>
 > From the Official Docs
 
 In short, you automate these "boring" and repeated tasks without having to run it manually.
@@ -47,15 +47,15 @@ This is the name of the workflow. You could leave it empty, but it is better to 
 
 ![image](https://user-images.githubusercontent.com/35031228/201541653-73bf69b4-c0dd-4e37-93fc-74ce4831ee01.png)
 
-
 ```yaml
 on:
   pull_request:
     branches: [main]
 ```
+
 This is the trigger for the workflows. It is like event listener in JavaScript. The workflow will only run based on parameters that you define with `on`. In this case, the workflow will run on the moment once you open `pull_request`. `branches` is a "sub-rule" to `pull_request`. This means the workflows will run when the PR is opened and will merge into the main branch.
 
-There are more triggers you can do with `on` and I highly recommend check [Events that trigger workflows](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#push) out. 
+There are more triggers you can do with `on` and I highly recommend check [Events that trigger workflows](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#push) out.
 
 ```yaml
 jobs:
@@ -63,20 +63,20 @@ jobs:
     runs-on: ubuntu-latest
 ```
 
-This is where you define and group the actions that you need to run the job named `jest`. You can define which OS to runs with, e.g. `ubuntu`, `macOS`, and `window`. 
+This is where you define and group the actions that you need to run the job named `jest`. You can define which OS to runs with, e.g. `ubuntu`, `macOS`, and `window`.
 
 It is kinda similar to the package deal and you will get whatever in the package.
 
 ```yaml
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3.5.1
-        with:
-          node-version: 16
-          cache: "npm"
-      - name: install and run jest test
-        run: npm ci
-      - run: npm test
+steps:
+  - uses: actions/checkout@v3
+  - uses: actions/setup-node@v3.5.1
+    with:
+      node-version: 16
+      cache: "npm"
+  - name: install and run jest test
+    run: npm ci
+  - run: npm test
 ```
 
 ```mermaid
@@ -91,17 +91,17 @@ flowchart TD
   existed[if existed, use the cache] --> ci[npm ci]
 ```
 
-`cache` is to enable faster installation for the process. 
+`cache` is to enable faster installation for the process.
 
-> In computing, a cache is a hardware or software component that stores data so that future requests for that data can be served faster; the data stored in a cache might be the result of an earlier computation or a copy of data stored elsewhere. according to [Cache(computing) wiki](https://en.wikipedia.org/wiki/Cache_(computing))
+> In computing, a cache is a hardware or software component that stores data so that future requests for that data can be served faster; the data stored in a cache might be the result of an earlier computation or a copy of data stored elsewhere. according to [Cache(computing) wiki](<https://en.wikipedia.org/wiki/Cache_(computing)>)
 
-Think this way, you are set up a brand new folder and needs packages. You are installing everything from the beginning and this takes time to install. Cache is to hold your installed package for the future, and allow the installation process to be faster. 
+Think this way, you are set up a brand new folder and needs packages. You are installing everything from the beginning and this takes time to install. Cache is to hold your installed package for the future, and allow the installation process to be faster.
 
 You can check how and what it runs by go to `Actions` tab of the repo.
 
 ![image](https://user-images.githubusercontent.com/35031228/201543053-05b008cf-6994-4ba9-ae80-7bcb4e5b28aa.png)
 
-You also can set name for each `uses` action like below. Make sure there is no `-` for `uses`. 
+You also can set name for each `uses` action like below. Make sure there is no `-` for `uses`.
 
 ```yaml
 - name: Setup Node.js environment
@@ -109,7 +109,6 @@ You also can set name for each `uses` action like below. Make sure there is no `
 ```
 
 I didn't set name, so it says `run actions/setup-node@v3.5.1` from the screenshot above. Once you set the name, you should see `Setup Node.js environment` instead.
-
 
 ### Overall file
 

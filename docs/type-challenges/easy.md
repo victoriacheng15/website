@@ -52,7 +52,6 @@ Now, look at how interface is constructed?
 
 </details>
 
-
 ## Readonly
 
 Implement the built-in `Readonly<T>` generic without using it.
@@ -61,18 +60,18 @@ Constructs a type with all properties of `T` set to readonly, meaning the proper
 
 ```ts
 interface Todo {
-  title: string
-  description: string
+  title: string;
+  description: string;
 }
 
 const todo: MyReadonly<Todo> = {
   title: "Hey",
-  description: "foobar"
-}
+  description: "foobar",
+};
 
-todo.title = "Hello" 
+todo.title = "Hello";
 // Error: cannot reassign a readonly property
-todo.description = "barFoo" 
+todo.description = "barFoo";
 // Error: cannot reassign a readonly property
 ```
 
@@ -81,8 +80,8 @@ todo.description = "barFoo"
 
 ```ts
 type MyReadonly<T> = {
-  readonly [P in keyof T]: T[P]
-}
+  readonly [P in keyof T]: T[P];
+};
 ```
 
 **Note:**
