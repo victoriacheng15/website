@@ -2,7 +2,7 @@ import React from "react";
 import clsx from "clsx";
 import styles from "./index.module.css";
 
-function FormField({ fieldType, label, ...props }) {
+function FormField({ fieldType = "input", label, ...props }) {
   const id = props.id ?? `form_field_${props.name}`;
 
   return (
