@@ -24,7 +24,7 @@ const config = {
         title: "Bubble Tea App",
         code: "https://github.com/victoriacheng15/bubble-tea-api#redme",
         demo: "https://bubble-tea.up.railway.app/",
-        image: "./img/projects/bubble-tea-app.png",
+        image: "./img/projects/bubble-tea-app.webp",
         description:
           "An app that users can submit their favourite combinations of tea and topping. The data will be sent to MongoDB. On the leaderboard page, it shows the amount of each drink that users had submitted.",
         techs: ["Express", "JavaScript", "MongoDB", "CSS"],
@@ -33,7 +33,7 @@ const config = {
         title: "Country Information App",
         code: "https://github.com/victoriacheng15/fem-rest-countries-api#readme",
         demo: "https://fem-rest-countries-api-vc.vercel.app/",
-        image: "./img/projects/country-information-app.png",
+        image: "./img/projects/country-information-app.webp",
         description:
           "An app where users can search for country information with the search bar or dropdown menu for regions. Each country card will show more details on the country",
         techs: ["React", "React Router", "Tailwind CSS"],
@@ -42,7 +42,7 @@ const config = {
         title: "Space Tourism Website",
         code: "https://github.com/victoriacheng15/fem-space-tourism#readme",
         demo: "https://fem-space-tourism-vc.vercel.app/",
-        image: "./img/projects/space-tourism-website.png",
+        image: "./img/projects/space-tourism-website.webp",
         description:
           "A tourism website that shows destinations information, the crew and the technologies for your space travel experience.",
         techs: ["React", "React Router", "Tailwind CSS"],
