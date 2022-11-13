@@ -12,7 +12,7 @@ interface SocialLinks {
 
 function SocialLinks() {
   return (
-    <List classes={styles.social}>
+    <List>
       {(socialsList as SocialLinks[]).map(({ title, link }) => (
         <li key={title} className={styles.list__link}>
           <a href={link} target="_blank" rel="noreferrer">

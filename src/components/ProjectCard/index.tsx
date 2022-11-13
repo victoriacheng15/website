@@ -25,7 +25,7 @@ function ProjectCard() {
       {(projects as Projects[]).map(
         ({ image, title, code, demo, description, techs }) => (
           <div key={title} className="col col--4">
-            <section className={clsx("card", styles.card)}>
+            <section className={clsx("card", "margin-bottom--lg", styles.card)}>
               <ImageContainer
                 image={image}
                 title={title}

@@ -1,7 +1,6 @@
 .card {
   background: var(--background);
   border-radius: 5px;
-  margin-bottom: 2rem;
 }
 
 .imgContainer {
@@ -9,17 +8,16 @@
 }
 
 .image {
-  height: 300px;
-  position: relative;
-  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .buttons {
   --width: 100%;
   position: absolute;
-  padding-inline: 1rem;
   width: var(--width);
-  bottom: 5%;
+  bottom: 8%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -34,15 +32,11 @@
   opacity: 1;
 }
 
-.content__title {
-  font-style: italic;
-}
-
 .techs__list {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 0.75rem;
+  gap: 0.5rem;
 }
 
 .tech {

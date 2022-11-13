@@ -5,10 +5,9 @@
 .field {
   width: 100%;
   padding-block: 0.5rem;
-  padding-inline: 1rem;
   border-radius: 5px;
   border: none;
-  font-size: 1.15rem;
+  font-size: 1.25rem;
 }
 
 textarea {

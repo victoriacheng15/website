@@ -1,7 +1,5 @@
 .list__skill {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .list__image {

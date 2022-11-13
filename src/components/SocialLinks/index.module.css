@@ -1,7 +1,3 @@
-.social {
-  justify-content: flex-start;
-}
-
 .list__link {
   background: var(--ifm-color-primary-dark);
   border-radius: 5px;

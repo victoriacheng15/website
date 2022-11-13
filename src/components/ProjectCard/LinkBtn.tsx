@@ -9,7 +9,7 @@ interface LinkBtnProps {
 
 function LinkBtn({ demoLink, codeLink }: LinkBtnProps) {
   return (
-    <div className={styles.buttons}>
+    <div className={clsx("padding-horiz--md", styles.buttons)}>
       <a
         className={clsx("button", "button--primary", styles.button)}
         href={demoLink}
