@@ -1,7 +1,5 @@
 .avatar {
-  --size: 300px;
-  margin-bottom: 2rem;
-  height: var(--size);
+  height: 300px;
   aspect-ratio: 1;
   object-fit: contain;
   border-radius: 50%;

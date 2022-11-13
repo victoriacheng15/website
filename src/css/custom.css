@@ -41,8 +41,8 @@ div[class^="announcementBar_"] {
   letter-spacing: 1px;
 }
 
-.navbar {
-  height: 100%;
+li:not(.keep ul li) {
+  list-style-type: none;
 }
 
 .navbar__logo {
@@ -59,7 +59,7 @@ div[class^="announcementBar_"] {
 }
 
 .hero__title {
-  font-size: 2.5rem;
+  font-size: 2.75rem;
 }
 
 .hero__subtitle {

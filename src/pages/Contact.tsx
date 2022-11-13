@@ -1,8 +1,6 @@
 import React from "react";
 import Layout from "@theme/Layout";
-import MainContainer from "../components/MainContainer";
-import SectionTitle from "../components/SectionTitle";
-import Form from "../components/Form";
+import { MainContainer, SectionTitle, Form } from "../components";
 
 const title = "Let's contact!";
 

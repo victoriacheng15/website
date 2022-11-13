@@ -1,8 +1,6 @@
 import React from "react";
 import Layout from "@theme/Layout";
-import MainContainer from "../components/MainContainer";
-import SectionTitle from "../components/SectionTitle";
-import ProjectCard from "../components/ProjectCard";
+import { MainContainer, SectionTitle, ProjectCard } from "../components";
 
 const title = "Projects";
 const description = "Projects that I have worked on";

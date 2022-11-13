@@ -1,17 +1,22 @@
 import React from "react";
 import Layout from "@theme/Layout";
-import MainContainer from "../components/MainContainer";
-import Hero from "../components/Hero";
-import AboutMe from "../components/AboutMe";
-import Skills from "../components/Skills";
+import {
+  MainContainer,
+  Hero,
+  SectionTitle,
+  AboutMe,
+  SkillList,
+} from "../components";
 
 function Home(): JSX.Element {
   return (
     <Layout title="Home">
       <Hero />
       <MainContainer>
+        <SectionTitle title="About me" />
         <AboutMe />
-        <Skills />
+        <SectionTitle title="Skills" />
+        <SkillList />
       </MainContainer>
     </Layout>
   );

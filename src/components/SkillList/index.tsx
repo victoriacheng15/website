@@ -1,6 +1,5 @@
 import React from "react";
 import List from "../List";
-import SectionTitle from "../SectionTitle";
 import styles from "./index.module.css";
 import { skillsList } from "./skillsList";
 
@@ -9,10 +8,9 @@ interface Skills {
   address: string;
 }
 
-function Skills() {
+function SkillList() {
   return (
     <section className="container container--fluid">
-      <SectionTitle title="Skills" />
       <List>
         {(skillsList as Skills[]).map(({ title, address }) => (
           <li key={title} className={styles.list__skill}>
@@ -24,4 +22,4 @@ function Skills() {
   );
 }
 
-export default Skills;
+export default SkillList;
