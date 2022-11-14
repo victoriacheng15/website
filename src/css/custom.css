@@ -41,10 +41,6 @@ div[class^="announcementBar_"] {
   letter-spacing: 1px;
 }
 
-.keep ul li:not(li) {
-  list-style-type: disc;
-}
-
 .navbar__logo {
   height: 2.5rem;
 }
