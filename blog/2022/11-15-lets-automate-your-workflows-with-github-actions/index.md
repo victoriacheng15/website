@@ -104,7 +104,6 @@ If you are curious, you cna expand the dropdown and see what it does.
 
 ![image](https://user-images.githubusercontent.com/35031228/201786708-c66d3a4a-8191-480c-ab83-802cd061ef70.png)
 
-
 You also can set name for each `uses` action like below. Make sure there is no `-` for `uses`.
 
 ```yaml
@@ -181,9 +180,10 @@ A tip for you, try to click all clickable links in `Actions` tab to see where ea
 
 ```mermaid
 flowchart TD
-Actions[Actions tab of the repo] --> workflow[the workflow name] --> press[press one of the workflows] 
+Actions[Actions tab of the repo] --> workflow[the workflow name] --> press[press one of the workflows]
 press[press one of the workflows] --> clickDots[press the 3 dots next to the re-run all jobs] --> badge[create status badge]
 ```
+
 > Note: for some reason, I cannot type "check" in the label box, so I used "press" instead. 😅
 
 ![get actions status badge](https://user-images.githubusercontent.com/35031228/201784096-d99aa0a4-e017-477e-956a-4695f9e94b3e.png)
