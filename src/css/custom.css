@@ -41,8 +41,8 @@ div[class^="announcementBar_"] {
   letter-spacing: 1px;
 }
 
-li:not(.keep ul li) {
-  list-style-type: none;
+.keep ul li:not(li) {
+  list-style-type: disc;
 }
 
 .navbar__logo {
