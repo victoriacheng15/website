@@ -25,7 +25,6 @@ It is written in YAML. It stands for `Yet Another Markup Language` at first and 
 In general, the structure looks like keys with values from top to bottom.
 
 ```yaml
-# YAML
 key: value
 ```
 
@@ -37,7 +36,7 @@ Enough talk with stuff, let's see the setup!
 
 Workflows files usually go in `.github/workflows` folder.
 
-Let's see the prettier setup that I am using now.
+Let's see the Jest setup that I am using now.
 
 ```yaml
 name: ci-jest
@@ -95,11 +94,16 @@ flowchart TD
 
 > In computing, a cache is a hardware or software component that stores data so that future requests for that data can be served faster; the data stored in a cache might be the result of an earlier computation or a copy of data stored elsewhere. according to [Cache(computing) wiki](<https://en.wikipedia.org/wiki/Cache_(computing)>)
 
-Think this way, you are set up a brand new folder and needs packages. You are installing everything from the beginning and this takes time to install. Cache is to hold your installed package for the future, and allow the installation process to be faster.
+Think this way, you are set up a brand new folder and needs packages. You are installing everything from the beginning and this takes time to install. Cache is to hold your installed package information for the future, and allow the installation process to be faster.
 
-You can check how and what it runs by go to `Actions` tab of the repo.
+You can check how and what it runs by go to `Actions` tab of the repo. By the way, `min stack` is what I named for the PR.
 
 ![image](https://user-images.githubusercontent.com/35031228/201543053-05b008cf-6994-4ba9-ae80-7bcb4e5b28aa.png)
+
+If you are curious, you cna expand the dropdown and see what it does.
+
+![image](https://user-images.githubusercontent.com/35031228/201786708-c66d3a4a-8191-480c-ab83-802cd061ef70.png)
+
 
 You also can set name for each `uses` action like below. Make sure there is no `-` for `uses`.
 
@@ -110,7 +114,7 @@ You also can set name for each `uses` action like below. Make sure there is no `
 
 I didn't set name, so it says `run actions/setup-node@v3.5.1` from the screenshot above. Once you set the name, you should see `Setup Node.js environment` instead.
 
-### Overall file
+### Overall workflows code
 
 ```yaml
 name: ci-jest
@@ -133,9 +137,56 @@ jobs:
       - run: npm test
 ```
 
+If you want to run with prettier, replace `npm test` with `npm format:fix` or whatever script name you are using.
+
+Also, you could run 2 jobs in one file. Although, I am not sure if it is the best idea. It may be better to have one file for one job. Anyway, you could do this.
+
+```yaml
+name: ci-jest
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  jest: # job 1
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3.5.1
+        with:
+          node-version: 16
+          cache: "npm"
+      - name: install and run jest test
+        run: npm ci
+      - run: npm test
+  format: # job 2
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3.5.1
+        with:
+          node-version: 16
+          cache: "npm"
+      - name: install and run prettier
+        run: npm ci
+      - run: npm format:fix
+```
+
 ## Recap
 
-What I know about the workflows is a small tip of the iceberg. It can automate more things for you. I have seen a couple of workflows that can auto-assign labels for issues. run prettier, deploy and more things. I sometime go to any organization or anyone repos and check out their workflows under `.github/workflows` to see what they are automating.
+What I know about the workflows is a small tip of the iceberg. It can automate more things for you. I have seen a couple of workflows that can auto-assign labels for issues, run prettier, deploy, merge schedule and more things. I sometime go to any organizations or anyone's repos and check out their workflows under `.github/workflows` to see what they are automating.
+
+A tip for you, try to click all clickable links in `Actions` tab to see where each of them lead to. You don't need to add any workflows now, but to get familiar with interface. I just did this again and found out that you can add badges for your GitHub Actions status.
+
+```mermaid
+flowchart TD
+Actions[Actions tab of the repo] --> workflow[the workflow name] --> press[press one of the workflows] 
+press[press one of the workflows] --> clickDots[press the 3 dots next to the re-run all jobs] --> badge[create status badge]
+```
+> Note: for some reason, I cannot type "check" in the label box, so I used "press" instead. 😅
+
+![get actions status badge](https://user-images.githubusercontent.com/35031228/201784096-d99aa0a4-e017-477e-956a-4695f9e94b3e.png)
 
 I hope this blog will help you to start with workflows quickly and start automate repeated tasks for you!
 
