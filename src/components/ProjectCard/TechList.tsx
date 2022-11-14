@@ -1,5 +1,6 @@
 import React from "react";
 import clsx from "clsx";
+import List from "../List";
 import styles from "./index.module.css";
 
 interface techsProps {
@@ -8,7 +9,7 @@ interface techsProps {
 
 function TechList({ techs }: techsProps) {
   return (
-    <ul className={clsx("pills", styles.techs__list)}>
+    <List classes={styles.techs__list}>
       {techs.map((item) => (
         <li
           key={item}
@@ -17,7 +18,7 @@ function TechList({ techs }: techsProps) {
           {item}
         </li>
       ))}
-    </ul>
+    </List>
   );
 }
 
