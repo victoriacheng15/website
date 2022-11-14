@@ -61,8 +61,6 @@ flowchart LR
 Identity(Identity) --> Process(Process) --> Outcome(Outcome)
 ```
 
-Let's say two people resisting a cigarette. When offer a cigarette, person A says `No, thanks. I am trying to quit` while person B says `No thanks. I am not a smoker`. Both response to the question differently, but first is outcome based while second is identity based.
-
 > You have a new goal and a new plan, but you have not changed who you are.
 >
 > By James Clear
@@ -101,3 +99,29 @@ reward --> cue
 ```
 
 ## Chapter 4
+
+Before we can effectively build new habits, we need to get a handle on current ones. This could be challenging. There is a process called pointing and calling that calling out certain things and raise the awareness.
+
+The more automatic a behaviour becomes, the less likely we are to consciously think about it.
+
+Get to the habit scorecard. You write down what are your daily activities in order from wake up to sleep. Once the list is written and look at each of them. 
+
+- Write `+` if it is a good habit. 
+- Write `-` if it is a bad habit.
+- Write `=` if it is a neutral habit.
+
+**A list of habits:**
+- Turn off alarm --> =
+- Check the phone --> -
+- Drink a cup of water --> +
+- Go to bathroom --> +
+- Eat breakfast --> +
+- Open up computer --> +
+- and more
+  
+If it is difficult to determine how to rate certain habits, ask yourself Does this behaviour help me become the type of person I wish to be? and/or Does this habit cast a vote for or against my desired identity? Also, using the `point and call` process to raise the awareness on what are you about to do.
+
+- Good habits --> positive outcome
+- Bad habits --> negative outcome
+
+## Chapter 5
