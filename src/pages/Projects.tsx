@@ -6,15 +6,15 @@ const title = "Projects";
 const description = "Projects that I have worked on";
 
 function Projects(): JSX.Element {
-  return (
-    <Layout title={title} description={description}>
-      <MainContainer>
-        <SectionTitle title={title} />
-        <p>{description}</p>
-        <ProjectCard />
-      </MainContainer>
-    </Layout>
-  );
+	return (
+		<Layout title={title} description={description}>
+			<MainContainer>
+				<SectionTitle title={title} />
+				<p>{description}</p>
+				<ProjectCard />
+			</MainContainer>
+		</Layout>
+	);
 }
 
 export default Projects;
