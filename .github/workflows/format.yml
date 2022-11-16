@@ -1,4 +1,4 @@
-name: ci-prettier
+name: ci_format
 
 on:
   pull_request:
@@ -9,19 +9,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-        with:
-          ref: ${{ github.head_ref }}
-      - uses: pnpm/action-setup@v2.2.4
+      - uses: pnpm/action-setup@v2
         with:
           version: latest
-      - uses: actions/setup-node@v3.5.1
+      - uses: actions/setup-node@v3
         with:
           node-version: 16
           cache: "pnpm"
 
-      - name: install and run prettier
-        run: pnpm install --frozen-lockfile
-      - run: pnpm format:fix
+      - name: install and run rome tool
+        run: |
+          pnpm install --frozen-lockfile
+          pnpm rome:apply
+          pnpm rome:write
+
       - name: commit change
         uses: stefanzweifel/git-auto-commit-action@v4.15.2
         with:
