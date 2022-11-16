@@ -113,3 +113,32 @@ type TupleToObject<T extends readonly (string | number)[]> = {
 [Mapped Types](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html) - for how to map through object with its type
 
 </details>
+
+## First of Array
+
+Implement a generic `First<T>` that takes an Array `T` and returns its first element's type.
+
+For example:
+
+```js
+type arr1 = ["a", "b", "c"];
+type arr2 = [3, 2, 1];
+
+type head1 = First<arr1>; // expected to be 'a'
+type head2 = First<arr2>; // expected to be 3
+```
+
+<details>
+<summary>Answer:</summary>
+
+```ts
+type First<T extends any[]> = T extends [] ? never : T[0];
+```
+
+**Note:**
+
+First try with `T[0]` and this got all beside the `First<[]>`
+
+Can use [indexed Access Types](https://www.typescriptlang.org/docs/handbook/2/indexed-access-types.html)
+
+</details>
