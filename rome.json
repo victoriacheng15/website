@@ -4,8 +4,5 @@
     "rules": {
       "recommended": true
     }
-  },
-  "formatter": {
-    "enabled": false
   }
 }
