@@ -141,7 +141,7 @@ If you want to run with prettier, replace `npm test` with `npm format:fix` or wh
 Also, you could run 2 jobs in one file. Although, I am not sure if it is the best idea. It may be better to have one file for one job. Anyway, you could do this.
 
 ```yaml
-name: ci-jest
+name: ci-jest-prettier
 
 on:
   pull_request:
@@ -158,6 +158,7 @@ jobs:
           cache: "npm"
       - name: install and run jest test
         run: npm ci
+      # depend on what you name the script in package.json
       - run: npm test
   format: # job 2
     runs-on: ubuntu-latest
@@ -169,6 +170,7 @@ jobs:
           cache: "npm"
       - name: install and run prettier
         run: npm ci
+      # depend on what you name the script in package.jso
       - run: npm format:fix
 ```
 
