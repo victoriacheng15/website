@@ -6,7 +6,7 @@ tags: [github actions, workflows, automate]
 hide_table_of_contents: false
 ---
 
-![let's automate your workflows with github actions](./lets-automate-your-workflows-with-github-actions.webp)
+![let's automate your workflows with GitHub actions](./lets-automate-your-workflows-with-github-actions.webp)
 
 <!--truncate-->
 
@@ -28,7 +28,7 @@ In general, the structure looks like keys with values from top to bottom.
 key: value
 ```
 
-YAML is pretty picky with indentation from my experience. I had a couple of time that action would not run due to incorrect indentation. 😑
+YAML is pretty picky with indentation from my experience. I had a couple of times that action would not run due to incorrect indentation. 😑
 
 Enough talk with stuff, let's see the setup!
 
@@ -64,7 +64,7 @@ jobs:
 
 This is where you define and group the actions that you need to run the job named `jest`. You can define which OS to runs with, e.g. `ubuntu`, `macOS`, and `window`.
 
-It is kinda similar to the package deal and you will get whatever in the package.
+It is kinda similar to the package deal, and you will get whatever in the package.
 
 ```yaml
 steps:
@@ -190,11 +190,11 @@ press[press one of the workflows] --> clickDots[press the 3 dots next to the re-
 
 ![get actions status badge](https://user-images.githubusercontent.com/35031228/201784096-d99aa0a4-e017-477e-956a-4695f9e94b3e.png)
 
-I hope this blog will help you to start with workflows quickly and start automate repeated tasks for you!
+I hope this blog will help you to start with workflows quickly and start to automate repeated tasks for you!
 
 ## Resources
 
-- [5 Ways to DevOps-ify your App - Github Actions Tutorial by Fireship](https://www.youtube.com/watch?v=eB0nUzAI7M8&t=1s)
+- [5 Ways to DevOps-ify your App - GitHub Actions Tutorial by Fireship](https://www.youtube.com/watch?v=eB0nUzAI7M8&t=1s)
   - I started with this video
 - [YAML Tutorial: Everything You Need to Get Started in Minutes](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started)
 - [Learn GitHub Actions - Official Docs](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions)
