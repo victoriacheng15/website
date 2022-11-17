@@ -25,9 +25,9 @@ This is a personal website that contains my information, projects, journals and 
 
 <img src="./images-for-md/personal-website.webp" width="360" />
 
-| Blog | Journals |
-|:--:| :--: |
-|<img src="./images-for-md/personal-website-blog.webp" width="350" />| <img src="./images-for-md/personal-website-journals.webp" width="350" /> |
+|                                 Blog                                 |                                 Journals                                 |
+| :------------------------------------------------------------------: | :----------------------------------------------------------------------: |
+| <img src="./images-for-md/personal-website-blog.webp" width="350" /> | <img src="./images-for-md/personal-website-journals.webp" width="350" /> |
 
 </div>
 
@@ -43,6 +43,7 @@ This is a personal website that contains my information, projects, journals and 
 - Journals
   - Welcome
   - Learning Resources
+  - TypeScript - Type Challenges
   - Books
   - Archived blogs
 - Blog
