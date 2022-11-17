@@ -29,9 +29,9 @@ The author described change is slow very well by using ice cube as the example. 
 
 ## Chapter 2
 
-Changing habits is challenging for two reasons, 1)we try to change the wrong thing and we try to change our habits in the wrong way.
+Changing habits is challenging for two reasons, 1)we try to change the wrong thing, and we try to change our habits in the wrong way.
 
-Three layers of behavior change:
+Three layers of behaviour change:
 
 - First: change your outcomes
   - Like change result: weight loss, publish books, etc
@@ -40,7 +40,7 @@ Three layers of behavior change:
   - Like change result: implement a new route, decluttering desk
     - Associate with habits
 - Third: change your identify
-  - Like change beliefs: worldview, self-image, judgement
+  - Like change beliefs: worldview, self-image, judgment
     - Associate with beliefs, assumptions, biases
 
 Outcomes are what you get. Processes are what you do. Identify is what you believe.
@@ -120,9 +120,64 @@ Get to the habit scorecard. You write down what are your daily activities in ord
 - Open up computer --> +
 - and more
 
-If it is difficult to determine how to rate certain habits, ask yourself Does this behaviour help me become the type of person I wish to be? and/or Does this habit cast a vote for or against my desired identity? Also, using the `point and call` process to raise the awareness on what are you about to do.
+If it is difficult to determine how to rate certain habits, ask yourself:
+
+- Does this behaviour help me become the type of person I wish to be?
+- Does this habit cast a vote for or against my desired identity?
+
+Also, using the `point and call` process to raise the awareness on what are you about to do.
 
 - Good habits --> positive outcome
 - Bad habits --> negative outcome
 
 ## Chapter 5
+
+To keep up with a new habit, you need to make a specific plan for when and where you will be performing a new habit, and the new habit is more likely to follow through.
+
+Don't just say `I am going to eat healthier`. Because we never say when and where to make these habits HAPPEN.
+
+Do this instead:
+
+I will `behaviour` at `time` in `location`.
+
+e.g:
+
+- I will mediate for one minute at 7a.m. in my kitchen.
+- I will read a book for 30 minutes before sleep in my bed.
+
+Build a new habit is to identify a current habit you already do each day and then stack your new behaviour on top. This is call `habit stacking`
+
+The formula for this is:
+After `current habit`, I will `new habit`.
+
+e.g:
+
+- After take off work shoes, I will immediately change into my workout clothes.
+- After I pour my cup of coffee each morning, I will mediate for one minute.
+
+**The key is to tie your desired behaviour into something you already do each day.**
+
+This [Diderot effect](https://en.wikipedia.org/wiki/Diderot_effect) is an interesting to read and related to this chapter.
+
+Remember habit loop? Now you stack new habits on top of existed habits!
+
+```mermaid
+flowchart LR
+
+subgraph habit1
+cue1 --> craving1 --> response1 --> reward1
+end
+
+subgraph habit2
+cue2 --> craving2 --> response2 --> reward2
+end
+
+subgraph habit3
+cue3 --> craving3 --> response3 --> reward3
+end
+
+habit1 -- stacking --> habit2
+habit2 -- stacking --> habit3
+```
+
+## Chapter 6
