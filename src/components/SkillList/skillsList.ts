@@ -76,6 +76,7 @@ export const skillsList = [
 	},
 	{
 		title: "Bash",
-		address: "https://img.shields.io/badge/GNU%20Bash-4EAA25.svg?style=for-the-badge&logo=GNU-Bash&logoColor=white"
-	}
+		address:
+			"https://img.shields.io/badge/GNU%20Bash-4EAA25.svg?style=for-the-badge&logo=GNU-Bash&logoColor=white",
+	},
 ];
