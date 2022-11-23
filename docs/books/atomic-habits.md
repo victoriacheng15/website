@@ -181,3 +181,16 @@ habit2 -- stacking --> habit3
 ```
 
 ## Chapter 6
+
+Environment plays a role that will trigger the cue for certain habits. So, if you want to continue making good habits, rearrange the environment with objects and/or contexts that will help you to form good habits.
+
+> Whenever possible, avoid mixing the context of one habit with another. When you start mixing contexts, you will start mixing habits and the easier ones will usually win.
+
+**Personal experience:**
+I came to the US when I was 16 years ago. I knew little to nothing about English and American Sign Language (ASL). I went to the deaf school and lived in the dorm where all people use English and ASL. Furthermore, I couldn't communicate with them. The surrounding environment was new, and I had to learn both languages at the same time to be able to communicate with them. Within a month of the environment, I started picking up both languages. In the end, I was able to communicate with them at the dorm and the school.
+
+Environment is a powerful thing that can shape or form good habits, as well as bad habits. Since it influences how you engage with the world. Alter the environment where you can expose to positive cues that will trigger good habits, and reduce to expose to negative cues that will trigger bad habits.
+
+e.g. if you are working from home, set a room as your office space if possible. Only work related happens in the office, while personal related happens outside the office. This is to help you stop work after clock.
+
+## Chapter 7
