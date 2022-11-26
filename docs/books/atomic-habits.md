@@ -187,10 +187,24 @@ Environment plays a role that will trigger the cue for certain habits. So, if yo
 > Whenever possible, avoid mixing the context of one habit with another. When you start mixing contexts, you will start mixing habits and the easier ones will usually win.
 
 **Personal experience:**
-I came to the US when I was 16 years ago. I knew little to nothing about English and American Sign Language (ASL). I went to the deaf school and lived in the dorm where all people use English and ASL. Furthermore, I couldn't communicate with them. The surrounding environment was new, and I had to learn both languages at the same time to be able to communicate with them. Within a month of the environment, I started picking up both languages. In the end, I was able to communicate with them at the dorm and the school.
+I came to the US when I was 16 years old. I knew little to nothing about English and American Sign Language (ASL). I went to the deaf school and lived in the dorm where all people use English and ASL. Furthermore, I couldn't communicate with them. The surrounding environment was new, and I had to learn both languages at the same time to be able to communicate with them. Within a month of the environment, I started picking up both languages. In the end, I was able to communicate with them at the dorm and the school.
 
 Environment is a powerful thing that can shape or form good habits, as well as bad habits. Since it influences how you engage with the world. Alter the environment where you can expose to positive cues that will trigger good habits, and reduce to expose to negative cues that will trigger bad habits.
 
 e.g. if you are working from home, set a room as your office space if possible. Only work related happens in the office, while personal related happens outside the office. This is to help you stop work after clock.
 
 ## Chapter 7
+
+Self-control is a way to resist bad habits, however it is a short-term strategy. You know, how do we keep our good habits? These cues are the triggers for these habits. To keep and repeat these good habits, make these cues **OBVIOUS**, which is the `1st Law of Behaviour Change`. Also, you can create an environment where you can easily to trigger and have your good habits.
+
+How do we break away bad habits for long term strategy? We will be doing the opposite of the 1st Law of Behaviour Change. This means we will make cues that trigger bad habits **INVISIBLE** and reduce expose to cues.
+
+With the both actions, these bad habits are likely to fade away until the cue reappears.
+
+For example: if you are spending too much time on video games, unplug the console and put it in a closet after each use. Cant see console, and you are less likely to spend more time to play video games.
+
+> Once a habit has been encoded, the urge to act follows whenever the environmental cues reappear.
+
+> Make the cues of your good habits obvious and the cue of your bad habits invisible
+
+## Chapter 8
