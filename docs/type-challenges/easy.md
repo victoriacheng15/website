@@ -175,3 +175,29 @@ type Length<T extends readonly any[]> = T["length"];
 `T["Length"]` will give the length of the array
 
 </details>
+
+## Exclude
+
+Implement the built-in `Exclude<T, U>`
+
+For example:
+
+```ts
+type Result = MyExclude<"a" | "b" | "c", "a">;
+// 'b' | 'c'
+```
+
+<details>
+<summary>Answer:</summary>
+
+```ts
+type MyExclude<T, U> = T extends U ? never : T;
+```
+
+**Note:**
+
+[Exclude<UnionType, ExcludedMembers>](https://www.typescriptlang.org/docs/handbook/utility-types.html#excludeuniontype-excludedmembers)
+
+[Exclude Walkthrough](https://nickangeli.com/posts/typescript-type-challenge-exclude-walkthrough/)
+
+</details>
