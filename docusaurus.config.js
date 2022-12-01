@@ -1,4 +1,3 @@
-// @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
 const lightCodeTheme = require("prism-react-renderer/themes/github");
@@ -22,7 +21,7 @@ const config = {
 		projects: [
 			{
 				title: "Bubble Tea App",
-				code: "https://github.com/victoriacheng15/bubble-tea-api#redme",
+				code: "https://github.com/victoriacheng15/bubble-tea-api#readme",
 				demo: "https://bubble-tea.up.railway.app/",
 				image: "./img/projects/bubble-tea-app.webp",
 				description:
@@ -31,12 +30,18 @@ const config = {
 			},
 			{
 				title: "Country Information App",
-				code: "https://github.com/victoriacheng15/fem-rest-countries-api#readme",
-				demo: "https://fem-rest-countries-api-vc.vercel.app/",
+				code: "https://github.com/victoriacheng15/rest-countries-api-ts#readme",
+				demo: "https://rest-countries-api-ts-vc.netlify.app/",
 				image: "./img/projects/country-information-app.webp",
 				description:
-					"An app where users can search for country information with the search bar or dropdown menu for regions. Each country card will show more details on the country",
-				techs: ["React", "React Router", "Tailwind CSS"],
+					"An app where users can search for country information with the search box or dropdown menu for regions. Each country card will show more details on the country page",
+				techs: [
+					"TypeScript",
+					"React",
+					"React Router",
+					"Tailwind CSS",
+					"React Testing Library",
+				],
 			},
 			{
 				title: "Space Tourism Website",
