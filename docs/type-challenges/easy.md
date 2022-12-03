@@ -201,3 +201,34 @@ type MyExclude<T, U> = T extends U ? never : T;
 [Exclude Walkthrough](https://nickangeli.com/posts/typescript-type-challenge-exclude-walkthrough/)
 
 </details>
+
+## Await
+
+If we have a type which is wrapped type like Promise. How we can get a type which is inside the wrapped type?
+
+For example: if we have `Promise<ExampleType>` how to get ExampleType?
+
+For example:
+
+```js
+type ExampleType = Promise<string>;
+
+type Result = MyAwaited<ExampleType>; // string
+```
+
+<details>
+<summary>Answer:</summary>
+
+```ts
+type MyAwaited<T> = T extends Promise<infer val>
+  ? MyAwaited<val>
+  : T extends { then: (onfulfilled: (arg: infer args) => any) => any }
+  ? args
+  : T;
+```
+
+**Note:**
+
+[Inferring Within Conditional Types](https://www.typescriptlang.org/docs/handbook/2/conditional-types.html#inferring-within-conditional-types)
+
+</details>
