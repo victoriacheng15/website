@@ -5,7 +5,6 @@ title: Backend
 
 Everything about the backend!
 
-**Currently under construction**
+## Node/Express
 
-<!-- ## Node/Express
-- TBA -->
+- [Nodejs by Dave Gray](https://www.youtube.com/playlist?list=PL0Zuz27SZ-6PFkIxaJ6Xx_X46avTM1aYw)
