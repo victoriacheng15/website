@@ -27,7 +27,7 @@ export const skillsList = [
 	{
 		title: "GitHub Action",
 		address:
-		"https://img.shields.io/badge/GitHub%20Actions-2088FF.svg?style=for-the-badge&logo=GitHub-Actions&logoColor=white",
+			"https://img.shields.io/badge/GitHub%20Actions-2088FF.svg?style=for-the-badge&logo=GitHub-Actions&logoColor=white",
 	},
 	{
 		title: "Testing Library",
