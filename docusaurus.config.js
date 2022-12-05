@@ -40,7 +40,7 @@ const config = {
 					"React",
 					"React Router",
 					"Tailwind CSS",
-					"React Testing Library",
+					"Testing Library",
 				],
 			},
 			{
