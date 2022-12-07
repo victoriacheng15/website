@@ -64,6 +64,24 @@ You can use for all types
 - Array: `const [array, setArray] = useState([])`
 - Object: `const [object, setObject] = useState([{ name: "Victoria", number: 123  }])`
 
+## Bonus: TypeScript
+
+In general, types should already inferred by TypeScript when:
+
+- variable are initialized
+- default values are set for parameters
+- function return types are determined
+
+When you are on the editor, hover the mouse to the array1 or object or any variables, there should be a popup window that says `const variable: type`
+
+![image](https://user-images.githubusercontent.com/35031228/206090180-ac27305a-5cc7-4518-8ffa-fc510aeee0fb.png)
+
+![image](https://user-images.githubusercontent.com/35031228/206090385-e1137ca8-cea1-493b-860e-7162330fa70d.png)
+
+If type is to be determine, you should let TS know what type of this variable will be in the future.
+
+## Update or change states
+
 Remember, arrays are mutable in JavaScript and you should treat them as `immutable` when you store them in state. So avoid using `push`, `unshift`, `pop`, `shift`, `splice`, `reverse`, and `sort`. And in React, states are considered `read-only`, so you should copy the original state and then update value(s).
 
 ```js
@@ -82,7 +100,7 @@ const copied = { ...object };
 // update the object
 ```
 
-## Something Strange...? Maybe?
+## Something strange...? Maybe?
 
 If you add `console.log(count)` in the `handleClick` function, and you notice that the console will log the previous value instead of the updated value. This may not be a dealbreaker for certain cases.
 
@@ -134,7 +152,7 @@ According to the docs, it is called `Updater` function (I didn't know the name f
 
 Do you need to always write updater function? Maybe? But, I would say depend on the case, if you need to write updater in setState, then go ahead. I do not know which one is the best/better practice. I personally don't see any harms to write `setState` with or without the updater function.
 
-## Personal Story with updater function
+## Personal story with updater function
 
 When I was working on the rest-countries-api (the JS version), I was so confused why the pagination was not behaving the way I wanted it to be. At the time, I was not thinking about the updater function. So, I had to adjust the math with `totalPage` to make it behaves the way I wanted.
 
