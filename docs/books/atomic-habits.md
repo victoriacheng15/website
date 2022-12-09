@@ -208,3 +208,50 @@ For example: if you are spending too much time on video games, unplug the consol
 > Make the cues of your good habits obvious and the cue of your bad habits invisible
 
 ## Chapter 8
+
+How to make a habit irresistible? Make it attractive, which is the 2nd law of Behaviour change. You know how we like certain things more than others? It is because we are attracting to them.
+
+To increase the odds that a certain behaviour will happen, make it attractive. This could be hard. Will need to figure out and understand what are the cues and the cravings.
+
+Temptation bundling is something that you find out attractive and want to keep doing. It could be a reward of something that you would like to do after a certain habit.
+
+You also could combine the temptation bundling with habit stacking. The formula:
+After [current habit], I will [habit I need]. After [habit I need],I will [habit I want].
+
+E.g.
+After I get my morning coffee, I will be building an app with x tech stacks `(need)`. After I am done with a couple of tasks from the to-do list of the app, I will watch an episode of the show `(want)`.
+
+After I pull out my phone, I will do ten burpees `(need)`. After I do ten burpees, I will check twitter `(want)`.
+
+## Chapter 9
+
+Family and friends are one of the factors that will shape/form your habits. We usually imitate the habits of three groups: `the close`, `the many`, and `the powerful`.
+
+The close:
+
+Usually the environment or people around you. We pick up habits from the people we spend the most time with. Beware of peer pressure, it could be bad, but depends. To make habits more attractive, you can join a culture where your desired behaviour is the normal behaviours and something in common with the group.
+
+The many:
+
+Usually the society you are in. It could be good or bad. The normal behaviour of the tribe often overpowers the desired behaviour of the individual. It is similar to something that is traditional that has been passed down generations to generations. If one generation doesn't do the certain traditional thing, then it could be mean challenging the tribe and this means change is unattractive. On the other hand, if the change is fitting in the tribe, then the change is very attractive.
+
+The powerful:
+Usually the people who are powerful or similar. Let’s say you want to be an Olympics swimmer, you probably would look up to Michael Phelps or a swimmer from your country. Or Be a celebrity, you would look up to the celebrity you like.
+
+In the end, we desired something from someone, and we usually learn from them and then maybe twerk it to fit our needs.
+
+> If a behaviour can get us approval, respect and praise, we find it attractive
+
+## Chapter 10
+
+How to find and fix the causes of your bad habits?
+
+The cue is always the thing that trigger your habits, regardless good or bad. Also, the craving will fuel the desire you do the habits.
+
+> The specific cravings you feel and habits you perform are really an attempt to address your fundamental underlying motive.
+
+If a habit successfully addresses a motive, you develop a craving to do it again.
+
+How to reprogram your brain to enjoy hard habits? You can make hard habits more attractive if you can learn to associate them with a positive experience. Maybe need a slight mindset shift.
+
+To summarize, habits are attractive when we associate them with positive feelings and unattractive when we associate them with negative feeling (the opposite of 2nd Law of Behaviour Change - make it unattractive).
