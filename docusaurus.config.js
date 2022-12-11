@@ -196,8 +196,8 @@ const config = {
 							},
 							{
 								label: "Archive blogs",
-								href:"/blog/archive"
-							}
+								href: "/blog/archive",
+							},
 						],
 					},
 				],
