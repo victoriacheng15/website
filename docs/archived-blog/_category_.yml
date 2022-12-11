@@ -1,8 +1,0 @@
-position: 4
-label: "Archived Blog"
-collapsible: true
-collapsed: true
-link:
-  type: generated-index
-  title: Archived Blogs from Hashnode
-  description: This is a list of blogs that I published on Hashnode. Instead of republish, I moved them here as archived blogs.

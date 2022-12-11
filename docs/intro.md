@@ -19,4 +19,3 @@ If you are new or not so new to programming, I highly recommend check out:
 - Learning Resources
 - TypeScript - Type Challenges
 - Summary of Books that I have read about
-- Archived blogs that I had published on Hashnode
