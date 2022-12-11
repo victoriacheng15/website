@@ -75,9 +75,11 @@ const config = {
 					sidebarPath: require.resolve("./sidebars.js"),
 				},
 				blog: {
+					path: "blog",
+					archiveBasePath: "/archive",
+					postsPerPage: 5,
+					blogSidebarCount: 20,
 					showReadingTime: true,
-					postsPerPage: 10,
-					blogSidebarCount: 10,
 					feedOptions: {
 						type: "all",
 						copyright: `Copyright © ${new Date().getFullYear()} Victoria Cheng.`,
@@ -192,6 +194,10 @@ const config = {
 								label: "Hashnode",
 								href: "https://victoriacheng15.hashnode.dev/",
 							},
+							{
+								label: "Archive blogs",
+								href:"/blog/archive"
+							}
 						],
 					},
 				],
