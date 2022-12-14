@@ -131,7 +131,7 @@ useEffect(() => {
 
 ![Code_mARSSYOcvq](https://user-images.githubusercontent.com/35031228/207721083-d0ed73bc-93d9-45ff-9a6f-799776860a94.gif)
 
-As you can see, clicking the first button, both useEffects were called. Imagine this as a huge app that do many things, the useEffect without an empty array will run on _every render_. Action A will run the useEffect. Action B will run the useEffect as well. And more actions will rnu the useEffect! This will have many unnecessary renders and cause performance issues.
+As you can see, clicking the first button, both useEffects were called. Imagine this as a huge app that do many things, the useEffect without an empty array will run on _every render_. Action A will run the useEffect. Action B will run the useEffect as well. And more actions will run the useEffect! This will have many unnecessary renders and cause performance issues.
 
 ![Code_myn5seidV3](https://user-images.githubusercontent.com/35031228/207722474-e7827488-d110-42fd-a2cb-6dee3940038d.gif)
 
