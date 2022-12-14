@@ -33,6 +33,9 @@ function createBlog() {
   echo "![$alt](./$formatted_alt.webp)" >> index.md
   echo -e "\n" >> index.md 
   echo "<!--truncate-->" >> index.md
+  echo "## Thank you!" >> index.md
+  echo -e "\n" >> index.md 
+  echo "Thank you for your time and reading this!" >> index.md
 }
 
 cd blog
