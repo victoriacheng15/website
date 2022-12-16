@@ -14,11 +14,11 @@ What is the useEffect Hook in React?
 
 ## What is useEffect?
 
-It is a tool in React that allows developers to perform side effects in function components. The hook is called every time a component is rendered, including the first time the component is rendered. It allows developers to perform wide range of tasks, such as `fetching data`, `setting up event listeners`, and `modifying the DOM`.
+It is a tool in React that allows developers to perform side effects in function components. The hook is called every time a component is rendered, including the first time the component is rendered. It allows developers to perform a wide range of tasks, such as `fetching data`, `setting up event listeners`, and `modifying the DOM`.
 
 This is useful for a wide range of tasks, such as fetching data, setting up event listeners, and modifying the DOM.
 
-The most common example would be fetching data from API, and it usually looks like below.
+The most common example is fetching data from API, which usually looks like the one below.
 
 ```js
 import { useEffect, useState } from "react";
@@ -75,13 +75,13 @@ useEffect(() => {
 }, []); // <-- see this array
 ```
 
-This hook accepts 2nd argument, which is the dependency array. It is to control when the hook is called.
+This hook accepts a 2nd argument, which is the dependency array. It is to control when the hook is called.
 
-> **If the array is empty like the example above, it will only called once when the component is first rendered.**
+> **If the array is empty like the example above, it will only be called once when the component is first rendered.**
 
-### Both hooks has a value in their own array
+### Both hooks have a value in their arrays
 
-Let's what will happen if there are two useEffect hooks with different values in the array.
+Let's see what will happens if there are two useEffect hooks with different values in the array.
 
 ```js
 useEffect(() => {
@@ -99,7 +99,7 @@ Both hooks were running every time the count value is changed.
 
 ### One hook has both values in the array
 
-Let's see what happen if the first useEffect has `value1` and `value2` while the 2nd useEffect has `value2`.
+Let's see what happens if the first useEffect has `value1` and `value2` while the 2nd useEffect has `value2`.
 
 ```js
 useEffect(() => {
@@ -117,7 +117,7 @@ Notice when I clicked the 2nd button, both useEffects were called? It is because
 
 ### The 2nd hook doesn't have an array
 
-Let's see what happen if the first useEffect has a value in the array while the 2nd useEffect doesn't have an array?
+Let's see what happens if the first useEffect has a value in the array while the 2nd useEffect doesn't have an array.
 
 ```js
 useEffect(() => {
@@ -131,11 +131,11 @@ useEffect(() => {
 
 ![Code_mARSSYOcvq](https://user-images.githubusercontent.com/35031228/207721083-d0ed73bc-93d9-45ff-9a6f-799776860a94.gif)
 
-As you can see, clicking the first button, both useEffects were called. Imagine this as a huge app that do many things, the useEffect without an empty array will run on _every render_. Action A will run the useEffect. Action B will run the useEffect as well. And more actions will run the useEffect! This will have many unnecessary renders and cause performance issues.
+As you can see, by clicking the first button, both useEffects were called. Imagine this as a huge app that does many things, the useEffect without an empty array will run on _every render_. Action A will run the useEffect. Action B will run the useEffect as well. And more actions will run the useEffect! This will have many unnecessary renders and cause performance issues.
 
 ![Code_myn5seidV3](https://user-images.githubusercontent.com/35031228/207722474-e7827488-d110-42fd-a2cb-6dee3940038d.gif)
 
-My rule of thumb is always add an empty array in the useEffect. At least, you can know and make sure the component will only run once after the initial render.
+My rule of thumb is always to add an empty array in the useEffect. At least, you can know and make sure the component will only run once after the initial render.
 
 ### Test Code
 
@@ -188,17 +188,17 @@ export default App;
 
 </details>
 
-## Build your own hook
+## Build your hook
 
-You can also define your hooks in separated files. These files should be in the `hooks` folder. The file name usually start with `use` with a description. e.g. `useFetchApi` or `useFetchData` or similar naming convention.
+You can also define your hooks in separate files. These files should be in the `hooks` folder. The file name usually starts with `use` with a description. e.g. `useFetchApi` or `useFetchData` or a similar naming convention.
 
 A couple of advantages:
 
-- Call the hook in a specific component that need the fetched data
+- Call the hook in a specific component that needs the fetched data
 - Less visual clutter for the component file
-- Reuseable
+- Reusable
 
-It is very similar on how would you write in the App or other component. Instead of return the component structure, return the fetched information. And the file path should look like `src/hooks/useFetchApi.jsx`
+It is very similar to how would you write in the App or other components. Instead of returning the component structure, return the fetched information. And the file path should look like `src/hooks/useFetchApi.jsx`
 
 ```js
 import { useEffect, useState } from "react";
@@ -229,7 +229,7 @@ const useFetchApi = () => {
 export default useFetchApi;
 ```
 
-Go to the component and write codes below.
+Go to the component and write the codes below.
 
 ```js
 import useFetchApi from "../hooks/useFetchApi";
@@ -252,4 +252,4 @@ export default Something;
 
 ## Thank you!
 
-Thank you for your time and reading this!
+Thank you for your time and for reading this!
