@@ -9,20 +9,20 @@ Author: [James Clear](https://jamesclear.com/atomic-habits).
 
 **Personal note:**
 
-So far, I have read a couple of chapters and I even re-read some chapters to see if I miss anything or not. This book is a very well written guide on how to change your habits and get 1% better every day. I have gotten ideas on why good habits doesn't stay with you, while bad habits area always staying with you. This book also opens up my mind and see things differently.
+So far, I have read a couple of chapters and I even re-read some chapters to see if I miss anything or not. This book is a very well-written guide on how to change your habits and get 1% better every day. I have gotten ideas on why good habits don't stay with you, while bad habits are always staying with you. This book also opens up my mind and see things differently.
 
-**I definitely highly recommended purchasing this book.**
+**I highly recommended purchasing this book.**
 
-Remember, "Rome was not built in one day". It takes time to understand and master something like skill, habit, etc. I am resonated with this [newsletter](https://jamesclear.com/lay-a-brick) a lot
+Remember, "Rome was not built in one day". It takes time to understand and master something like skill, habit, etc. I resonated with this [newsletter](https://jamesclear.com/lay-a-brick) a lot
 
 ## Chapter 1
 
-The author described change is slow very well by using ice cube as the example. Imagine the ice cube is on the table with temperature of 25 degrees. No change on the ice cube and temperature is slowly increasing by 1 degree. Nothing happens at 26 degrees. 27 degrees, 28, 29, 30, 31 and still nothing happens. Until 32 degree, the ice cube is begins to melt. As you can see 1 degree shift, it doesn't show any difference, but until it reaches to a point where it will unlock a huge change. In short, to building a good habit, it takes time.
+The author described the change as slow very well by using an ice cube as an example. Imagine the ice cube is on the table with a temperature of 25 degrees. No change in the ice cube and the temperature is slowly increasing by 1 degree. Nothing happens at 26 degrees. 27 degrees, 28, 29, 30, 31, and still nothing happens. Until 32 degrees, the ice cube begins to melt. As you can see 1-degree shift, doesn't show any difference, but until it reaches a point where it will unlock a huge change. In short, building a good habit takes time.
 
 > There is a phrase, "Roman wasn't built in a day"
 
 - Forgot about goals, focus on systems instead for better results.
-- Habits are like the atoms of our live.
+- Habits are like the atoms of our lives.
 - Getting 1 percent better every day counts for a lot in the long term.
 - Habits are a double-edged sword. They can **work for** or **against** you.
 - Small changes often appear to make no difference until you reach a certain threshold.
@@ -34,16 +34,16 @@ Changing habits is challenging for two reasons, 1)we try to change the wrong thi
 Three layers of behaviour change:
 
 - First: change your outcomes
-  - Like change result: weight loss, publish books, etc
+  - Like change result: weight loss, published books, etc
     - Associate with goals
 - Second: change your process
   - Like change result: implement a new route, decluttering desk
     - Associate with habits
-- Third: change your identify
+- Third: change your identity
   - Like change beliefs: worldview, self-image, judgment
     - Associate with beliefs, assumptions, biases
 
-Outcomes are what you get. Processes are what you do. Identify is what you believe.
+Outcomes are what you get. Processes are what you do. Identify what you believe.
 
 **Outcome-based habits:**
 
@@ -70,9 +70,9 @@ Identity change process:
 - Decide the type of person you want to be
 - Prove it to yourself with small wins.
 
-In order to make change and build up good habits, go deep to the core aka the identity. Believe that you are `insert your identity` and ask yourself what would `identity` person would do? Then work and build up from there.
+To make a change and build up good habits, go deep to the core aka the identity. Believe that you are `insert your identity` and ask yourself what would `identity` person would do. Then work and build up from there.
 
-e.g. If you want to be a healthy person, ask yourself `what would a healthy person?` do in certain situations and then use this as a guide to lead you.
+e.g. If you want to be a healthy person, ask yourself `what would a healthy person?` do in certain situations, and then use this as a guide to lead you.
 
 ## Chapter 3
 
@@ -81,11 +81,11 @@ A habit is a behaviour that has been repeated enough times to become automatic.
 The process of building a habit can be divided into 4 steps: cue, craving, response, and reward.
 
 The cue triggers your brain to initiate a behaviour.
-The cravings are the motivational force.
+Cravings are the motivational force.
 The response is the actual habit you perform.
 The reward is to satisfy your craving and teach us.
 
-Let's say, the room is dark (_the cue_) and you can't see anything. But you want to see everything (_the craving_). So you look for a flip switch (_the response_). Once the flip switch is found, turn on the light (_the reward_). This is one of the simplest example that we are doing it often enough to become automatic.
+Let's say, the room is dark (_the cue_) and you can't see anything. But you want to see everything (_the craving_). So you look for a flip switch (_the response_). Once the flip switch is found, turn on the light (_the reward_). This is one of the simplest examples that we are doing it often enough to become automatic.
 
 **The habit loop:**
 
@@ -100,11 +100,11 @@ reward --> cue
 
 ## Chapter 4
 
-Before we can effectively build new habits, we need to get a handle on current ones. This could be challenging. There is a process called pointing and calling that calling out certain things and raise the awareness.
+Before we can effectively build new habits, we need to get a handle on current ones. This could be challenging. There is a process called pointing and calling that calls out certain things and raises awareness.
 
 The more automatic a behaviour becomes, the less likely we are to consciously think about it.
 
-Get to the habit scorecard. You write down what are your daily activities in order from wake up to sleep. Once the list is written and look at each of them.
+Get to the habit scorecard. You write down what are your daily activities in order from waking up to sleep. Once the list is written and look at each of them.
 
 - Write `+` if it is a good habit.
 - Write `-` if it is a bad habit.
@@ -125,7 +125,7 @@ If it is difficult to determine how to rate certain habits, ask yourself:
 - Does this behaviour help me become the type of person I wish to be?
 - Does this habit cast a vote for or against my desired identity?
 
-Also, using the `point and call` process to raise the awareness on what are you about to do.
+Also, use the `point and call` process to raise awareness of what are you about to do.
 
 - Good habits --> positive outcome
 - Bad habits --> negative outcome
@@ -142,24 +142,24 @@ I will `behaviour` at `time` in `location`.
 
 e.g:
 
-- I will mediate for one minute at 7a.m. in my kitchen.
-- I will read a book for 30 minutes before sleep in my bed.
+- I will meditate for one minute at 7 a.m. in my kitchen.
+- I will read a book for 30 minutes before sleeping in my bed.
 
-Build a new habit is to identify a current habit you already do each day and then stack your new behaviour on top. This is call `habit stacking`
+Building a new habit is to identify a current habit you already do each day and then stack your new behaviour on top. This is called `habit stacking`
 
 The formula for this is:
 After `current habit`, I will `new habit`.
 
 e.g:
 
-- After take off work shoes, I will immediately change into my workout clothes.
-- After I pour my cup of coffee each morning, I will mediate for one minute.
+- After taking off my work shoes, I will immediately change into my workout clothes.
+- After I pour my cup of coffee each morning, I will meditate for one minute.
 
-**The key is to tie your desired behaviour into something you already do each day.**
+**The key is to tie your desired behavior into something you already do each day.**
 
-This [Diderot effect](https://en.wikipedia.org/wiki/Diderot_effect) is an interesting to read and related to this chapter.
+This [Diderot effect](https://en.wikipedia.org/wiki/Diderot_effect) is interesting to read and related to this chapter.
 
-Remember habit loop? Now you stack new habits on top of existed habits!
+Remember habit loop? Now you stack new habits on top of existing habits!
 
 ```mermaid
 flowchart LR
@@ -189,19 +189,19 @@ Environment plays a role that will trigger the cue for certain habits. So, if yo
 **Personal experience:**
 I came to the US when I was 16 years old. I knew little to nothing about English and American Sign Language (ASL). I went to the deaf school and lived in the dorm where all people use English and ASL. Furthermore, I couldn't communicate with them. The surrounding environment was new, and I had to learn both languages at the same time to be able to communicate with them. Within a month of the environment, I started picking up both languages. In the end, I was able to communicate with them at the dorm and the school.
 
-Environment is a powerful thing that can shape or form good habits, as well as bad habits. Since it influences how you engage with the world. Alter the environment where you can expose to positive cues that will trigger good habits, and reduce to expose to negative cues that will trigger bad habits.
+The environment is a powerful thing that can shape or form good habits, as well as bad habits. Since it influences how you engage with the world. Alter the environment where you can expose to positive cues that will trigger good habits, and reduce exposure to negative cues that will trigger bad habits.
 
-e.g. if you are working from home, set a room as your office space if possible. Only work related happens in the office, while personal related happens outside the office. This is to help you stop work after clock.
+e.g. if you are working from home, set a room as your office space if possible. Only work-related happen in the office, while personal-related happen outside the office. This is to help you stop work after the clock.
 
 ## Chapter 7
 
-Self-control is a way to resist bad habits, however it is a short-term strategy. You know, how do we keep our good habits? These cues are the triggers for these habits. To keep and repeat these good habits, make these cues **OBVIOUS**, which is the `1st Law of Behaviour Change`. Also, you can create an environment where you can easily to trigger and have your good habits.
+Self-control is a way to resist bad habits, however, it is a short-term strategy. You know, how do we keep our good habits? These cues are the triggers for these habits. To keep and repeat these good habits, make these cues **OBVIOUS**, which is the `1st Law of Behaviour Change`. Also, you can create an environment where you can easily trigger and have good habits.
 
-How do we break away bad habits for long term strategy? We will be doing the opposite of the 1st Law of Behaviour Change. This means we will make cues that trigger bad habits **INVISIBLE** and reduce expose to cues.
+How do we break away from bad habits for long-term strategy? We will be doing the opposite of the 1st Law of Behaviour Change. This means we will make cues that trigger bad habits **INVISIBLE** and reduce expose to cues.
 
-With the both actions, these bad habits are likely to fade away until the cue reappears.
+With both actions, these bad habits are likely to fade away until the cue reappears.
 
-For example: if you are spending too much time on video games, unplug the console and put it in a closet after each use. Cant see console, and you are less likely to spend more time to play video games.
+For example: if you are spending too much time on video games, unplug the console and put it in a closet after each use. Can't see the console, and you are less likely to spend more time playing video games.
 
 > Once a habit has been encoded, the urge to act follows whenever the environmental cues reappear.
 
@@ -209,19 +209,20 @@ For example: if you are spending too much time on video games, unplug the consol
 
 ## Chapter 8
 
-How to make a habit irresistible? Make it attractive, which is the 2nd law of Behaviour change. You know how we like certain things more than others? It is because we are attracting to them.
+How to make a habit irresistible? Make it attractive, which is the 2nd law of Behaviour change. You know how we like certain things more than others? It is because we are attracted to them.
 
 To increase the odds that a certain behaviour will happen, make it attractive. This could be hard. Will need to figure out and understand what are the cues and the cravings.
 
-Temptation bundling is something that you find out attractive and want to keep doing. It could be a reward of something that you would like to do after a certain habit.
+Temptation bundling is something that you find out attractive and want to keep doing. It could be a reward for something that you would like to do after a certain habit.
 
-You also could combine the temptation bundling with habit stacking. The formula:
-After [current habit], I will [habit I need]. After [habit I need],I will [habit I want].
+You also could combine the temptation bundling with habit stacking. The formula: After [current habit], I will [habit I need]. After [habit I need], I will [habit I want].
 
 E.g.
 After I get my morning coffee, I will be building an app with x tech stacks `(need)`. After I am done with a couple of tasks from the to-do list of the app, I will watch an episode of the show `(want)`.
 
 After I pull out my phone, I will do ten burpees `(need)`. After I do ten burpees, I will check twitter `(want)`.
+
+The reward shall be something that you want to do the most and this makes the habit very ATTRACTIVE!
 
 ## Chapter 9
 
@@ -229,29 +230,32 @@ Family and friends are one of the factors that will shape/form your habits. We u
 
 The close:
 
-Usually the environment or people around you. We pick up habits from the people we spend the most time with. Beware of peer pressure, it could be bad, but depends. To make habits more attractive, you can join a culture where your desired behaviour is the normal behaviours and something in common with the group.
+Usually the environment or people around you. We pick up habits from the people we spend the most time with. Beware of peer pressure, it could be bad but depends. To make habits more attractive, you can join a culture where your desired behaviour is the normal behaviours and something in common with the group.
 
 The many:
 
-Usually the society you are in. It could be good or bad. The normal behaviour of the tribe often overpowers the desired behaviour of the individual. It is similar to something that is traditional that has been passed down generations to generations. If one generation doesn't do the certain traditional thing, then it could be mean challenging the tribe and this means change is unattractive. On the other hand, if the change is fitting in the tribe, then the change is very attractive.
+Usually the society you are in. It could be good or bad. The normal behaviour of the tribe often overpowers the desired behaviour of the individual. It is similar to something traditional that has been passed down from generation to generation. If one generation doesn't do certain traditional things, then it could mean challenging the tribe and this means change is unattractive. On the other hand, if the change is fitting in the tribe, then the change is very attractive.
 
 The powerful:
-Usually the people who are powerful or similar. Let’s say you want to be an Olympics swimmer, you probably would look up to Michael Phelps or a swimmer from your country. Or Be a celebrity, you would look up to the celebrity you like.
+
+Usually, the people who are powerful or similar. Let’s say you want to be an Olympics swimmer, you probably would look up to Michael Phelps or a swimmer from your country. Or Be a celebrity, you would look up to the celebrity you like.
 
 In the end, we desired something from someone, and we usually learn from them and then maybe twerk it to fit our needs.
 
-> If a behaviour can get us approval, respect and praise, we find it attractive
+If a behaviour can get us approval, respect, and praise, we find it attractive
+
+> If a behaviour can get us approval, respect, and praise, we find it attractive
 
 ## Chapter 10
 
 How to find and fix the causes of your bad habits?
 
-The cue is always the thing that trigger your habits, regardless good or bad. Also, the craving will fuel the desire you do the habits.
+The cue is always the thing that triggers your habits, regardless of good or bad. Also, the craving will fuel the desire you do the habits.
 
-> The specific cravings you feel and habits you perform are really an attempt to address your fundamental underlying motive.
+> The specific cravings you feel and habits you perform are an attempt to address your fundamental underlying motive.
 
 If a habit successfully addresses a motive, you develop a craving to do it again.
 
 How to reprogram your brain to enjoy hard habits? You can make hard habits more attractive if you can learn to associate them with a positive experience. Maybe need a slight mindset shift.
 
-To summarize, habits are attractive when we associate them with positive feelings and unattractive when we associate them with negative feeling (the opposite of 2nd Law of Behaviour Change - make it unattractive).
+To summarize, habits are attractive when we associate them with positive feelings and unattractive when we associate them with negative feelings (the opposite of the 2nd Law of Behaviour Change - make it unattractive).
