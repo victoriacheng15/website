@@ -1,6 +1,6 @@
 ---
 slug: react-hooks-useeffect
-title: React Hooks useEffect
+title: React Hooks - useEffect
 authors: victoria
 tags: [react, react hooks]
 hide_table_of_contents: false
