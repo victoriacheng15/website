@@ -259,3 +259,23 @@ If a habit successfully addresses a motive, you develop a craving to do it again
 How to reprogram your brain to enjoy hard habits? You can make hard habits more attractive if you can learn to associate them with a positive experience. Maybe need a slight mindset shift.
 
 To summarize, habits are attractive when we associate them with positive feelings and unattractive when we associate them with negative feelings (the opposite of the 2nd Law of Behaviour Change - make it unattractive).
+
+## Chapter 11
+
+Walk slowly, but Never Backward, the idea behind this is better to make a slow, steady process toward your goals than to take a few steps forward and then fall back into old habits or behaviours. It takes time for habits to become ingrained.
+
+> Habit formation is the process by which a behaviour becomes progressively more automatic through repetition.
+
+Also, make it easier for you to repeat/do habits. Practice always makes it better. It is like if you want to learn how to draw, you need to draw tons and improve your skill in the process. If you want to improve on writing code, typing code tons and you will get better slow and steady.
+
+By daily, I mean like put 30 minutes or an hour or the time frame you decide daily.
+
+## Chapter 12
+
+In general, people will naturally choose the path with the least resistance or the option that requires the least amount of effort.
+
+If we make it easier to engage in positive habits/feelings, we are likely to do it in the future. So to break away from bad habits, we can make it harder to engage and more effort, we are likely **not** to do it in the future.
+
+You also can use the environment to assist you in the process, remember to fill it with objects/contexts.
+
+Doing one certain thing daily and little by little, in the end, it becomes easier to do it.
