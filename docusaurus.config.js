@@ -25,7 +25,7 @@ const config = {
 				demo: "https://bubble-tea.up.railway.app/",
 				image: "./img/projects/bubble-tea-app.webp",
 				description:
-					"An app that users can submit their favourite combinations of tea and topping. The data will be sent to MongoDB. On the leaderboard page, it shows the amount of each drink that users had submitted.",
+					"Developed an app where users can submit their favorite bubble tea combinations and view a leaderboard that ranks the popularity of these combinations. Whether you're a bubble tea aficionado or just looking for some inspiration for your next drink, this app is sure to satisfy your cravings.",
 				techs: ["Express", "JavaScript", "MongoDB", "CSS"],
 			},
 			{
@@ -34,7 +34,7 @@ const config = {
 				demo: "https://rest-countries-api-ts-vc.netlify.app/",
 				image: "./img/projects/country-information-app.webp",
 				description:
-					"An app where users can search for country information with the search box or dropdown menu for regions. Each country card will show more details on the country page",
+					"Developed an app that displays short information about various countries on cards, with pagination to navigate between them. Each card leads to a separate page with more detailed information about the corresponding country. This app is a convenient and easy way to learn about the world around us.",
 				techs: [
 					"TypeScript",
 					"React",
@@ -49,7 +49,7 @@ const config = {
 				demo: "https://fem-space-tourism-vc.vercel.app/",
 				image: "./img/projects/space-tourism-website.webp",
 				description:
-					"A tourism website that shows destinations information, the crew and the technologies for your space travel experience.",
+					"Our tourism website showcases information about various destinations, the crew, and the technologies available for an out-of-this-world space travel experience. Explore our website to learn more about the exciting opportunities that await you on your journey.",
 				techs: ["React", "React Router", "Tailwind CSS"],
 			},
 		],
