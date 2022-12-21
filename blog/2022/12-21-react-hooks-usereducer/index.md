@@ -18,8 +18,8 @@ It is a hook that allows you to manage stats in your components. It is similar t
 
 The `useReducer` takes 2 arguments: a reducer function and an initial state.
 
-- The **reducer function** takes the `current state` and an `action`, and then returns the `new state` based on the action type.
-- The **useReducer hook** return an array with 2 values, the `current state` and `a dispatch function`. The dispatch function is used to trigger an action and update the state.
+- The **reducer function** takes the `current state` and an `action` and then returns the `new state` based on the action type.
+- The **useReducer hook** returns an array with 2 values, the `current state` and `a dispatch function`. The dispatch function is used to trigger an action and update the state.
 
 ```js
 import { useReducer } from "react";
@@ -197,15 +197,15 @@ function App() {
 export default App;
 ```
 
-Overall, the useReducer hook is a great tool for managing the state of a React application. By using this hook, you can easily update and access to state of their application with minimal code.
+Overall, the useReducer hook is a great tool for managing the state of a React application. By using this hook, you can easily update and access to state of the application with minimal code.
 
 I also searched for reasons why use `useReducer` instead of `useState` for curiosity. I found this article _3 Reasons to useReducer() over useState()_ and one of the reasons is _next state depends on the previous_. This makes sense.
 
 The `initialState` is an object, so if you update one of the properties, the property value will change. Next time, you update one of the properties, it will always be based on the previous value.
 
-Remember the `updater` function from [React Hooks - useState](https://victoriacheng15.vercel.app/blog/react-hooks-usestate#something-strange-maybe) blog? If the state depends on the previous value, you would need to write `setCount(prevCount => prevCount + 1)` for example, otherwise, the state value may be behave strange.
+Remember the `updater` function from [React Hooks - useState](https://victoriacheng15.vercel.app/blog/react-hooks-usestate#something-strange-maybe) blog? If the state depends on the previous value, you would need to write `setCount(prevCount => prevCount + 1)` for example, otherwise, the state value may behave strangely.
 
-In the end, both `useReducer` and `useState` hooks have their pros and cons. Choose the ones that works well or the best for the app!
+In the end, both `useReducer` and `useState` hooks have their pros and cons. Choose the ones that work well or the best for the app!
 
 ## Resources
 
