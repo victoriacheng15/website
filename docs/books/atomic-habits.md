@@ -279,3 +279,30 @@ If we make it easier to engage in positive habits/feelings, we are likely to do 
 You also can use the environment to assist you in the process, remember to fill it with objects/contexts.
 
 Doing one certain thing daily and little by little, in the end, it becomes easier to do it.
+
+## Chapter 13
+
+The two-minute rule is quite interesting. It suggests that whenever you are faced with a new task or goal, you should try to take action on it immediately if it can be completed in **2 minutes** or less.
+
+The idea behind this is to keep it small, and consistent actions can add up to big results over time. By taking the action on tasks/goals as you think of them, you can start on the path toward achieving and completing them
+
+Steps:
+
+- Identify the tasks/goals that you are procrastinating on
+- Break them down into smaller and actionable steps that can be completed in two minutes or less
+- When you think about them, take action on it immediately by completing one of the smallest and actionable steps
+- As you complete small steps, the process is being made
+
+## Chapter 14
+
+Remembers these Laws of Behaviour change so far?
+
+- Make it obvious
+- Make it attractive
+- Make it easy
+
+To continue making `good habits`, you follow the laws above. Also, break them down into smaller chunks and actionable steps. As you complete these small and actionable steps, you are progressing toward your goals.
+
+To discontinue making `bad habits`, you are going to do the opposite of the laws above, make it invisible, make it unattractive, and make it difficult to do. A cue that triggers bad habits? Remove that cues. Associate negative feelings with these bad habits. Make them difficult to do.
+
+**Don't forget to leverage the environment that you can control to help you!**
