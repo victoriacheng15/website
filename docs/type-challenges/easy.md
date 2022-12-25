@@ -232,3 +232,50 @@ type MyAwaited<T> = T extends Promise<infer val>
 [Inferring Within Conditional Types](https://www.typescriptlang.org/docs/handbook/2/conditional-types.html#inferring-within-conditional-types)
 
 </details>
+
+## If
+
+Implement the util type `If<C, T, F>` which accepts condition `C`, a truthy value `T`, and a falsy value `F`. `C` is expected to be either `true` or `false` while `T` and `F` can be any type.
+
+For example:
+
+```ts
+type A = If<true, "a", "b">; // expected to be 'a'
+type B = If<false, "a", "b">; // expected to be 'b'
+```
+
+<details>
+<summary>Answer:</summary>
+
+```ts
+type If<C, T, F> = C extends true ? T : C extends false ? F : error;
+```
+
+**Note:**
+
+[Conditional Types](https://www.typescriptlang.org/docs/handbook/2/conditional-types.html)
+
+</details>
+
+## Concat
+
+Implement the JavaScript `Array.concat` function in the type system. A type takes the two arguments. The output should be a new array that includes inputs in ltr order
+
+For example:
+
+```ts
+type Result = Concat<[1], [2]>; // expected to be [1, 2]
+```
+
+<details>
+<summary>Answer:</summary>
+
+```ts
+type specificTypes = string | boolean | number;
+type Concat<T extends specificTypes[], U extends specificTypes[]> = [
+  ...T,
+  ...U
+];
+```
+
+</details>
