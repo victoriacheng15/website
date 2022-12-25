@@ -306,3 +306,16 @@ To continue making `good habits`, you follow the laws above. Also, break them do
 To discontinue making `bad habits`, you are going to do the opposite of the laws above, make it invisible, make it unattractive, and make it difficult to do. A cue that triggers bad habits? Remove that cues. Associate negative feelings with these bad habits. Make them difficult to do.
 
 **Don't forget to leverage the environment that you can control to help you!**
+
+## Chapter 15
+
+The cardinal rule of behavior change is based on the idea that habits are like compound interest - the small actions you take today will compound over time and have a significant impact on your life. By making small, incremental changes to your habits, you can build up momentum and make progress towards your goals.
+
+This reminds me about the React tutorial with click. You add one each time you click, and the longer you are going, the number is keeping increasing until you stop clicking.
+
+To apply the cardinal rule of behavior change, you can try the following steps:
+
+- Identify the habits you want to change or improve.
+- Break these habits down into small, actionable steps that you can take consistently.
+- Focus on making small improvements to your habits every day or week, rather than trying to make drastic changes all at once.
+- Track your progress and celebrate your successes, no matter how small they may seem.
