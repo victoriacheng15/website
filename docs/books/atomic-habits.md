@@ -335,15 +335,15 @@ You can do the following:
 
 - Keep habits small and make them as specific as possible
 - Make habits part of your daily routes
-- Focus on consistency as in do little bit of the habits daily
+- Focus on consistency as in make a little bit of the habits daily
 
-Don't break the chain, try to keep habit streak alive. Never miss twice. If you miss one day, try to get back on tracker ASAP.
+Don't break the chain, try to keep the habit streak alive. Never miss twice. If you miss one day, try to get back on track ASAP.
 
-Back to habit tracker, it can be a visual indicator since you can see the progress that you have made so far. This make it so satisfying to see the progress you have made!
+Back to the habit tracker, it can be a visual indicator since you can see the progress that you have made so far. This makes it so satisfying to see the progress you have made!
 
 ## Chapter 17
 
-How an accountability partner helps?
+How does an accountability partner help?
 
 - stay motivated
 - provide feedback and support
