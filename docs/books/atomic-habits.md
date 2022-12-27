@@ -319,3 +319,35 @@ To apply the cardinal rule of behavior change, you can try the following steps:
 - Break these habits down into small, actionable steps that you can take consistently
 - Focus on making small improvements to your habits every day or week, rather than trying to make drastic changes all at once
 - Track your progress and celebrate your successes, no matter how small they may seem
+
+## Chapter 16
+
+Using habits tracker could be a help for you to keep up with habits, but sometimes, you may feel like "ugh, I need to update the tracker".
+
+Remember the four Laws of Behaviour change?
+
+- Make it obvious
+- Make it attractive
+- Make it easy
+- Make it satisfying
+
+You can do the following:
+
+- Keep habits small and make them as specific as possible
+- Make habits part of your daily routes
+- Focus on consistency as in do little bit of the habits daily
+
+Don't break the chain, try to keep habit streak alive. Never miss twice. If you miss one day, try to get back on tracker ASAP.
+
+Back to habit tracker, it can be a visual indicator since you can see the progress that you have made so far. This make it so satisfying to see the progress you have made!
+
+## Chapter 17
+
+How an accountability partner helps?
+
+- stay motivated
+- provide feedback and support
+- stay focused
+- help you celebrate your achievement
+
+Be sure to choose the right accountability partner who is reliable, supportive, and has similar goals and values. Also, be accountable to the accountability partner!
