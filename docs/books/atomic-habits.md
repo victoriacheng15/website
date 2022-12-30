@@ -351,3 +351,50 @@ How does an accountability partner help?
 - help you celebrate your achievement
 
 Be sure to choose the right accountability partner who is reliable, supportive, and has similar goals and values. Also, be accountable to the accountability partner!
+
+## Chapter 18
+
+- Genetics do play a role in certain aspects of talent, such as physical traits and natural abilities, but it is only a small part of the equation.
+- Talent is overrated and can be misleading. While some people may have a natural inclination towards certain activities, it is often their habits and hard work that enable them.
+- Success is not a matter of luck or talent, but the result of consistent and intentional effort with habits and hard work.
+- Important to developing good habits!
+
+## Chapter 19
+
+The Goldilocks Rule is the idea that humans are motivated by challenges that are neither too hard or too easy.
+
+If challenges are
+
+- hard, we become demotivated and discouraged
+- easy, we become bored and uninterested
+
+To stay motivated, it is important to find the right balance between challenges and skills. This means we should push ourselves out of the comfortable zone, but not too far out.
+
+To apply this rule, it is important to set goals that we want to challenge but are achievable. Also, constantly seek new challenges and ways to improve.
+
+## Chapter 20
+
+As I always like to say, there are always pros and cons to everything.
+
+Good habits do have some downsides:
+
+- can create a false sense of security and lead to complacency
+- can make it difficult to adapt to new situations or challenges
+- can lead to overconfidence and a lack of self-awareness
+
+It is important to have a periodic review of yourself to see where you are now and raise awareness about your current situation. Remember the book discussed about the more we repeat the habit loops and the more we will do habits automatically without thinking.
+
+## Overall
+
+Remember the four Laws of Behaviour change?
+
+- Make it obvious
+- Make it attractive
+- Make it easy
+- Make it satisfying
+
+- Utilize habit stacking to stack new habits on top of existing habits
+- Make sure that you are aware of what you are doing now because the more you repeat the habits and they will become automatic and you will be doing them without thinking
+- Environment also plays a factor to help you to shape/form habits
+- Keep them small and actionable as much as possible
+- Focus on the system around you
