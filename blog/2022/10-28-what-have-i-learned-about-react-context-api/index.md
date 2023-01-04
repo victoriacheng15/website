@@ -3,6 +3,8 @@ slug: what-have-i-learned-about-react-context-api
 title: What have I learned about React Context API?
 authors: victoria
 tags: [react, learning]
+description: "Learn how to use the Context API in a React project to pass data between components without props drilling. This tutorial includes an example of a countries list app with a search bar, select region dropdown, pagination and color theme switcher."
+image: "./react-context.webp"
 hide_table_of_contents: false
 ---
 

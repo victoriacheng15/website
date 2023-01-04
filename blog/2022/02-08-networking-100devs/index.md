@@ -2,7 +2,9 @@
 slug: networking-100devs
 title: Networking 100Devs
 authors: victoria
-tags: []
+tags: [networking]
+description: "Networking is the practice of building professional relationships to achieve career or business goals. Utilize networking to land job offers by building connections in the tech industry and attending industry events. Meet new people in tech by joining professional groups, attending meetups, and asking for introductions."
+image: "./netwokring-100devs.webp"
 hide_table_of_contents: false
 ---
 

@@ -3,6 +3,8 @@ slug: react-pagination-vanilla-edition
 title: React Pagination - Vanilla Edition
 authors: victoria
 tags: [react, pagination, learning]
+description: "Learn how to create pagination in React without any external packages, including how to display 5 pages and buttons for forward or backward navigation, highlight the current page and keep it at the left side, and navigate through pages while keeping the current page in the middle. Live demo and code available."
+image: "./react-pagination-vanilla-edition.webp"
 hide_table_of_contents: false
 ---
 

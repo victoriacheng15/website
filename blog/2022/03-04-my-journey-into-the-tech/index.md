@@ -3,6 +3,8 @@ slug: my-journey-into-the-tech
 title: My Journey into the Tech
 authors: victoria
 tags: [journey]
+description: "I always loved technology, so I decided to pursue it as a career. I self-taught through online resources like YouTube, and Frontend Mentor, and am now constantly learning and improving my skills. Follow my journey as I work towards becoming a full-time developer!"
+image: "./my-journey-into-the-tech.webp"
 hide_table_of_contents: false
 ---
 

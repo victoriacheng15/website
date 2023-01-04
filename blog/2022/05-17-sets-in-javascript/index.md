@@ -3,6 +3,8 @@ slug: sets-in-javascript
 title: Sets in JavaScript
 authors: victoria
 tags: [javascript]
+description: "JavaScript Set object allows storing unique values of any type. It can be used to remove duplicates from an array. Set.prototype.size property returns the number of elements in the Set object, which can be compared to the original array length to determine if it is an isogram (a word with no repeating letters). To ignore letter case, convert the string to lower case before using Set()."
+image: "./sets-in-javascript.webp"
 hide_table_of_contents: false
 ---
 

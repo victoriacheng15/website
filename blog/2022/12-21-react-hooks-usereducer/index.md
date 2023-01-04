@@ -3,6 +3,8 @@ slug: react-hooks-usereducer
 title: React Hooks - useReducer
 authors: victoria
 tags: [react, react hooks]
+description: "Learn how to use the useReducer hook in React to manage complex state changes and fetch data from an API. useReducer is a powerful tool similar to useState, but more flexible and able to handle multiple sub-values. The useReducer hook takes 2 arguments: a reducer function and an initial state. It returns an array with 2 values: the current state and a dispatch function, which is used to trigger an action and update the state."
+image: "./react-hooks-usereducer.webp"
 hide_table_of_contents: false
 ---
 

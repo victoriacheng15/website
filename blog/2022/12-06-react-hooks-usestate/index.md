@@ -3,6 +3,8 @@ slug: react-hooks-usestate
 title: React Hooks - useState
 authors: victoria
 tags: [react, react hooks]
+description: "A tutorial on using the useState hook in React, including how to handle different data types, update state values, and avoid mutability in arrays. Bonus information on TypeScript and handling strange behavior when logging state values."
+image: "./react-hooks-useState.webp"
 hide_table_of_contents: false
 ---
 

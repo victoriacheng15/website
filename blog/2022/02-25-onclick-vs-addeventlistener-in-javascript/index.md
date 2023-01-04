@@ -3,6 +3,8 @@ slug: onclick-vs-addeventlistener-in-javascript
 title: onClick vs addEventListener in JavaScript
 authors: victoria
 tags: [javascript]
+description: "onclick and addEventListener are event handlers in JavaScript that allow you to specify actions to take when an event occurs. onclick handles a single event and is compatible with all browsers, but addEventListener can handle multiple events and has more options, but is not compatible with older versions of Internet Explorer."
+image: "./onclick-vs-addeventlistener-in-js.webp"
 hide_table_of_contents: false
 ---
 

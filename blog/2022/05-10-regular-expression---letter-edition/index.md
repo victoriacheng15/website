@@ -3,6 +3,8 @@ slug: regular-expression-letter-edition
 title: Regular Expression - Letter Edition
 authors: victoria
 tags: [regular expression, javascript]
+description: "Regular expressions are patterns used to match characters in strings. They are commonly wrapped in 2 forward slashes, and can have flags such as 'g' for global search and 'i' for ignore case. In this blog, examples are given on how to use regular expressions to find capital letters, vowels, and letters regardless of case in a string."
+image: "./regular-expression-letter-edition.webp"
 hide_table_of_contents: false
 ---
 

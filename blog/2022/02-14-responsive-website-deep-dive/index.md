@@ -3,6 +3,8 @@ slug: responsive-website-deep-dive
 title: Responsive Website Deep Dive
 authors: victoria
 tags: [css, responsive]
+description: "Responsive design is the practice of building websites that adapt to the size and capabilities of the device being used. Make your website responsive by using flexible grids, responsive images, and mobile-first design. Test on different devices for the best user experience."
+image: "./responsive-website-deep-dive.webp"
 hide_table_of_contents: false
 ---
 

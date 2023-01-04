@@ -3,6 +3,8 @@ slug: my-first-round-of-the-100-days-of-the-code
 title: My First Round of the 100 Days of the Code
 authors: victoria
 tags: [100 days of code]
+description: "My experience with the 100 Days of Code challenge, where I focused on learning JavaScript and HTML/CSS. I share the lessons learned and strategies for staying consistent, as well as some tips and tricks for working with JavaScript. I also reflects on the importance of taking breaks and setting small, achievable goals"
+image: "./my-first-round-of-the-100-days-of-the-code.webp"
 hide_table_of_contents: false
 ---
 

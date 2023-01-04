@@ -3,6 +3,8 @@ slug: javascript-functions
 title: JavaScript Functions
 authors: victoria
 tags: [javascript]
+description: "A function in JavaScript is a block of code that can be called multiple times without repetition. Functions can take arguments and have default values. There are two ways to declare functions: function declarations and function expressions. Arrow functions are a shorter syntax for writing function expressions."
+image: "./javascript-functions.webp"
 hide_table_of_contents: false
 ---
 

@@ -3,6 +3,8 @@ slug: what-is-hoisting-in-javascript
 title: What is hoisting in JavaScript?
 authors: victoria
 tags: [javascript]
+description: "In JavaScript, hoisting allows you to access variables and functions before they are created. This can cause confusion when using var, as it allows function declarations to be called before they are defined. However, let and const will show an error if called before they are initialized. Understanding hoisting can help improve your code's readability and prevent errors."
+image: "./js-hoisting.webp"
 hide_table_of_contents: false
 ---
 
