@@ -3,6 +3,8 @@ slug: react-hooks-useeffect
 title: React Hooks - useEffect
 authors: victoria
 tags: [react, react hooks]
+description: "Learn how to use the useEffect hook in React to perform side effects like fetching data, setting up event listeners, and modifying the DOM. See how to control when the hook is called using the dependency array, and find out how to use the useEffect hook with different values in the array."
+image: "./react-hooks-useeffect.webp"
 hide_table_of_contents: false
 ---
 

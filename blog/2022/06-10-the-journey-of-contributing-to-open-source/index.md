@@ -3,6 +3,8 @@ slug: the-journey-of-contributing-to-open-source
 title: The Journey of Contributing to Open Source
 authors: victoria
 tags: [open source, contribution]
+description: "What open source is and how to contribute to it. Covers topics such as Git, GitHub, and finding good first issues on GitHub. Also includes a personal journey of the writer's first pull request and tips for getting started with open source contribution"
+image: "./the-journey-of-contributing-to-open-source.webp"
 hide_table_of_contents: false
 ---
 

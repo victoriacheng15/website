@@ -3,6 +3,8 @@ slug: javascript-mutable-array-methods
 title: JavaScript Mutable Array Methods
 authors: victoria
 tags: [javascript]
+description: "A comparison of mutable and immutable array methods in JavaScript, including pop(), shift(), push(), and unshift(). Tips for using these methods to avoid changing the original array and resources for learning more about them are also provided."
+image: "./javascript-mutable-array-methods.webp"
 hide_table_of_contents: false
 ---
 

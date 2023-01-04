@@ -3,6 +3,8 @@ slug: the-wrapped-journal-for-2022
 title: The Wrapped Journal for 2022
 authors: victoria
 tags: [reflection, journey]
+description: "Reflect on your journey in 2022 with The Wrapped Journal for 2022. Learn about the importance of consistency and incremental progress in building good habits and achieving goals with the 100 Days of Code challenge. Discover new coding skills with Codewars and React Hooks, and learn how to communicate with APIs and perform CRUD operations with Node/Express and MongoDB. Overcome roadblocks like burnout and imposter syndrome with self-care and seeking support. Keep track of your progress and accomplishments."
+image: "./regular-expression-letter-edition.webp"
 hide_table_of_contents: false
 ---
 

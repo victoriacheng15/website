@@ -3,6 +3,8 @@ slug: lets-automate-your-workflows-with-github-actions
 title: Let's automate your workflows with GitHub Actions
 authors: victoria
 tags: [github actions, workflows, automate]
+description: "Learn how to use GitHub Actions to automate CI/CD tasks and improve your workflow. Discover triggers, jobs, and steps, and see a practical example of setting up Jest testing with GitHub Actions."
+image: "./lets-automate-your-workflows-with-github-actions.webp"
 hide_table_of_contents: false
 ---
 

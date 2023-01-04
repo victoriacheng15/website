@@ -2,7 +2,9 @@
 slug: what-is-100-devs-cohort
 title: What is 100Devs cohort
 authors: victoria
-tags: []
+tags: [bootcamp, cohort, web development]
+description: "100Devs is a free, 30-week cohort by Leon Noel that teaches MongoDB, Express, React, and Node stack, as well as how to use Anki for studying. It is completely remote.""
+image: "./what-is-100devs-cohort.webp"
 hide_table_of_contents: false
 ---
 

@@ -3,6 +3,8 @@ slug: tailwind-css-beginner-edition
 title: Tailwind CSS - Beginner Edition
 authors: victoria
 tags: [css, tailwindcss]
+description: "Tailwind CSS is a utility-first CSS framework that allows you to style your website or apps quickly. It allows you to write styles "inline" in your markup and provides a wide range of classes for styling elements, such as flex, pt-4, and text center. It is customizable and speeds up the development process by not requiring you to switch between HTML and CSS files."
+image: "./tailwind-css-beginner-edition.webp"
 hide_table_of_contents: false
 ---
 
