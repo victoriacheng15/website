@@ -58,7 +58,7 @@ To avoid this issue, it is a good idea to break the context down into smaller pi
 
 ## Code
 
-Let's you have a hook that will fetch Todos from [JSON Placeholder](https://jsonplaceholder.typicode.com/todos)
+Let's you have a hook that will fetch Todos from [JSON Placeholder](https://jsonplaceholder.typicode.com/todos).
 
 ```js showLineNumbers
 // src/hooks/useFetchApi.jsx
@@ -99,7 +99,7 @@ Steps:
 - Define `TodoProvider` function at line 7
 - Define function(s) to filter data or whatever you need for the app
 - Put that data that components need in `value` at line 14
-- Define `useTodoContext` that will return `useContext(TodoContext)`
+- Define `useTodoContext` function that will return `useContext(TodoContext)` at line 20
 
 ```js showLineNumbers
 // src/contexts/TodoContext.jsx
@@ -126,7 +126,7 @@ export function useTodoContext() {
 }
 ```
 
-- Go to `App.jsx` (If you use CRA, you may have a different file name) or the file that defines `function App()`
+- Go to `App.jsx` (If you use CRA, you may have a different file name) or the file that defines the `function App()`
 - Wrapping all your components with the `TodoProviders` at line 6
 - If there are more than one context file, you can nest extra providers at line 7
 
@@ -137,11 +137,11 @@ import { TodoProvider } from "./contexts/todoContext";
 function App() {
   return (
     <TodoProvider>
-      <TodoProvider2>
+      <SomeProvider>
         {/* if you have more than one context file, 
           you can nested provider(s) like this */}
         {/* your components or routes or anything */}
-      </TodoProvider2>
+      </SomeProvider>
     </TodoProvider>
   );
 }
@@ -185,7 +185,7 @@ function Todo() {
 export default Todo;
 ```
 
-This will allow you to access the todo data from the `TodoContext` in `component G`.
+This will allow you to access the todo data from the `TodoContext` in `component G`. That way, you don't have to pass props down from `component A` to `component G`.
 
 ```js
 export function useTodoContext() {
@@ -193,7 +193,7 @@ export function useTodoContext() {
 }
 ```
 
-Additionally, if you don't have the `useTodoContext` defined in the `TodoContext.jsx`, you would need to write `const { data } = useContext(TodoContext)` for the code block above.
+Additionally, if you don't have the `useTodoContext` defined in the `TodoContext.jsx`, you would need to write `const { data } = useContext(TodoContext)` in the code block above.
 
 ## Recap
 
