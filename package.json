@@ -13,10 +13,10 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc",
-    "rome:check": "pnpm exec rome check ./src",
-    "rome:apply": "pnpm exec rome check ./src --apply",
-    "rome:format": "pnpm exec rome format ./src",
-    "rome:write": "pnpm exec rome format ./src --write"
+    "rome:check": "pnpm exec rome check ./src ./blog ./docs",
+    "rome:apply": "pnpm exec rome check ./src ./blog ./docs --apply",
+    "rome:format": "pnpm exec rome format ./src ./blog ./docs",
+    "rome:write": "pnpm exec rome format ./src ./blog ./docs --write"
   },
   "dependencies": {
     "@docusaurus/core": "2.2.0",
@@ -34,7 +34,7 @@
   "devDependencies": {
     "@docusaurus/module-type-aliases": "2.2.0",
     "@tsconfig/docusaurus": "^1.0.5",
-    "rome": "^10.0.1",
+    "rome": "^11.0.0",
     "typescript": "^4.7.4"
   },
   "browserslist": {
