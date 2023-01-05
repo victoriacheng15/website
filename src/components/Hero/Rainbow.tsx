@@ -3,12 +3,12 @@ import { RoughNotation } from "react-rough-notation";
 
 type TextProp = {
 	children: React.ReactNode;
-  color: string;
+	color: string;
 };
 
 function Rainbow({ children, color }: TextProp) {
-  const animationDuration = Math.floor(30 * children.length);
-  
+	const animationDuration = Math.floor(30 * children.length);
+
 	return (
 		<RoughNotation
 			type="highlight"

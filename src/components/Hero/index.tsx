@@ -4,9 +4,8 @@ import Rainbow from "./Rainbow";
 import SocialLinks from "../SocialLinks";
 import styles from "./index.module.css";
 
-
 function Hero() {
-	const colors = ["#C07D08", "#4B740C", "#0A7652", "#920000" ];
+	const colors = ["#C07D08", "#4B740C", "#0A7652", "#920000"];
 
 	return (
 		<header className="hero">
