@@ -19,9 +19,8 @@ jobs:
 
       - name: install and run rome tool
         run: |
-          pnpm install --frozen-lockfile
-          pnpm rome:apply
-          pnpm rome:write
+          pnpm install rome
+          pnpm rome:apply && pnpm rome:write
 
       - name: commit change
         uses: stefanzweifel/git-auto-commit-action@v4.15.2
