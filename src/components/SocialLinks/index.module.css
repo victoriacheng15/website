@@ -1,18 +1,9 @@
-.list__link {
-  background: var(--ifm-color-primary-dark);
-  border-radius: 5px;
-  transition: 400ms ease-in-out;
+.link {
+  margin-right: 0.75rem;
+  font-size: 2.5rem;
+  transition: color 400ms ease-in-out;
 }
 
-.list__link:hover {
-  box-shadow: 5px 5px var(--ifm-color-primary-lighter),
-    -5px -5px var(--ifm-color-primary-lighter);
-}
-
-.list__image {
-  padding: 0.25rem;
-  width: 50px;
-  aspect-ratio: 1;
-  display: grid;
-  place-items: center;
+.link:hover {
+  color: #ffcc33;
 }
