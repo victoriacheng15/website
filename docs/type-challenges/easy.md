@@ -279,3 +279,53 @@ type Concat<T extends specificTypes[], U extends specificTypes[]> = [
 ```
 
 </details>
+
+## Includes
+
+Implement the JavaScript `Array.includes` function in the type system. A type takes the two arguments. The output should be a boolean `true` or `false`.
+
+For example:
+
+```ts
+type isPillarMen = Includes<["Kars", "Esidisi", "Wamuu", "Santana"], "Dio">;
+// expected to be `false`
+```
+
+<details>
+<summary>Answer:</summary>
+
+```ts
+type Includes<T extends readonly unknown[], U> = T extends [
+  infer First,
+  ...infer Rest
+]
+  ? Equal<First, U> extends true
+    ? true
+    : Includes<Rest, U>
+  : false;
+```
+
+**Note:**
+
+[Includes Walkthrough](https://nickangeli.com/posts/typescript-type-challenge-includes-walkthrough/)
+
+</details>
+
+## Push
+
+Implement the generic version of `Array.push`
+
+For example:
+
+```ts
+type Result = Push<[1, 2], "3">; // [1, 2, '3']
+```
+
+<details>
+<summary>Answer:</summary>
+
+```ts
+type Push<T extends unknown[], U> = [...T, U];
+```
+
+</details>
