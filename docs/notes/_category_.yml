@@ -1,0 +1,8 @@
+position: 2
+label: Notes
+collapsible: true
+collapsed: false
+link:
+  type: generated-index
+  title: Notes
+  description: Here are my notes that I've compiled while learning a new subject. These notes have helped me understand and retain the material, and I hope they can do the same for you!
