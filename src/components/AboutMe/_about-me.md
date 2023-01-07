@@ -8,6 +8,8 @@ about [My Journey into the Tech](https://victoriacheng15.vercel.app/blog/my-jour
 ### Random facts about myself:
 
 - Deaf
-- Gamer
 - Love ☕ coffee and 🍵 tea
-- Known 3 languages - Mandarin, English, and American Sign Language
+- Known 3 languages:
+  - Mandarin
+  - English
+  - American Sign Language
