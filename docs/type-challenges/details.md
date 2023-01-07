@@ -20,4 +20,21 @@ The goal of type challenges:
 - better understand how the type system works
 - write your own utilities
 
-Check out `Warm-up` for general format.
+## Challenge Format
+
+_This is the general format for describing a Type Challenge: first, provide a description of the problem. Then, present the solution to the problem, including any relevant resource links or notes._
+
+Hello, World! (this will be the heading)
+
+In Type Challenges, we use the type system itself to do the assertion.
+
+For this challenge, you will need to change the following code to make the tests pass (no type check errors).
+
+<details>
+<summary>Answer:</summary>
+
+```ts
+type HelloWorld = string;
+```
+
+</details>
