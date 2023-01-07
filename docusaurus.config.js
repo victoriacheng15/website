@@ -80,6 +80,7 @@ const config = {
 					postsPerPage: 5,
 					blogSidebarCount: 20,
 					showReadingTime: true,
+					tagsBasePath: "/tags",
 					feedOptions: {
 						type: "all",
 						copyright: `Copyright © ${new Date().getFullYear()} Victoria Cheng.`,
@@ -123,7 +124,7 @@ const config = {
 				{
 					name: "description",
 					content:
-						"I am a software developer interested in personal growth, tech trends and open-source",
+						"As a software developer, my goal is to continuously grow and improve my skills. I am interested in staying current with the latest tech trends and making meaningful contributions to open-source projects. My name is Victoria Cheng, and I am excited to use my passion and expertise to drive positive change through technology.",
 				},
 				{
 					name: "twitter:card",
@@ -137,20 +138,20 @@ const config = {
 			//   isCloseable: true,
 			// },
 			navbar: {
-				title: "Victoria Cheng",
+				// title: "Victoria Cheng",
 				logo: {
-					alt: "VC Logo",
-					src: "img/logo.png",
+					alt: "victoriacheng15 logo",
+					src: "img/victoriacheng15_logo.png",
 				},
 				items: [
 					{ to: "/projects", label: "Projects", position: "right" },
+					{ to: "/blog", label: "Blog", position: "right" },
 					{
 						type: "doc",
 						docId: "intro",
 						position: "right",
 						label: "Journals",
 					},
-					{ to: "/blog", label: "Blog", position: "right" },
 					{ to: "/contact", label: "Contact", position: "right" },
 				],
 			},
@@ -204,8 +205,14 @@ const config = {
 				copyright: `© ${new Date().getFullYear()} Victoria Cheng | Built with Docusaurus.`,
 			},
 			prism: {
-				theme: lightCodeTheme,
-				darkTheme: darkCodeTheme,
+				theme: require('prism-react-renderer/themes/nightOwl'),
+				darkTheme: require('prism-react-renderer/themes/nightOwl'),
+				magicComments: [
+					{
+						className: 'code-block-error-line',
+						line: 'This will error',
+					},
+				]
 			},
 		}),
 };

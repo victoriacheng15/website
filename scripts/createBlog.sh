@@ -35,7 +35,7 @@ function createBlog() {
   echo "<!--truncate-->" >> index.md
   echo "## Thank you!" >> index.md
   echo -e "\n" >> index.md 
-  echo "Thank you for your time and reading this!" >> index.md
+  echo "Thank you for your time and for reading this!" >> index.md
 }
 
 cd blog
