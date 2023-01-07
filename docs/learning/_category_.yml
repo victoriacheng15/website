@@ -1,8 +1,0 @@
-position: 2
-label: "Learning Resources"
-collapsible: true
-collapsed: false
-link:
-  type: generated-index
-  title: Learning Resources
-  description: This is a list of resources that I have personally used to learn from.
