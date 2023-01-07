@@ -41,12 +41,17 @@ div[class^="announcementBar_"] {
   letter-spacing: 1px;
 }
 
+.navbar {
+  height: 100%;
+  padding-block: 0.75rem;
+}
+
 .navbar__logo {
-  height: 2.5rem;
+  height: 3rem;
 }
 
 .navbar__inner {
-  font-size: 1.25rem;
+  font-size: 1.35rem;
 }
 
 .footer,
@@ -60,4 +65,12 @@ div[class^="announcementBar_"] {
 
 .hero__subtitle {
   width: min(90%, 800px);
+}
+
+.code-block-error-line {
+  background-color: #ff000020;
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+  border-left: 3px solid #ff000080;
 }
