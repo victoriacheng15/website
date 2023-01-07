@@ -1,9 +1,9 @@
 ---
-sidebar_position: 3
-title: Easy
+sidebar_position: 2
+title: Easy to Medium
 ---
 
-This contains a list of easy challenges.
+This page contains a list of easy to medium Type Challenges.
 
 ## Pick
 
