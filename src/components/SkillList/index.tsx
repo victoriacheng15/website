@@ -1,6 +1,4 @@
 import React from "react";
-import List from "../List";
-import styles from "./index.module.css";
 import { skillsList } from "./skillsList";
 
 interface Skills {
@@ -10,14 +8,14 @@ interface Skills {
 
 function SkillList() {
 	return (
-		<section className="container container--fluid">
-			<List>
+		<section>
+			<ul className="list-none flex flex-wrap gap-6 justify-center pl-0">
 				{(skillsList as Skills[]).map(({ title, address }) => (
-					<li key={title} className={styles.list__skill}>
-						<img className={styles.list__image} alt={title} src={address} />
+					<li key={title} className="grid place-items-center">
+						<img className="h-8" alt={title} src={address} />
 					</li>
 				))}
-			</List>
+			</ul>
 		</section>
 	);
 }

@@ -1,32 +1,16 @@
 import React from "react";
-import clsx from "clsx";
 import DescAboutMe from "./_about-me.md";
-import styles from "./index.module.css";
 
 function About() {
 	return (
-		<section className="container container--fluid">
-			<div className="row">
+		<section>
+			<div className="flex flex-col gap-10 justify-center items-center md:flex-row md:items-start md:gap-32">
 				<img
-					className={clsx(
-						"col",
-						"col--4",
-						"col--offset-1",
-						"margin-bottom--lg",
-						styles.avatar,
-					)}
+					className="w-72 aspect-square md:w-96"
 					src="./img/avatar.webp"
 					alt="Victoria with orange background"
 				/>
-				<section
-					className={clsx(
-						"col",
-						"col--6",
-						"col--offset-1",
-						"keep",
-						styles.para,
-					)}
-				>
+				<section className="text-lg leading-8">
 					<DescAboutMe />
 				</section>
 			</div>
