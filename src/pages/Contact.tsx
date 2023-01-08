@@ -8,11 +8,9 @@ function Contact(): JSX.Element {
 	return (
 		<Layout title={title}>
 			<MainContainer>
-				<div className="row">
-					<div className="col col--6 col--offset-3">
-						<SectionTitle title={`👋 ${title}`} />
-						<Form />
-					</div>
+				<div className="max-w-3xl mx-auto">
+					<SectionTitle title={`👋 ${title}`} />
+					<Form />
 				</div>
 			</MainContainer>
 		</Layout>

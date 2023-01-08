@@ -1,24 +1,21 @@
 import React from "react";
-import clsx from "clsx";
-import List from "../List";
-import styles from "./index.module.css";
 
-interface techsProps {
+type TechsProps = {
 	techs: string[];
 }
 
-function TechList({ techs }: techsProps) {
+function TechList({ techs }: TechsProps) {
 	return (
-		<List classes={styles.techs__list}>
+		<ul className="list-none pl-0 flex gap-2 flex-wrap">
 			{techs.map((item) => (
 				<li
 					key={item}
-					className={clsx("padding-vert--xs", "padding-horiz--sm", styles.tech)}
+					className="bg-midnight-300 text-midnight-800 font-medium px-2 py-1 rounded-lg"
 				>
 					{item}
 				</li>
 			))}
-		</List>
+		</ul>
 	);
 }
 

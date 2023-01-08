@@ -8,7 +8,7 @@ interface TitleProps {
 
 function SectionTitle({ title }: TitleProps) {
 	return (
-		<h2 className={clsx("padding-bottom--md", styles.heading)}>{title}</h2>
+		<h2 className="mb-8 text-2xl md:text-3xl text-midnight-100">{title}</h2>
 	);
 }
 

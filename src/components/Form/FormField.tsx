@@ -1,14 +1,12 @@
 import React from "react";
-import clsx from "clsx";
-import styles from "./index.module.css";
 
 function FormField({ fieldType = "input", label, ...props }) {
 	const id = props.id ?? `form_field_${props.name}`;
 
 	return (
-		<div className="margin-vert--md">
+		<div className="mb-4">
 			{label && (
-				<label htmlFor={id} className={styles.label}>
+				<label htmlFor={id} className="text-2xl">
 					{label}
 				</label>
 			)}
@@ -17,22 +15,14 @@ function FormField({ fieldType = "input", label, ...props }) {
 					id={id}
 					type="text"
 					required={true}
-					className={clsx(
-						"padding-horiz--md",
-						"padding-vert--sm",
-						styles.field,
-					)}
+					className="w-full rounded-lg border-none text-lg py-2 px-4"
 					{...props}
 				/>
 			) : (
 				<textarea
 					id={id}
 					required={true}
-					className={clsx(
-						"padding-horiz--md",
-						"padding-vert--sm",
-						styles.field,
-					)}
+					className="w-full rounded-lg border-none text-lg py-2 px-4"
 					{...props}
 				/>
 			)}

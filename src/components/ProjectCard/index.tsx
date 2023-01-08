@@ -1,6 +1,4 @@
 import React from "react";
-import clsx from "clsx";
-import styles from "./index.module.css";
 import ImageContainer from "./ImageContainer";
 import ContentTitle from "./ContentTitle";
 import TechList from "./TechList";
@@ -21,25 +19,24 @@ function ProjectCard() {
 	const { projects } = customFields;
 
 	return (
-		<div className="row">
+		<div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-center items-start">
 			{(projects as Projects[]).map(
 				({ image, title, code, demo, description, techs }) => (
-					<div key={title} className="col col--4">
-						<section className={clsx("card", "margin-bottom--lg", styles.card)}>
-							<ImageContainer
-								image={image}
-								title={title}
-								codeLink={code}
-								demoLink={demo}
-							/>
-							<div className={clsx("card__body")}>
-								<ContentTitle title="Description:" />
-								<p>{description}</p>
-								<ContentTitle title="Tech stacks:" />
-								<TechList techs={techs} />
-							</div>
-						</section>
-					</div>
+					<section className="col-span-1 bg-midnight-500 rounded-lg overflow-hidden max-h-max">
+						<ImageContainer
+							image={image}
+							title={title}
+							codeLink={code}
+							demoLink={demo}
+						/>
+						<div className="text-lg p-4">
+							<h3 className="mb-6 bg-yellow-600 p-1 text-midnight-800 tracking-widest text-2xl text-center">{title}</h3>
+							<ContentTitle title="Description:" />
+							<p className="leading-8 text-lg">{description}</p>
+							<ContentTitle title="Tech stacks:" />
+							<TechList techs={techs} />
+						</div>
+					</section>
 				),
 			)}
 		</div>

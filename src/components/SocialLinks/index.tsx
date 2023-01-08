@@ -1,5 +1,4 @@
 import React from "react";
-import List from "../List";
 import {
 	SiGithub,
 	SiLinkedin,
@@ -7,14 +6,13 @@ import {
 	SiPolywork,
 	SiCodepen,
 } from "react-icons/si";
-import styles from "./index.module.css";
 
 function SocialLinks() {
 	return (
-		<List>
+		<ul className="list-none flex gap-8 flex-wrap justify-center pl-0">
 			<li>
 				<a
-					className={styles.link}
+					className="text-4xl text-midnight-100 hover:text-yellow-500 duration-300 ease-in-out"
 					href="https://github.com/victoriacheng15"
 					target="_blank"
 					rel="noreferrer"
@@ -24,7 +22,7 @@ function SocialLinks() {
 			</li>
 			<li>
 				<a
-					className={styles.link}
+					className="text-4xl text-midnight-100 hover:text-yellow-500 duration-300 ease-in-out"
 					href="https://www.linkedin.com/in/victoriacheng15"
 					target="_blank"
 					rel="noreferrer"
@@ -34,7 +32,7 @@ function SocialLinks() {
 			</li>
 			<li>
 				<a
-					className={styles.link}
+					className="text-4xl text-midnight-100 hover:text-yellow-500 duration-300 ease-in-out"
 					href="https://www.twitter.com/viktoriacheng15"
 					target="_blank"
 					rel="noreferrer"
@@ -44,7 +42,7 @@ function SocialLinks() {
 			</li>
 			<li>
 				<a
-					className={styles.link}
+					className="text-4xl text-midnight-100 hover:text-yellow-500 duration-300 ease-in-out"
 					href="https://www.polywork.com/victoriacheng15"
 					target="_blank"
 					rel="noreferrer"
@@ -54,7 +52,7 @@ function SocialLinks() {
 			</li>
 			<li>
 				<a
-					className={styles.link}
+					className="text-4xl text-midnight-100 hover:text-yellow-500 duration-300 ease-in-out"
 					href="https://codepen.io/victoriacheng15"
 					target="_blank"
 					rel="noreferrer"
@@ -62,7 +60,7 @@ function SocialLinks() {
 					<SiCodepen />
 				</a>
 			</li>
-		</List>
+		</ul>
 	);
 }
 
