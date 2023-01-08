@@ -5,7 +5,9 @@ title: Easy to Medium
 
 This page contains a list of easy to medium Type Challenges.
 
-## Pick
+## Easy
+
+### Pick
 
 Implement the built-in `Pick<T, K>` generic without using it.
 
@@ -41,7 +43,7 @@ I was doing the `Tuple to Object` challenge, I found out that you can use [mappe
 
 </details>
 
-## Readonly
+### Readonly
 
 Implement the built-in `Readonly<T>` generic without using it.
 
@@ -83,7 +85,7 @@ Check this [mapped types](https://www.typescriptlang.org/docs/handbook/2/mapped-
 
 </details>
 
-## Tuple to Object
+### Tuple to Object
 
 Give an array, transform into an object type and the key/value must in the given array.
 
@@ -114,7 +116,7 @@ type TupleToObject<T extends readonly (string | number)[]> = {
 
 </details>
 
-## First of Array
+### First of Array
 
 Implement a generic `First<T>` that takes an Array `T` and returns its first element's type.
 
@@ -143,7 +145,7 @@ Can use [indexed Access Types](https://www.typescriptlang.org/docs/handbook/2/in
 
 </details>
 
-## Length of Tuple
+### Length of Tuple
 
 For given a tuple, you need to create a generic `Length`, pick the length of the tuple
 
@@ -176,7 +178,7 @@ type Length<T extends readonly any[]> = T["length"];
 
 </details>
 
-## Exclude
+### Exclude
 
 Implement the built-in `Exclude<T, U>`
 
@@ -202,7 +204,7 @@ type MyExclude<T, U> = T extends U ? never : T;
 
 </details>
 
-## Await
+### Await
 
 If we have a type which is wrapped type like Promise. How we can get a type which is inside the wrapped type?
 
@@ -233,7 +235,7 @@ type MyAwaited<T> = T extends Promise<infer val>
 
 </details>
 
-## If
+### If
 
 Implement the util type `If<C, T, F>` which accepts condition `C`, a truthy value `T`, and a falsy value `F`. `C` is expected to be either `true` or `false` while `T` and `F` can be any type.
 
@@ -257,7 +259,7 @@ type If<C, T, F> = C extends true ? T : C extends false ? F : error;
 
 </details>
 
-## Concat
+### Concat
 
 Implement the JavaScript `Array.concat` function in the type system. A type takes the two arguments. The output should be a new array that includes inputs in ltr order
 
@@ -280,7 +282,7 @@ type Concat<T extends specificTypes[], U extends specificTypes[]> = [
 
 </details>
 
-## Includes
+### Includes
 
 Implement the JavaScript `Array.includes` function in the type system. A type takes the two arguments. The output should be a boolean `true` or `false`.
 
@@ -311,7 +313,7 @@ type Includes<T extends readonly unknown[], U> = T extends [
 
 </details>
 
-## Push
+### Push
 
 Implement the generic version of `Array.push`
 
@@ -329,3 +331,5 @@ type Push<T extends unknown[], U> = [...T, U];
 ```
 
 </details>
+
+## Medium

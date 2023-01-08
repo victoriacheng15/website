@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Intro to Bash Scripting
 ---
 
-This is a free Introduction to Bash Scripting by Bobby Iliev.
+Welcome to my personal notes from "Introduction to Bash Scripting" by Bobby Iliev! As I worked through this book, I took detailed notes to better understand and remember the concepts being presented. I've compiled these notes here for you to browse and reference as needed. Whether you're new to bash scripting or just looking to brush up on your skills, I hope these notes will be a useful resource for you. Happy learning!
 
 - [Github Repo](https://github.com/bobbyiliev/introduction-to-bash-scripting#readme)
 - [Get the ebook](https://ebook.bobby.sh/)
