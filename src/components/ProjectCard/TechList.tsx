@@ -2,7 +2,7 @@ import React from "react";
 
 type TechsProps = {
 	techs: string[];
-}
+};
 
 function TechList({ techs }: TechsProps) {
 	return (

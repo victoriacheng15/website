@@ -10,9 +10,7 @@ function About() {
 					src="./img/avatar.webp"
 					alt="Victoria with orange background"
 				/>
-				<section
-					className="text-lg leading-8"
-				>
+				<section className="text-lg leading-8">
 					<DescAboutMe />
 				</section>
 			</div>

@@ -30,7 +30,9 @@ function ProjectCard() {
 							demoLink={demo}
 						/>
 						<div className="text-lg p-4">
-							<h3 className="mb-6 bg-yellow-600 p-1 text-midnight-800 tracking-widest text-2xl text-center">{title}</h3>
+							<h3 className="mb-6 bg-yellow-600 p-1 text-midnight-800 tracking-widest text-2xl text-center">
+								{title}
+							</h3>
 							<ContentTitle title="Description:" />
 							<p className="leading-8 text-lg">{description}</p>
 							<ContentTitle title="Tech stacks:" />
