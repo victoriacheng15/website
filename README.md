@@ -1,56 +1,24 @@
-# Website
+# Portfolio and Blog Website
 
-This is a personal website that contains my information, projects, journals and blog.
+Welcome to my personal website! This site serves as a hub for all things related to me, including my thoughts, experiences, and interests. You'll find a collection of my personal journals and a blog where I share my insights and what I learned about web development related topics. I hope you enjoy exploring my site and getting to know me a little better. Thanks for stopping by!
 
-- [Website](#website)
-  - [Tech Stack](#tech-stack)
+- [Portfolio and Blog Website](#portfolio-and-blog-website)
   - [Screenshot](#screenshot)
-  - [Site layout](#site-layout)
+  - [Tech Stack](#tech-stack)
   - [Tools](#tools)
+
+## Screenshot
+
+![home page](./victoriacheng15_home.png)
 
 ## Tech Stack
 
 - [Docusaurus 2](https://docusaurus.io/), a modern static website generator
-- TypeScript
-- React
+- TypeScript React
 - CSS module
 - Markdown
 - [Mermaid Diagrams](https://mermaid-js.github.io/mermaid/#/)
 
-## Screenshot
-
-<div align="center">
-
-**Home**
-
-<img src="./images-for-md/personal-website.webp" width="360" />
-
-|                                 Blog                                 |                                 Journals                                 |
-| :------------------------------------------------------------------: | :----------------------------------------------------------------------: |
-| <img src="./images-for-md/personal-website-blog.webp" width="350" /> | <img src="./images-for-md/personal-website-journals.webp" width="350" /> |
-
-</div>
-
-## Site layout
-
-- Home page
-  - Greeting
-  - About me
-  - Facts
-  - Skills
-- Projects
-  - Projects that I have worked on
-- Journals
-  - Welcome
-  - Learning Resources
-  - TypeScript - Type Challenges
-  - Books
-  - Archived blogs
-- Blog
-  - I share knowledge that I have learned
-
 ## Tools
 
 - [Sqooush app](https://squoosh.app/)
-  - It is an image compression tool that reduce image sizes
-    - formats: webp, png, jpeg
