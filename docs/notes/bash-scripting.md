@@ -360,3 +360,470 @@ True if the command was not successful or had errors:
 ```bash
 [[ $? -gt 0 ]]
 ```
+
+## Conditionals
+
+`If`, `If-else`, and `switch case` statements in bash.
+
+### If statement
+
+```bash
+if [[ some_test ]]
+then
+  # do something
+fi
+```
+
+Let's see an example of ask you to enter your name in case that you left it empty:
+
+```bash
+#!/bin/bash
+
+read -p "What is your name? " name
+
+if [[ -z ${name} ]]
+then
+  echo "Please enter your name!"
+fi
+```
+
+### If Else statement
+
+With `if-else` statement, you can set 2nd expression if the condition is false.
+
+```bash
+#!/bin/bash
+
+read -p "What is your name? " name
+
+if [[ -z ${name} ]] # if name is empty or not
+then
+  echo "Please enter your name!"
+else
+  echo "Hi there, ${name}"
+fi
+```
+
+Let's say if you want to check if the user is admin or not.
+
+```bash
+#!/bin/bash
+
+admin="admin"
+
+read -p "Please enter your username. " username
+
+if [[ ${username} == ${admin }]]; then
+# remember to add semicolon if want to put then like above line
+  echo "You are the admin user!"
+else
+  echo " You are not the admin!"
+fi
+
+```
+
+### elif statement
+
+You can also write if-elif-else statement.
+
+```bash
+#!/bin/bash
+
+read -p "Enter a number: " num
+
+if [[ ${num} -gt 0 ]]; then
+  echo "The number is positive"
+elif [[ ${num} -lt = ]]; then
+  echo "The number is negative"
+else
+  echo "The number is 0"
+fi
+```
+
+This will check if the number:
+
+- greater than 0, if yes, positive, if not, move onto next
+- less than 0, if yes, negative, if not, move onto next
+- the number is 0
+
+### Switch case statement
+
+If-elif-else can get complicated with more conditions. You can use switch case to simplify complex conditionals
+
+```bash
+#!/bin/bash
+
+case $some_variable in
+  pattern_1)
+    command
+  ;;
+  pattern_2 | pattern_3)
+    command
+  ;;
+  *)
+    default command
+  ;;
+esac
+```
+
+e.g.
+
+```bash
+#!/bin/bash
+
+read -p "Enter the name of your car brand: " car
+
+case $car in
+  Tesla)
+    echo -n "${car}'s car factory is in the USA."
+  ;;
+  BMW | Mercedes | Audi | Porsche)
+    echo -n "${car}'s car factory is in Germany."
+  ;;
+  Toyota | Mazda | Mitsubishi | Subaru)
+    echo -n "${car}'s car factory is in Japan."
+  ;;
+  *)
+    echo -n "${car} is an unknown car brand"
+  ;;
+esac
+```
+
+- if car is Tesla, you get "Tesla's car factory in the USA"
+- if car is one of the Europe cars, the factory is in the Germany
+- Same goes for one of the Japanese cars
+- Lastly, if no match, you get "an unknown car brand"
+
+## Loop
+
+In Bash, there are `for loops`, `while loops`, and `until loops`.
+
+### For loops
+
+```bash
+#!/bin/bash
+
+for var in ${list}
+do
+  # something here
+done
+```
+
+e.g.
+
+```bash
+#!/bin/bash
+
+users="user1 user2 user3"
+
+for user in ${users}
+do
+  echo "${user}"
+done
+```
+
+Rundown:
+
+- set individual variable as user from the users array
+- loop through each user in the list
+- print the user out
+
+You can loop numbers like below:
+
+```bash
+#!/bin/bash
+
+for num in {1..10}
+do
+  echo ${num}
+done
+```
+
+### While loops
+
+This similar to for loop, but set a condition after `while`
+
+```bash
+#!/bin/bash
+
+while [[ the_condition ]]
+do
+  # do something
+done
+```
+
+e.g.
+
+```bash
+#!/bin/bash
+
+counter=1
+while [[ counter -le 10 ]]
+do
+  echo $counter
+  ((counter++))
+  # remember to add (( )) above, otherwise, infinite loop
+done
+```
+
+Let's create a script that will keep ask you to enter username and not allow an empty input:
+
+```bash
+#!/bin/bash
+
+read -p "What is your name? " name
+
+while [[ -z ${name} ]]
+do
+  echo "Your name can not be blank, please enter a valid name!"
+  read -p "Enter your name again " name
+done
+
+echo "Hi there, ${name}"
+```
+
+### Until Loops
+
+The difference between `until`, and `while` loops is that the `until`loop will run the commands within the loop until the condition become true.
+
+```bash
+#!/bin/bash
+
+count=1
+until [[ $count -gt 10 ]]
+do
+  echo $count
+  ((count++))
+done
+```
+
+### Continue and Break
+
+Can use `continue` and `break` with loops
+
+- continue: it tells script to stop the current iteration of the loop and start the next iteration
+- break: it tells the script to end the loop right away
+
+```bash
+#!/bni/bash
+
+for i in {1..5}
+do
+  if [[ $i -eq 2 ]]; then
+    echo "Skipping number 2"
+  continue
+  fi
+  echo "i is equal ${i}"
+done
+```
+
+```bash
+#!/bin/bash
+
+num=1
+while [[ $num -lt 10 ]]
+do
+  if [[ $num -eq 5 ]]; then
+    echo "stopped at 5"
+    break
+  fi
+  ((num++))
+done
+echo "Loop completed"
+```
+
+### Break 2
+
+e.g.
+
+```bash
+#!/bin/bash
+
+for (( a = 1; a < 5; a++ ))
+do
+  echo "__________outer loop: $a"
+  for (( b = 1; b < 20; b++ ))
+    do
+    if [ $b -gt 5 ]; then
+      break 2
+    fi
+    echo "inner loop: $b"
+    done
+done
+```
+
+This will break and stop the inner loop after the condition met. However, if you use `break` instead, the outer loop will keep run until 4.
+
+## Functions
+
+Functions are a great way to reuse code. The structure is similar to most languages.
+
+```bash
+function function_name() {
+  # do something here
+}
+
+# or without function keyword
+function_name() {
+  # do something here
+}
+```
+
+e.g.
+
+```bash
+#!/bin/bash
+
+function hello() {
+  echo "hello world from function"
+}
+
+hello # call the function name without parenthesis
+```
+
+### Pass Argument
+
+This similar to Argument section with `$1` and so on.
+
+```bash
+#!/bin/bash
+
+function hello() {
+  echo "hello $1"
+}
+
+hello Victoria # call the function name without parenthesis
+```
+
+### Function Description
+
+```bash
+#!/bin/bash
+
+#######################################
+# Description: Hello function
+# Globals:
+# None
+# Arguments:
+# Single input argument
+# Outputs:
+# Value of input argument
+# Returns:
+# 0 if successful, non-zero on error.
+#######################################
+
+function hello() {
+  echo "Hello $1!"
+}
+```
+
+## Debugging, testing, and shortcuts
+
+To debug, you can do the below:
+
+```
+bash -x ./script.sh
+```
+
+And then you will see:
+
+```
++ hello Victoria
++ echo 'hello Victoria'
+hello Victoria
+```
+
+There are two ways to debug/check bash scripts.
+
+- [https://www.shellcheck.net/](https://www.shellcheck.net/)
+- [Run the tool directly from the terminal](https://github.com/koalaman/shellcheck)
+
+### Shortcut
+
+Delete everything from the cursor to the end of the line:
+
+```
+ctrl + k
+```
+
+Delete everything from the cursor to the start of the line:
+
+```
+ctrl + u
+```
+
+Delete one word backward from cursor:
+
+```
+ctrl + w
+```
+
+Search your history backward:
+
+```
+ctrl + r
+```
+
+Clear the screen instead of `clear`
+
+```
+ctrl + l
+```
+
+Stop the output to the screen:
+
+```
+ctrl + s
+```
+
+Enable the output that previously stopped by `ctrl + s`
+
+```
+ctrl + q
+```
+
+Terminate the current command:
+
+```
+ctrl + c
+```
+
+Throw the current command to background:
+
+```
+ctrl + z
+```
+
+## Create custom bash commands
+
+Some commands are lengthy to type
+
+e.g.
+
+```bash
+netstate - plant | grep "80\|443" | grep -v LISTEN | wc -l
+```
+
+We can create an alias.
+
+```bash
+alias "variable"="command"
+```
+
+For the command above and:
+
+Keep in mind, this is temporary and will be gone after terminal closes.
+
+```bash
+alias conn="netstate - plant | grep "80\|443" | grep -v LISTEN | wc -l"
+```
+
+### To make the change persistent
+
+To make the alias persistent:
+
+```bash
+nano ~/.bashrc
+```
+
+Go to the bottom and add `alias conn="netstate - plant | grep "80\|443" | grep -v LISTEN | wc -l"`, and then save and exit.
