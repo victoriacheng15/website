@@ -1,7 +1,7 @@
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const lightCodeTheme = require("prism-react-renderer/themes/nightOwl");
+const darkCodeTheme = require("prism-react-renderer/themes/nightOwl");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -65,6 +65,17 @@ const config = {
 				disableInDev: false,
 			},
 		],
+		async function myPlugin(context, options) {
+			return {
+				name: "docusaurus-tailwindcss",
+				configurePostCss(postcssOptions) {
+					// Appends TailwindCSS and AutoPrefixer.
+					postcssOptions.plugins.push(require("tailwindcss"));
+					postcssOptions.plugins.push(require("autoprefixer"));
+					return postcssOptions;
+				},
+			};
+		},
 	],
 	presets: [
 		[
@@ -87,7 +98,10 @@ const config = {
 					},
 				},
 				theme: {
-					customCss: require.resolve("./src/css/custom.css"),
+					customCss: [
+						require.resolve("./src/css/custom.css"),
+						require.resolve("./src/css/tailwind.css"),
+					],
 				},
 				sitemap: {
 					changefreq: "weekly",
@@ -205,14 +219,14 @@ const config = {
 				copyright: `© ${new Date().getFullYear()} Victoria Cheng | Built with Docusaurus.`,
 			},
 			prism: {
-				theme: require('prism-react-renderer/themes/nightOwl'),
-				darkTheme: require('prism-react-renderer/themes/nightOwl'),
+				theme: lightCodeTheme,
+				darkTheme: darkCodeTheme,
 				magicComments: [
 					{
-						className: 'code-block-error-line',
-						line: 'This will error',
+						className: "code-block-error-line",
+						line: "This will error",
 					},
-				]
+				],
 			},
 		}),
 };
