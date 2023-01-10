@@ -827,3 +827,343 @@ nano ~/.bashrc
 ```
 
 Go to the bottom and add `alias conn="netstate - plant | grep "80\|443" | grep -v LISTEN | wc -l"`, and then save and exit.
+
+## Give text a color
+
+```bash
+#1/bni/bash
+
+##
+# color variable
+##
+green="\e[32m"
+blue="\e[34m"
+clear="\e[0m"
+
+##
+# color functions
+##
+
+ColorGreen() {
+  echo -ne $green$1$clear
+}
+
+ColorBlue() {
+  echo -ne $blue$1$clear
+}
+
+echo -ne $(ColorBlue "test")
+```
+
+## Create a menu
+
+created a menu that allows users to check memory usage, cpu load, TC connection, and kernal version checks.
+
+```bash
+#!/bin/bash
+
+##
+# bash script that checks:
+#  - memory useage
+#  - cpu load
+#  - number of tcp connections
+#  - kernal version
+##
+
+server_name=$(hostname)
+
+
+function memory_check() {
+  echo "--------------------------------------------------------"
+  echo "The current memory usage on ${server_name} is: "
+  free -h
+  echo "--------------------------------------------------------"
+}
+
+function cpu_check() {
+  echo "--------------------------------------------------------"
+  echo "The current CPU load on ${server_name} is: "
+  uptime
+  echo "--------------------------------------------------------"
+}
+
+function tcp_check() {
+  echo "--------------------------------------------------------"
+  echo "TCP connection on ${server_name}:"
+  cat /proc/net/tcp | wc -l
+  echo "--------------------------------------------------------"
+}
+
+function kernal_check() {
+  echo "--------------------------------------------------------"
+  echo "Kernal version on ${server_name} is: "
+  uname -r
+  echo "--------------------------------------------------------"
+}
+
+function all_checks() {
+  memory_check
+  cpu_check
+  tcp_check
+  kernel_check
+}
+
+
+##
+# color variable
+##
+green="\e[32m"
+blue="\e[34m"
+clear="\e[0m"
+
+##
+# color functions
+##
+
+ColorGreen() {
+  echo -ne $green$1$clear
+}
+
+ColorBlue() {
+  echo -ne $blue$1$clear
+}
+
+echo -ne $(ColorBlue "test")
+
+menu(){
+  echo -ne "
+  My First Menu
+  $(ColorGreen '1)') Memory usage
+  $(ColorGreen '2)') CPU load
+  $(ColorGreen '3)') Number of TCP connections
+  $(ColorGreen '4)') Kernel version
+  $(ColorGreen '5)') Check All
+  $(ColorGreen '0)') Exit
+  $(ColorBlue 'Choose an option:') "
+  read a
+  case $a in
+    1) memory_check ; menu ;;
+    2) cpu_check ; menu ;;
+    3) tcp_check ; menu ;;
+    4) kernel_check ; menu ;;
+    5) all_checks ; menu ;;
+    0) exit 0 ;;
+    *) echo -e $red"Wrong option."$clear;
+    WrongCommand;;
+  esac
+}
+
+menu
+```
+
+## Working with JSON with jq
+
+The jq is a lightweight and flexible command-line JSON processor and great for parsing JSON output in bash.
+
+```bash
+curl "https://jsonplaceholder.typicode.com/users"
+```
+
+This will return result without colors
+
+```bash
+curl "https://jsonplaceholder.typicode.com/users" | jq
+```
+
+This will return a nice json format with colors for visualize.
+
+### Get first item
+
+```bash
+curl "https://jsonplaceholder.typicode.com/users" | jq ".[0]"
+# or can use jq "first" instead
+```
+
+### Get all item
+
+Depend on what API you are using, and just pick a property that you want to view. In this case, `name` from the users information.
+
+```bash
+curl "https://jsonplaceholder.typicode.com/users" | jq ".[].name"
+```
+
+### Make a API call to users
+
+```bash
+#!/bin/bash
+
+##
+# make an API call to jsonplaceholder - users api
+##
+
+output=$(curl "https://jsonplaceholder.typicode.com/users")
+
+##
+# get first name
+##
+
+output=$(echo $output | jq ".[0]")
+
+##
+# get the user info
+##
+
+name=$(echo $output | jq ".name")
+username=$(echo $output | jq ".username")
+email=$(echo $output | jq ".email")
+
+echo $name
+echo $username
+echo $email
+```
+
+## Password Generator
+
+:::caution
+
+This is for fun and remember don't save password in plain text!
+
+:::
+
+There are a couple of ways that can generate a random string of characters.
+
+```bash
+date | md5sum
+
+date | sha256sum
+
+date | base 64
+
+openssl rand -base64 10
+```
+
+Most prefer way is to use pseudorandom number generator `/dev/urandom/`
+
+```bash
+tr -cd '[:alnum:]' < /dev/urandom | fold -w10 | head -n 1
+```
+
+### full script
+
+```bash
+#!/bin/bash
+
+#=======================================
+# Password generator with login option
+#=======================================
+
+# Ask user for the string length
+clear
+printf "\n"
+read -p "How many characters you would like the password to have? " pass_length
+printf "\n"
+
+# This is where the magic happens!
+# Generate a list of 10 strings and cut it to the desired value provided from the user
+
+for i in {1..10}
+do (
+  tr -cd '[:alnum:]' < /dev/urandom | fold -w${pass_length} | head -n 1)
+done
+
+# Print the strings
+printf "$pass_output\n"
+printf "Goodbye, ${USER}\n"
+```
+
+## Redirection
+
+3 files descriptors, `STDIN`, `STDOUT`, and `STDERR`
+
+- STDIN: manages the **input** in the terminal
+- STDOUT: manages the **output** text in the terminal
+- STDERR: manage the **error** text in the terminal
+
+### STDIN
+
+```bash
+cat << EOF
+Hello World!
+How are you?
+EOF
+```
+
+Result:
+
+```
+Hello World!
+How are you?
+```
+
+```bash
+wc -l << EOF
+Hello World!
+How are you?
+EOF
+```
+
+Result:
+
+```
+2
+```
+
+### STDOUT
+
+This can redirected into a file:
+
+```bash
+echo "hello world!" > file.txt
+```
+
+This will print content in file.txt:
+
+```bash
+cat file.txt
+```
+
+This will remove existing content in the same file:
+
+```bash
+echo "Hello World!" > file.txt
+echo "How are you?" > file.txt
+```
+
+IF want to keep the first line:, add `>>` on 2nd line:
+
+```bash
+echo "Hello World!" > file.txt
+echo "How are you?" >> file.txt
+```
+
+You also can write and this will override existed content:
+
+```bash
+echo "Override existed content" 1> file.txt
+```
+
+### STDERR
+
+This will print error on the terminal:
+
+```bash
+ls --hello
+```
+
+If want to save error, you can do this:
+
+```basg
+ls --hello 2> error.txt
+```
+
+### Operators table
+
+| Operators | Description                                                  |
+| --------- | ------------------------------------------------------------ |
+| >         | Save output to a file                                        |
+| >>        | Append output to a file                                      |
+| <         | Read input from a file                                       |
+| 2>        | Redirect error messages                                      |
+| \|        | Send the output from one program as input to another program |
+| <<        | Pipe multiple lines into a program cleanly                   |
+| <<<       | Pipe a single line into a program cleanly                    |
