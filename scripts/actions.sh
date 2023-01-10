@@ -1,8 +1,15 @@
 #! /usr/bin/bash
 
+##
+# Select one of actions to do certain things
+# 1) switch to main branch and then git fetch and pull
+# 2) create a blog branch
+# 3) run rome linter and formater
+##
+
 update_main() {
   git checkout main
-  sleep 1
+  sleep 5
   git fetch && git pull origin main
 }
 

@@ -1,9 +1,6 @@
 import React from "react";
 
-interface LinkBtnProps {
-	demoLink: string;
-	codeLink: string;
-}
+type LinkBtnProps = Pick<ProjectCardProps, "demoLink" | "codeLink">;
 
 function LinkBtn({ demoLink, codeLink }: LinkBtnProps) {
 	return (

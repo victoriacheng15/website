@@ -7,7 +7,7 @@ function Hero() {
 	const colors = ["#C07D08", "#4B740C", "#0A7652", "#920000"];
 
 	return (
-		<header className="bg-midnight-700 py-20">
+		<header className="bg-gray-900 py-20">
 			<div className="w-11/12 max-w-5xl mx-auto">
 				<h1 className="text-3xl md:text-5xl mb-20 text-center">
 					👋 I'm{" "}

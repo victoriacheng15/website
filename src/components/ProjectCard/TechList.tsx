@@ -1,8 +1,6 @@
 import React from "react";
 
-type TechsProps = {
-	techs: string[];
-};
+type TechsProps = Pick<ProjectCardProps, "techs">;
 
 function TechList({ techs }: TechsProps) {
 	return (
@@ -10,7 +8,7 @@ function TechList({ techs }: TechsProps) {
 			{techs.map((item) => (
 				<li
 					key={item}
-					className="bg-midnight-300 text-midnight-800 font-medium px-2 py-1 rounded-lg"
+					className="bg-midnight-900 text-midnight-50 font-medium px-3 py-2 rounded-lg"
 				>
 					{item}
 				</li>

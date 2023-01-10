@@ -27,20 +27,6 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-div[class^="announcementBar_"] {
-  height: 100%;
-  background: repeating-linear-gradient(
-    30deg,
-    hsl(210, 100%, 80%) 20px,
-    hsl(210, 100%, 72%) 10px,
-    hsl(210, 100%, 65%) 40px
-  );
-  color: black;
-  font-size: 17px;
-  font-weight: 700;
-  letter-spacing: 1px;
-}
-
 .navbar {
   height: 100%;
   padding-block: 0.75rem;
@@ -52,11 +38,6 @@ div[class^="announcementBar_"] {
 
 .navbar__inner {
   font-size: 1.35rem;
-}
-
-.footer,
-.footer__title {
-  font-size: 1.125rem;
 }
 
 .code-block-error-line {

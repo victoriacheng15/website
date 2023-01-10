@@ -1,65 +1,37 @@
 import React from "react";
+import Social from "./Social";
 import {
+	SiCodepen,
 	SiGithub,
 	SiLinkedin,
-	SiTwitter,
 	SiPolywork,
-	SiCodepen,
+	SiTwitter,
+	SiBuymeacoffee,
 } from "react-icons/si";
 
-function SocialLinks() {
+function SocialLinks({ isFooter }: { isFooter?: boolean }) {
 	return (
 		<ul className="list-none flex gap-8 flex-wrap justify-center pl-0">
-			<li>
-				<a
-					className="text-4xl text-midnight-100 hover:text-yellow-500 duration-300 ease-in-out"
-					href="https://github.com/victoriacheng15"
-					target="_blank"
-					rel="noreferrer"
-				>
-					<SiGithub />
-				</a>
-			</li>
-			<li>
-				<a
-					className="text-4xl text-midnight-100 hover:text-yellow-500 duration-300 ease-in-out"
-					href="https://www.linkedin.com/in/victoriacheng15"
-					target="_blank"
-					rel="noreferrer"
-				>
-					<SiLinkedin />
-				</a>
-			</li>
-			<li>
-				<a
-					className="text-4xl text-midnight-100 hover:text-yellow-500 duration-300 ease-in-out"
-					href="https://www.twitter.com/viktoriacheng15"
-					target="_blank"
-					rel="noreferrer"
-				>
-					<SiTwitter />
-				</a>
-			</li>
-			<li>
-				<a
-					className="text-4xl text-midnight-100 hover:text-yellow-500 duration-300 ease-in-out"
-					href="https://www.polywork.com/victoriacheng15"
-					target="_blank"
-					rel="noreferrer"
-				>
-					<SiPolywork />
-				</a>
-			</li>
-			<li>
-				<a
-					className="text-4xl text-midnight-100 hover:text-yellow-500 duration-300 ease-in-out"
-					href="https://codepen.io/victoriacheng15"
-					target="_blank"
-					rel="noreferrer"
-				>
-					<SiCodepen />
-				</a>
-			</li>
+			<Social icon={<SiGithub />} href="https://github.com/victoriacheng15" />
+			<Social
+				icon={<SiLinkedin />}
+				href="https://www.linkedin.com/in/victoriacheng15"
+			/>
+			<Social
+				icon={<SiTwitter />}
+				href="https://www.twitter.com/viktoriacheng15"
+			/>
+			<Social
+				icon={<SiPolywork />}
+				href="https://www.polywork.com/victoriacheng15"
+			/>
+			<Social icon={<SiCodepen />} href="https://codepen.io/victoriacheng15" />
+			{isFooter && (
+				<Social
+					icon={<SiBuymeacoffee />}
+					href="https://www.buymeacoffee.com/victoriacheng15"
+				/>
+			)}
 		</ul>
 	);
 }

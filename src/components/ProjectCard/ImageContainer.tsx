@@ -1,12 +1,10 @@
 import React from "react";
 import LinkBtn from "./LinkBtn";
 
-interface ImageContainerProps {
-	image: string;
-	title: string;
-	demoLink: string;
-	codeLink: string;
-}
+type ImageContainerProps = Pick<
+	ProjectCardProps,
+	"image" | "title" | "demoLink" | "codeLink"
+>;
 
 function ImageContainer({
 	image,
