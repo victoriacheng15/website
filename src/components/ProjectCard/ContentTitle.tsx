@@ -1,9 +1,7 @@
 import React from "react";
 import { RoughNotation } from "react-rough-notation";
 
-interface ContentTitleProps {
-	title: string;
-}
+type ContentTitleProps = Pick<ProjectCardProps, "title">;
 
 function ContentTitle({ title }: ContentTitleProps) {
 	return (
